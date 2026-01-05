@@ -1,0 +1,33 @@
+[class*=ct-option] input[type=text],
+[class*=ct-option] input[type=number] {
+  --fontSize: 12px;
+  height: var(--height, 30px) !important;
+  width: var(--width, 100%) !important;
+  margin: var(--margin, 0) !important;
+  padding: var(--padding, 3px 8px) !important;
+  min-height: initial;
+  font-size: var(--fontSize) !important;
+  color: #555d66;
+  line-height: normal;
+  background-color: var(--background, #fff);
+  border: var(--borderWidth, 1px) solid var(--borderColor, #ddd) !important;
+  border-radius: var(--borderRadius, 3px) !important;
+  box-shadow: 0 0 0 0 transparent;
+  transition: box-shadow 0.1s linear, background 0.1s linear, border-radius 0.1s linear, border-color 0.1s linear;
+}
+[class*=ct-option] input[type=text]:hover, [class*=ct-option] input[type=text]:focus,
+[class*=ct-option] input[type=number]:hover,
+[class*=ct-option] input[type=number]:focus {
+  --borderColor: var(--accentColor) !important;
+}
+[class*=ct-option] input[type=text]:focus,
+[class*=ct-option] input[type=number]:focus {
+  box-shadow: 0 0 0 1px var(--accentColor);
+}
+[class*=ct-option] input[type=text]::-moz-placeholder, [class*=ct-option] input[type=number]::-moz-placeholder {
+  opacity: 0.5;
+}
+[class*=ct-option] input[type=text]::placeholder,
+[class*=ct-option] input[type=number]::placeholder {
+  opacity: 0.5;
+}/*# sourceMappingURL=input.css.map */

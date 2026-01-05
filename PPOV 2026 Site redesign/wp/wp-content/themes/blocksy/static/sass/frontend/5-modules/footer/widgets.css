@@ -1,0 +1,6 @@
+.ct-footer .ct-widget:not(:first-child) {
+  margin-top: var(--widgets-gap, 40px);
+}
+.ct-footer .ct-widget > *:not(.widget-title) {
+  color: var(--color);
+}/*# sourceMappingURL=widgets.css.map */

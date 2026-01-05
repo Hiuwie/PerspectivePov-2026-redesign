@@ -1,0 +1,8 @@
+#review_form {
+  position: sticky;
+  top: 70px;
+}
+#review_form .comment-reply-title {
+  --fontWeight: 700;
+  color: var(--headings-color);
+}/*# sourceMappingURL=reviews-form.css.map */

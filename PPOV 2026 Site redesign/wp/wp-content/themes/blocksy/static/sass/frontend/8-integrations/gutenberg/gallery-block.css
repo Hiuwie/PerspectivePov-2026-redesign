@@ -1,0 +1,7 @@
+.wp-block-gallery ul {
+  width: 100%;
+  margin-bottom: -16px;
+}
+.wp-block-gallery figcaption {
+  --block-max-width: 100%;
+}/*# sourceMappingURL=gallery-block.css.map */

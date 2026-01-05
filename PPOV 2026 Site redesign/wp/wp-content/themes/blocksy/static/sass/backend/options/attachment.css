@@ -1,0 +1,89 @@
+[class*=ct-attachment] .thumbnail {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+[class*=ct-attachment] .thumbnail img {
+  border-radius: 3px;
+  max-width: 100%;
+}
+[class*=ct-attachment] .thumbnail:hover .actions {
+  opacity: 1;
+}
+[class*=ct-attachment] .actions {
+  position: absolute;
+  top: var(--actions-spacing, 18px);
+  right: var(--actions-spacing, 18px);
+  overflow: hidden;
+  border-radius: 3px;
+  background: #fff;
+  opacity: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+}
+[class*=ct-attachment] .actions button {
+  width: 34px;
+  height: 29px;
+  line-height: 29px;
+  min-height: initial;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+}
+[class*=ct-attachment] .actions button:hover {
+  color: #fff;
+  background: var(--accentColor);
+}
+[class*=ct-attachment] .actions button:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+[class*=ct-attachment] .actions button:before {
+  font-family: "dashicons";
+  font-size: 15px;
+}
+[class*=ct-attachment] .actions .edit-button:before {
+  content: "\f464";
+}
+[class*=ct-attachment] .actions .remove-button:before {
+  content: "\f335";
+}
+
+.ct-attachment:not([data-type=no-frame]) .thumbnail {
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px dashed #c1c4ca;
+}
+.ct-attachment[data-type=small], .ct-attachment[data-type=no-frame] {
+  --actions-spacing: 10px;
+}
+.ct-attachment[data-type=small] .thumbnail {
+  justify-content: center;
+}
+.ct-attachment[data-type=small] .thumbnail img {
+  min-height: 32px;
+  max-height: 100px;
+}
+
+.ct-thumbnails-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 125px));
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  margin-bottom: 20px;
+}
+.ct-thumbnails-list .thumbnail {
+  max-height: 130px;
+}
+.ct-thumbnails-list .thumbnail img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+.ct-thumbnails-list .actions {
+  --actions-spacing: 12px;
+}/*# sourceMappingURL=attachment.css.map */

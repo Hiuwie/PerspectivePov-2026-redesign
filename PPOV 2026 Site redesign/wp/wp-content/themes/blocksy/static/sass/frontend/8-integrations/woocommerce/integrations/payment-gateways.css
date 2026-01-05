@@ -1,0 +1,17 @@
+.wc-proceed-to-checkout #wc-stripe-payment-request-wrapper {
+  margin-bottom: 15px;
+}
+
+.product-type-variable .wcppec-checkout-buttons {
+  position: relative;
+  z-index: 1;
+}
+
+#wc-stripe-payment-request-wrapper {
+  padding-top: 0 !important;
+}
+
+.wcppec-checkout-buttons__separator,
+#wc-stripe-payment-request-button-separator {
+  display: none !important;
+}/*# sourceMappingURL=payment-gateways.css.map */

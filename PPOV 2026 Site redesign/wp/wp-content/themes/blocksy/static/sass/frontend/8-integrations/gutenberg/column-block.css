@@ -1,0 +1,9 @@
+.wp-block-columns {
+  margin-top: calc(var(--contentSpacing) * -1);
+}
+.wp-block-columns:last-child {
+  margin-bottom: 0;
+}
+.wp-block-columns > * {
+  margin-top: var(--contentSpacing);
+}/*# sourceMappingURL=column-block.css.map */

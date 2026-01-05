@@ -1,0 +1,21 @@
+.ct-header-text {
+  max-width: var(--maxWidth);
+  color: var(--color);
+  --heading-color: var(--color);
+}
+.ct-header-text .entry-content {
+  width: 100%;
+}
+
+[data-items] .ct-header-text {
+  padding: 5px 0;
+}
+
+[data-column=middle] .ct-header-text {
+  text-align: center;
+}
+
+[data-column=start] [data-items=secondary] .ct-header-text,
+[data-column=end] [data-items=primary] .ct-header-text {
+  text-align: right;
+}/*# sourceMappingURL=text.css.map */

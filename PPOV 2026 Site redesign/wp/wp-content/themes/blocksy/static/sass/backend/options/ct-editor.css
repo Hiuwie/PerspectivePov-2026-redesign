@@ -1,0 +1,7 @@
+.ct-option-editor textarea {
+  opacity: 1 !important;
+  border-radius: 0 !important;
+}
+.ct-option-editor textarea:focus {
+  box-shadow: none !important;
+}/*# sourceMappingURL=ct-editor.css.map */

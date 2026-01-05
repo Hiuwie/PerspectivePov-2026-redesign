@@ -1,0 +1,13 @@
+label {
+  --fontSize: 15px;
+  --lineHeight: inherit;
+  cursor: pointer;
+  margin: 0 0 0.5em 0;
+}
+label:last-child {
+  margin-bottom: 0;
+}
+
+.gdpr-confirm-policy label, .comment-form-cookies-consent label {
+  --fontSize: 13px;
+}/*# sourceMappingURL=label.css.map */

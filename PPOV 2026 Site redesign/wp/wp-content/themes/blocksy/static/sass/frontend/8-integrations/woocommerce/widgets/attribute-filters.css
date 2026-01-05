@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.woocommerce-widget-layered-nav-list li a {
+  display: flex;
+  align-items: center;
+}
+.woocommerce-widget-layered-nav-list li a:before {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  content: "";
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: 600;
+  width: 16px;
+  height: 16px;
+  margin-inline-end: 10px;
+  border-radius: 3px;
+  border-width: var(--form-field-border-width);
+  border-style: solid;
+  border-color: var(--radioCheckboxInitialColor);
+}
+.woocommerce-widget-layered-nav-list li.chosen a:before {
+  content: "✓";
+  color: #fff;
+  border-color: var(--radioCheckboxAccentColor);
+  background: var(--radioCheckboxAccentColor);
+}/*# sourceMappingURL=attribute-filters.css.map */

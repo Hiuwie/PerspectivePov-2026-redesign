@@ -1,0 +1,32 @@
+.quantity[data-type=type-1] {
+  width: var(--quantity-width, 100px);
+}
+.quantity[data-type=type-1] input[type=number] {
+  --form-field-border-width: 1px 0 1px 1px;
+  padding: 0 calc(25% + 3px) 0 5px;
+}
+.quantity[data-type=type-1] .ct-increase,
+.quantity[data-type=type-1] .ct-decrease {
+  right: 0;
+  border-radius: 0;
+  width: 25%;
+  max-width: 25px;
+}
+.quantity[data-type=type-1] .ct-increase:before,
+.quantity[data-type=type-1] .ct-decrease:before {
+  content: "\e911";
+  font-size: 8px;
+}
+.quantity[data-type=type-1] .ct-increase {
+  top: 0;
+  height: calc(50% - 1px);
+  border-radius: 0 var(--form-field-border-radius, 3px) 0 0;
+}
+.quantity[data-type=type-1] .ct-decrease {
+  bottom: 0;
+  height: 50%;
+  border-radius: 0 0 var(--form-field-border-radius, 3px) 0;
+}
+.quantity[data-type=type-1] .ct-decrease:before {
+  transform: rotate(180deg);
+}/*# sourceMappingURL=quantity-type-1.css.map */

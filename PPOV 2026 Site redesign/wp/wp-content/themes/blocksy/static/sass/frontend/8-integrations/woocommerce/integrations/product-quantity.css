@@ -1,0 +1,7 @@
+div.quantity.woopq-type-select select {
+  --form-field-padding: 0 15px;
+}
+div.quantity.woopq-type-select .ct-increase,
+div.quantity.woopq-type-select .ct-decrease {
+  display: none;
+}/*# sourceMappingURL=product-quantity.css.map */

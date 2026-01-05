@@ -1,0 +1,39 @@
+.entry-button {
+  font-size: 15px;
+}
+.entry-button[data-type=simple], .entry-button[data-type=outline] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.entry-button[data-type=background] {
+  --height: 39px;
+  --padding: 0 18px;
+  --buttonShadow: none;
+  --buttonTransform: none;
+}
+.entry-button[data-type=outline] {
+  height: 39px;
+  padding: 0 18px;
+  border-radius: 4px;
+  border: 2px solid var(--buttonInitialColor);
+}
+.entry-button[data-type=outline]:hover {
+  border-color: var(--buttonHoverColor);
+  background: var(--buttonHoverColor);
+}
+.entry-button svg {
+  position: relative;
+  margin-right: -2px;
+  fill: currentColor;
+  margin-left: 10px;
+}
+.entry-button[data-alignment=left] {
+  align-self: flex-start;
+}
+.entry-button[data-alignment=center] {
+  align-self: center;
+}
+.entry-button[data-alignment=right] {
+  align-self: flex-end;
+}/*# sourceMappingURL=entry-button.css.map */

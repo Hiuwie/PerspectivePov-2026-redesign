@@ -1,0 +1,33 @@
+#ct-dashboard .ct-support-container {
+  text-align: center;
+  margin-top: 100px;
+  border-radius: 3px;
+  background: rgba(240, 240, 241, 0.6);
+}
+@media (max-width: 782px) {
+  #ct-dashboard .ct-support-container {
+    padding: 10%;
+  }
+}
+@media (min-width: 783px) {
+  #ct-dashboard .ct-support-container {
+    padding: 50px;
+  }
+}
+#ct-dashboard .ct-support-container h2 {
+  margin-top: 0;
+}
+#ct-dashboard .ct-support-container p {
+  display: block;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto 30px auto !important;
+}
+#ct-dashboard .ct-support-container .ct-button {
+  --buttonHeight: 42px;
+  --buttonPadding: 20px;
+  --buttonFontSize: 14px;
+}
+#ct-dashboard .ct-support-container .ct-button:not(:last-child) {
+  margin-right: 20px;
+}/*# sourceMappingURL=support-container.css.map */

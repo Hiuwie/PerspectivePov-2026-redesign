@@ -1,0 +1,52 @@
+#ct-dashboard h2.ct-downloads-heading {
+  margin-top: 50px;
+}
+
+.ct-downloads {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 35px;
+  margin: 40px 0 0 0;
+}
+.ct-downloads li {
+  margin-bottom: 0;
+}
+.ct-downloads a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  padding: 40px;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 20px 30px rgba(143, 163, 184, 0.15);
+  transition: all 0.25s ease;
+}
+.ct-downloads a:hover {
+  background: #1074A8;
+  box-shadow: 0 20px 30px rgba(15, 116, 168, 0.2);
+}
+.ct-downloads a:hover h3, .ct-downloads a:hover p {
+  color: #fff !important;
+}
+.ct-downloads a:hover svg {
+  fill: #fff;
+}
+.ct-downloads a:hover p {
+  opacity: 0.8;
+}
+.ct-downloads a:focus {
+  outline: none;
+}
+.ct-downloads h3, .ct-downloads p, .ct-downloads svg {
+  transition: all 0.2s ease;
+}
+.ct-downloads svg {
+  fill: #3297d3;
+}
+.ct-downloads p {
+  color: #687c93;
+}
+.ct-downloads span {
+  margin-top: 20px;
+}/*# sourceMappingURL=downloads.css.map */

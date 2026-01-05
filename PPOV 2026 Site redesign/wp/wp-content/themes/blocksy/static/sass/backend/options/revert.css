@@ -1,0 +1,66 @@
+.ct-revert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: dashicons;
+  padding: 0;
+  border: none;
+  background: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+.ct-revert:before {
+  content: "\f531";
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+}
+.ct-revert:hover:before {
+  transform: rotate(-45deg);
+}
+.ct-revert:focus {
+  outline: none;
+}
+.ct-revert:not([disabled]) {
+  cursor: pointer;
+}
+
+.ct-control .ct-revert {
+  font-size: 10px;
+  width: 18px;
+  height: 18px;
+  color: #0073aa;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: translate3d(-15px, 0, 0);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.ct-control:hover .ct-revert:not([disabled]) {
+  opacity: 1;
+  transform: translate3d(-20px, 0, 0);
+}
+.ct-control[data-design=inline] .ct-revert {
+  top: calc(50% - 9px);
+}
+
+#customize-header-actions .ct-revert {
+  margin-left: 33px;
+  width: 48px;
+  height: 45px;
+  font-size: 13px;
+  color: #444;
+  border-right: 1px solid #ddd;
+  box-sizing: content-box;
+}
+#customize-header-actions .ct-revert:before {
+  position: relative;
+  top: 1px;
+}
+#customize-header-actions .ct-revert:hover {
+  color: #0073aa;
+  background: #fff;
+}
+
+.ct-dashboard-overlay-open #customize-header-actions .ct-revert:before {
+  transform: rotate(-45deg);
+}/*# sourceMappingURL=revert.css.map */

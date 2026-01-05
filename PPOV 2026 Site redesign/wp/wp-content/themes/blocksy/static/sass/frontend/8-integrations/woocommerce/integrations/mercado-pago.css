@@ -1,0 +1,15 @@
+.mp-panel-custom-checkout {
+  padding: 0 !important;
+  background: transparent !important;
+}
+.mp-panel-custom-checkout .mp-ticket-payments {
+  padding-left: 0;
+}
+.mp-panel-custom-checkout .mp-ticket-payments label {
+  display: flex;
+  align-items: center;
+}
+.mp-panel-custom-checkout .mp-ticket-payments .mp-form-control-check {
+  --top: 0;
+  margin: 0 !important;
+}/*# sourceMappingURL=mercado-pago.css.map */

@@ -1,0 +1,97 @@
+.site-branding {
+  text-align: var(--text-align, center);
+}
+
+.site-title {
+  display: block;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.site-description {
+  color: var(--color);
+  margin-bottom: 0;
+}
+.site-description:not(:only-child) {
+  margin-top: 0.3em;
+}
+
+.site-logo-container {
+  display: flex;
+  align-items: center;
+  height: calc(var(--logo-shrink-height, 1) * var(--maxHeight, 50px));
+}
+.site-logo-container img {
+  width: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.site-logo-container img,
+.site-logo-container picture {
+  height: inherit;
+}
+
+[data-sticky*=yes] .sticky-logo {
+  display: block;
+}
+[data-sticky*=yes] .sticky-logo ~ .default-logo {
+  display: none;
+}
+[data-sticky*=yes][data-sticky*=slide] .site-logo-container, [data-sticky*=yes][data-sticky*=auto-hide] .site-logo-container, [data-sticky*=yes][data-sticky*=fade] .site-logo-container {
+  --logo-shrink-height: var(--logoStickyShrink, 1);
+}
+
+.sticky-logo {
+  display: none;
+}
+
+[data-logo=top] {
+  flex-direction: column;
+}
+[data-logo=top] .site-description {
+  margin-top: 0.3em;
+}
+
+[data-logo=left] .site-title-container {
+  margin-left: 1em;
+}
+
+[data-logo=right] {
+  flex-direction: row-reverse;
+}
+[data-logo=right] .site-title-container {
+  margin-right: 1em;
+}
+
+[data-column=middle] [data-logo=left] {
+  --text-align: left;
+}
+[data-column=middle] [data-logo=right] {
+  --text-align: right;
+}
+
+[data-column=start] [data-items=primary] .site-branding,
+[data-column=end] [data-items=secondary] .site-branding {
+  --text-align: left;
+}
+[data-column=start] [data-items=primary] [data-logo=right],
+[data-column=end] [data-items=secondary] [data-logo=right] {
+  --text-align: right;
+}
+[data-column=start] [data-items=primary] [data-logo=top],
+[data-column=end] [data-items=secondary] [data-logo=top] {
+  --align-items: flex-start;
+}
+
+[data-column=start] [data-items=secondary] .site-branding,
+[data-column=end] [data-items=primary] .site-branding {
+  --text-align: right;
+}
+[data-column=start] [data-items=secondary] [data-logo=left],
+[data-column=end] [data-items=primary] [data-logo=left] {
+  --text-align: left;
+}
+[data-column=start] [data-items=secondary] [data-logo=top],
+[data-column=end] [data-items=primary] [data-logo=top] {
+  --align-items: flex-end;
+}/*# sourceMappingURL=site-title.css.map */

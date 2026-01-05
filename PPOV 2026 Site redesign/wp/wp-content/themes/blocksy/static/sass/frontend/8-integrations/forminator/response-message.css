@@ -1,0 +1,28 @@
+.forminator-design--none .forminator-response-message {
+  --fontSize: 15px;
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 10px 20px 10px 22px;
+  box-shadow: inset 4px 0 0 0 var(--messageIndicator), 0px 5px 15px rgba(0, 0, 0, 0.05);
+}
+.forminator-design--none .forminator-response-message p {
+  --contentSpacing: 10px;
+}
+.forminator-design--none .forminator-response-message[aria-hidden=true] {
+  display: none;
+}
+.forminator-design--none .forminator-response-message.forminator-success {
+  --messageIndicator: var(--paletteColor1);
+}
+.forminator-design--none .forminator-response-message.forminator-error {
+  --messageIndicator: #E04562;
+}
+.forminator-design--none .forminator-response-message.forminator-accessible {
+  display: none;
+}
+.forminator-design--none .forminator-error-message {
+  font-size: 12px;
+  font-weight: 500;
+  color: #E04562;
+  margin-top: 5px;
+}/*# sourceMappingURL=response-message.css.map */

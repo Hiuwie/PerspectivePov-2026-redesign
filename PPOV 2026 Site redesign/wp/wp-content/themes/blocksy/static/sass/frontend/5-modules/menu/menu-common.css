@@ -1,0 +1,5 @@
+nav[class*=menu] li a:hover,
+nav[class*=menu] li a.ct-highlight, nav[class*=menu] li[class*=current-menu-] > a {
+  color: var(--linkHoverColor);
+  --icon-color: var(--icon-hover-color, var(--linkHoverColor));
+}/*# sourceMappingURL=menu-common.css.map */

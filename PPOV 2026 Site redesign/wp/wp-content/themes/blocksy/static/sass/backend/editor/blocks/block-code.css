@@ -1,0 +1,18 @@
+.wp-block-code,
+.wp-block-verse pre,
+.wp-block-preformatted pre {
+  font-family: Menlo, Consolas, monaco, monospace;
+  font-size: 14px;
+  color: #23282d;
+  -moz-tab-size: 4;
+    -o-tab-size: 4;
+       tab-size: 4;
+  padding: 25px;
+  border: none;
+  border-radius: 3px;
+  background-color: #f3f4f5;
+}
+
+.wp-block-code textarea {
+  background: transparent;
+}/*# sourceMappingURL=block-code.css.map */

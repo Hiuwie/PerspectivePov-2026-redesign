@@ -1,0 +1,78 @@
+.widget_calendar table {
+  position: relative;
+  width: 100%;
+  font-size: 15px;
+  border: none;
+}
+.widget_calendar table caption {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #d7dee5;
+}
+.widget_calendar table thead th, .widget_calendar table tbody td {
+  text-align: center;
+  padding: 10px 0;
+  border: none;
+}
+.widget_calendar table tbody td {
+  overflow: hidden;
+  position: relative;
+  border-radius: 2px;
+}
+.widget_calendar table tbody td a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 10px 0;
+  margin: -10px 0;
+  background: rgba(215, 222, 229, 0.2);
+  transition: color 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955), background 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.widget_calendar table tbody td a:after {
+  position: absolute;
+  content: "";
+  bottom: 7px;
+  width: 3px;
+  height: 3px;
+  border-radius: 100%;
+  background: var(--paletteColor1);
+  transition: background 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.widget_calendar table tbody td a:hover {
+  color: #fff;
+  background: var(--paletteColor1);
+}
+.widget_calendar table tbody td a:hover:after {
+  background: #fff;
+}
+.widget_calendar table tbody #today {
+  color: #fff;
+  font-weight: 500;
+  background: var(--paletteColor2);
+}
+.widget_calendar table tbody #today a {
+  color: inherit;
+  background: inherit;
+}
+.widget_calendar table tbody #today a:after {
+  background: currentColor;
+}
+.widget_calendar table tfoot {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.widget_calendar table tfoot tr {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.widget_calendar table tfoot td {
+  border: none;
+}/*# sourceMappingURL=calendar.css.map */

@@ -1,0 +1,28 @@
+[class*=ct-contact-info] ul {
+  --contentSpacing: 0;
+}
+[class*=ct-contact-info] li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 15px;
+  align-items: center;
+}
+[class*=ct-contact-info] .contact-info {
+  display: flex;
+  flex-direction: column;
+  color: var(--color);
+}
+[class*=ct-contact-info] .contact-title {
+  font-weight: 600;
+}
+[class*=ct-contact-info] .ct-contact-info-text {
+  margin-bottom: 20px;
+}
+
+.ct-contact-info-widget {
+  --listItemSpacing: 20px;
+}
+.ct-contact-info-widget .contact-info {
+  font-size: 15px;
+  line-height: 1.4;
+}/*# sourceMappingURL=contact-info.css.map */

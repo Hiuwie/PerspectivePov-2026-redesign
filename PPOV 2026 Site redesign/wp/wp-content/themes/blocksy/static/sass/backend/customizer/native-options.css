@@ -1,0 +1,47 @@
+#customize-controls .customize-section-description-container {
+  margin-bottom: 22px;
+}
+#customize-controls .customize-control,
+#customize-controls .customize-section-description {
+  padding: var(--ui-padding, 0 14px) !important;
+  box-sizing: border-box;
+}
+#customize-controls .control-panel-nav_menus .customize-control-title {
+  margin-top: 22px;
+  padding: 0 26px;
+}
+#customize-controls .control-panel-nav_menus .customize-control-title + li {
+  border-top: none;
+}
+#customize-controls .control-section-nav_menu .customize-control-nav_menu_name {
+  margin-top: 22px;
+}
+#customize-controls .control-panel-widgets .panel-meta {
+  margin-bottom: 22px !important;
+}
+#customize-controls .control-panel-widgets .control-section-sidebar:nth-child(2) {
+  margin-top: 22px;
+  border-top: none !important;
+}
+#customize-controls .control-panel-widgets .control-section-sidebar[id*=widgets-ct-footer-sidebar] {
+  display: none !important;
+}
+#customize-controls .control-section-sidebar .customize-section-title {
+  margin-bottom: 22px;
+}
+#customize-controls .control-section-sidebar .customize-control {
+  --ui-padding: 0 8px;
+}
+#customize-controls .control-section-sidebar .customize-section-description {
+  --ui-padding: 0 8px;
+  margin-bottom: 15px;
+}
+#customize-controls #sub-accordion-section-custom_css .description {
+  --ui-padding: 12px 15px;
+}
+#customize-controls #sub-accordion-section-custom_css .customize-control-code_editor {
+  --ui-padding: 0;
+}
+#customize-controls #sub-accordion-section-custom_css .customize-control-code_editor .CodeMirror-lint-markers {
+  width: 19px;
+}/*# sourceMappingURL=native-options.css.map */

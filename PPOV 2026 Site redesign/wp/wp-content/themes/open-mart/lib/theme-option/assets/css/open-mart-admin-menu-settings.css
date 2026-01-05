@@ -1,0 +1,389 @@
+/**
+ * CSS code for all Open Mart Extensions admin screens
+ *
+ * @package Open Mart
+ * @since 1.0.0
+ */
+
+.open-mart-clear:before, .open-mart-clear:after {
+	content: " ";
+	display: table;
+}
+.open-mart-clear:after {
+	clear: both;
+}
+
+/**
+ * Error Message
+ */
+#message {
+    display: block;
+    margin-left: 0;
+}
+/*Home Page Settings */
+
+li#accordion-section-section_default_home h3 {
+    background: #a5a7ad !important;
+    color: #fff !important;
+}
+.button-large.flactvate{ display:none; }
+
+.flactvate-activating{
+  color:#f7a205;
+  margin-top: 15px;
+  display:none;
+  float: right;
+}
+.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #1b619d;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 1s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+    float: right;
+    margin-top: 10px;
+    display: none;
+      margin-left:5px;
+
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/**
+ * CSS code for all Open Mart Extensions admin screens
+ *
+ * @package Open Mart
+ * @since 1.2.4
+ */
+/**
+ * Open Mart Welcome Page
+ */
+.appearance_page_open-mart #wpcontent{
+ 	padding: 0;
+ }
+.open-mart-menu-page-wrapper.wrap{
+	margin: 0;
+}
+.open-mart-menu-page-wrapper .open-mart-normal-cusror a{
+	text-decoration: none;
+    font-weight:500;
+    color: #fff;
+    font-size: 14px
+}
+.open-mart-theme-page-header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+.open-mart-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.open-mart-container .open-mart-normal-cusror.hndle{
+    cursor: initial;
+}
+.open-mart-container .postbox .hndle {
+    background: #f9f9f9;
+    border-bottom: 1px solid #f1f1f1;
+
+}
+/* Top Right Links. */
+.open-mart-top-links {
+    flex: auto;
+    text-align: right;
+}
+
+.open-mart-top-links ul{
+    margin: 0;
+}
+.open-mart-top-links ul li {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.open-mart-quick-setting-section span.dashicons {
+    margin: 1px 3px 0 10px;
+}
+.open-mart-container div.notice,
+.open-mart-container div.updated,
+.open-mart-container div.error{
+	margin-top: 0;
+}
+.open-mart-container #poststuff h2{
+	padding: 10px 12px;
+}
+.open-mart-container img.open-mart-starter-sites-img {
+    width: 100%;
+}
+.open-mart-flex{
+	-js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+.open-mart-theme-title {
+    align-content: flex-start;
+    text-align: left;
+}
+.open-mart-theme-title .open-mart-theme-version {
+    border-radius: 3px;
+    font-size:  0.5em;
+    font-weight:  400;
+    padding: 2px 7px;
+}
+.open-mart-theme-title a {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width:100%;
+    margin: 0 auto;
+}
+.open-mart-theme-title a,
+.open-mart-theme-title span{
+	font-size: 1.5rem;
+    color: #333333;
+    font-weight: 500;
+}
+
+.open-mart-theme-icon{
+	width: 60px;
+    vertical-align: bottom;
+}
+.open-mart-theme-title,.ast-top-links{
+width:100%;
+margin-bottom:10px;
+}
+.open-mart-top-links {
+    flex: auto;
+    text-align: center;
+}
+.open-mart-theme-page-header {
+    background-color: #FFDD4D;
+}
+.open-mart-theme-title a:focus,.open-mart-theme-title a:focus-within{
+outline:0;
+box-shadow:none;
+}
+.open-mart-menu-page-wrapper .open-mart-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+        align-items: flex-start;
+}
+.open-mart-menu-page-wrapper .open-mart-content .postbox{
+  width:48%;
+} 
+.open-mart-container .rcp{
+    display: block;
+    position: relative;
+    padding-bottom: 10px;
+}
+.open-mart-container .rcp img{
+    float: left;
+    display: block;
+    margin-right:10px;
+    width:17%;
+}
+.open-mart-container .rcp p{
+margin: 10px 0px;
+}
+.open-mart-container .rcp:last-child{
+border-bottom:0px;
+}
+/**
+ * Open Mart Quick Settings
+ */
+ .open-mart-quick-setting-section ul,
+ .open-mart-addon-list-section ul{
+ 	margin: 0;
+ }
+.open-mart-quick-setting-section li{
+	border-bottom: 1px solid #eee;
+	margin-bottom: 0;
+}
+.open-mart-addon-list-section li{
+    -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1) inset;
+    margin-bottom: 0;
+}
+.open-mart-quick-setting-section li{
+    padding: 10px 0;
+}
+.open-mart-quick-setting-section li:nth-child(odd){
+    width: 50%;
+}
+.open-mart-quick-setting-section li:nth-child(even){
+    width: 50%;
+}
+.open-mart-quick-setting-section li a{
+	margin: 5px;
+	display: inline-block;
+}
+.open-mart-addon-list-section li{
+	padding: 10px 15px;
+}
+.open-mart-quick-setting-section a.ast-quick-setting-title{
+	flex: auto;
+}
+
+.open-mart-addon-list-section .open-mart-addon-list li {
+	-js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    padding: 10px 15px; 
+}
+
+.open-mart-addon-list-section .open-mart-addon-list li:nth-child(even){
+    background-color: #fbfbfb;
+}
+
+.open-mart-addon-link-wrapper{
+	-js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    flex: auto;
+}
+.open-mart-addon-link-wrapper a{
+    line-height: 1.6;
+}
+.open-mart-addon-link-wrapper a:nth-child(even){
+    margin: 0 10px;
+}
+
+/**
+ * open-mart Welcome screen sidebar
+ */
+.ast-sidebar .hndle .dashicons{
+	margin: 0 5px 0 0;
+}
+
+@media (max-width: 544px){
+	.open-mart-quick-setting-section li{
+		width: 100%;
+	}
+}
+
+/**
+ * open-mart Custom Notice for static position
+ */
+.brv-notice{
+    margin-bottom: 20px;
+}
+.ast-notice.ast-notice-error{
+    border-left-color: #dc3232;
+}
+
+.ast-notice{
+    background: #fff;
+    border-left: 4px solid #fff;
+    box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+    padding: 1px 12px;
+}
+.ast-notice p{
+    margin: 0.5em 0;
+    padding: 2px;
+}
+
+.open-mart-menu-page-wrapper .open-mart-content .postbox.open-mart-recommend-plugins,
+.open-mart-menu-page-wrapper .open-mart-content .postbox.open-mart-useful-plugins{
+width:100%;
+}
+.open-mart-container .postbox.open-mart-recommend-plugins .rcp,
+.open-mart-container .postbox.open-mart-useful-plugins .rcp {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+}
+.open-mart-container .postbox.open-mart-recommend-plugins .rcp:nth-child(3n+3),
+.open-mart-container .postbox.open-mart-useful-plugins .rcp:nth-child(3n+3){
+margin-right:0;
+}
+
+.open-mart-container .postbox.open-mart-recommend-plugins .rcp:nth-child(4),
+.open-mart-container .postbox.open-mart-useful-plugins .rcp:nth-child(4){
+clear:both;
+}
+.open-mart-container .postbox .inside {
+    margin: 15px 0!important;
+    position: relative;
+}
+.open-mart-container .postbox.open-mart-recommend-plugins .rcp:nth-child(7),
+.open-mart-container .postbox.open-mart-useful-plugins .rcp:nth-child(7){
+clear:both;
+}
+.open-mart-useful-plugins .inside{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tabs-list a{
+    display: inline-block;
+    padding: 20px;
+    color: #111;
+    text-decoration: none;
+    font-size: 15px;
+}
+.tabs-list a{
+    background: #eaeaea;
+}
+.tabs-list a.active{
+    background: #FFF;
+}

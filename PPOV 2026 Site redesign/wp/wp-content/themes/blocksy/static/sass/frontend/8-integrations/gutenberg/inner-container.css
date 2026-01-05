@@ -1,0 +1,26 @@
+[class*=_inner-container] {
+  width: 100% !important;
+}
+[class*=_inner-container] > * {
+  margin-left: auto;
+  margin-right: auto;
+}
+[class*=_inner-container] > *:not(.alignfull) {
+  width: var(--inner-block-width);
+}
+[class*=_inner-container] > *:not(.alignwide):not(.alignfull) {
+  max-width: var(--block-max-width);
+}
+[class*=_inner-container] > .alignwide {
+  max-width: var(--block-wide-max-width);
+}
+
+.entry-content > *:not(.alignfull) [class*=_inner-container] {
+  --inner-block-width: calc(100% - 60px);
+}
+.entry-content > .alignfull [class*=_inner-container] > *:not(.alignfull) [class*=_inner-container] {
+  --inner-block-width: calc(100% - 100px);
+}
+.entry-content > .alignfull [class*=_inner-container] > .alignfull [class*=_inner-container] {
+  --inner-block-width: var(--container-width);
+}/*# sourceMappingURL=inner-container.css.map */

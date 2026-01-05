@@ -1,0 +1,10 @@
+.widget_recent_entries ul li {
+  display: flex;
+  flex-direction: column;
+}
+.widget_recent_entries ul li a {
+  font-weight: 500;
+}
+.widget_recent_entries ul li:not(:last-child) .post-date {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=recent-posts.css.map */

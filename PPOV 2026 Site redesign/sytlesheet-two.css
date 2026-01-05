@@ -1,0 +1,96 @@
+.page {
+  height: 100vh;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto;
+  padding: 0;
+  margin: 0;
+  overflow-X: hidden;
+}
+body nav {
+  height: 8%;
+  width: 100%;
+  background-color: green;
+  z-index: 10;
+  padding: 0 !important;
+  position: absolute;
+  display: flex;
+}
+body nav ul {
+  height: 100%;
+  list-style-type: none;
+  padding: 0 !important;
+  overflow: hidden;
+  margin: auto;
+  margin-right: 10%;
+}
+body nav ul li {
+  float: left;
+  height: 100%;
+  display: flex;
+}
+body nav ul li a {
+  color: #8C8C8C;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  text-decoration: none;
+}
+body nav ul .active {
+  color: #0d0d0d !important;
+  font-weight: 500;
+}
+body nav ul li:hover a {
+  Color: #595959;
+}
+body .gallery-section {
+  height: 100vh;
+  width: 100%;
+  background-color: red;
+  /*.section{
+  	background-color: white;
+  	width:100%;
+  	height:100%;
+
+  	.left{
+  		background-color:pink;
+  		height:100%;
+  		width:100%;
+  	}
+
+  	.right{
+  		background-color:yellow;
+  		height:100%;
+  		width:100%;
+  	}
+  }
+
+  .social-footer{
+  	background-color:blue;
+  	display:flex;
+  	position:absolute;
+  	top:50%;
+
+  	p{}
+
+  	.social-box{
+  		height:100%;
+  		width:30%;
+  		right:0;
+  		display:flex;
+  		position:absolute;
+
+  		.social{
+  			width:25%;
+  			height: 100%;
+  			background-color: pink;
+  			padding: 2%;
+  			margin-left:2%;
+  		}
+  	}
+  }*/
+}
+
+/*# sourceMappingURL=sytlesheet-two.css.map */

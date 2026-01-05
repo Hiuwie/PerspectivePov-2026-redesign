@@ -1,0 +1,23 @@
+.product[class*=gallery] .product_meta {
+  margin-top: var(--product-element-spacing, 35px);
+  padding-top: var(--product-element-spacing, 35px);
+  border-top: 1px solid var(--border-color);
+}
+.product[class*=gallery] .product_meta > span {
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: block;
+}
+.product[class*=gallery] .product_meta > span:not(:last-child) {
+  margin-bottom: 5px;
+}
+.product[class*=gallery] .product_meta > span > * {
+  opacity: 0.7;
+  font-weight: 500;
+  --linkInitialColor: var(--color);
+}
+.product[class*=gallery] .product_meta > span > a:hover {
+  opacity: 1;
+}/*# sourceMappingURL=entry-meta.css.map */

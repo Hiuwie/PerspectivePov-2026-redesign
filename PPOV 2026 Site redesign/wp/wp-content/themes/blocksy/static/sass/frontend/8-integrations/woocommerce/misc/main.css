@@ -1,0 +1,117 @@
+div.quantity {
+  position: relative;
+  display: inline-block;
+  width: var(--quantity-width, 70px);
+  height: var(--quantity-height, 55px);
+}
+div.quantity input[type=number] {
+  --form-font-size: 1em;
+  --form-field-height: 100%;
+  font-weight: 500;
+  text-align: center;
+  max-width: initial;
+  height: inherit;
+  border-radius: var(--form-field-border-radius, 3px) !important;
+  --form-field-border-style: solid;
+  --form-field-border-initial-color: var(--quantity-initial-color, var(--buttonInitialColor));
+  -moz-appearance: textfield;
+}
+div.quantity input[type=number]::-webkit-inner-spin-button, div.quantity input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+div.quantity .ct-increase,
+div.quantity .ct-decrease {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  color: var(--quantity-arrows-initial-color, #fff);
+  background: var(--quantity-initial-color, var(--buttonInitialColor));
+  transition: all 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+div.quantity .ct-increase:before,
+div.quantity .ct-decrease:before {
+  font-family: "woo";
+  font-weight: normal;
+  line-height: normal;
+}
+div.quantity .ct-increase:hover,
+div.quantity .ct-decrease:hover {
+  color: var(--quantity-arrows-hover-color, #fff);
+  background: var(--quantity-hover-color, var(--buttonHoverColor));
+}
+div.quantity .ct-increase ~ input[type=number]:focus,
+div.quantity .ct-decrease ~ input[type=number]:focus {
+  border-color: var(--quantity-initial-color, var(--buttonInitialColor));
+  box-shadow: 0 0 0 1px var(--quantity-initial-color, var(--buttonInitialColor));
+}
+
+.quantity[data-type=type-1] {
+  width: var(--quantity-width, 100px);
+}
+.quantity[data-type=type-1] input[type=number] {
+  --form-field-border-width: 1px 0 1px 1px;
+  padding: 0 calc(25% + 3px) 0 5px;
+}
+.quantity[data-type=type-1] .ct-increase,
+.quantity[data-type=type-1] .ct-decrease {
+  right: 0;
+  border-radius: 0;
+  width: 25%;
+  max-width: 25px;
+}
+.quantity[data-type=type-1] .ct-increase:before,
+.quantity[data-type=type-1] .ct-decrease:before {
+  content: "\e911";
+  font-size: 8px;
+}
+.quantity[data-type=type-1] .ct-increase {
+  top: 0;
+  height: calc(50% - 1px);
+  border-radius: 0 var(--form-field-border-radius, 3px) 0 0;
+}
+.quantity[data-type=type-1] .ct-decrease {
+  bottom: 0;
+  height: 50%;
+  border-radius: 0 0 var(--form-field-border-radius, 3px) 0;
+}
+.quantity[data-type=type-1] .ct-decrease:before {
+  transform: rotate(180deg);
+}
+
+.quantity[data-type=type-2] {
+  width: var(--quantity-width, 130px);
+}
+.quantity[data-type=type-2] input[type=number] {
+  --form-field-border-width: 1px;
+  padding: 0 calc(var(--quantity-height, 55px) / 1.8 + 9%);
+}
+.quantity[data-type=type-2] .ct-increase,
+.quantity[data-type=type-2] .ct-decrease {
+  top: calc(50% - var(--quantity-height, 55px) / 3.6);
+  width: calc(var(--quantity-height, 55px) / 1.8);
+  height: calc(var(--quantity-height, 55px) / 1.8);
+  border-radius: var(--form-field-border-radius, 3px);
+  --quantity-initial-color: transparent;
+}
+.quantity[data-type=type-2] .ct-increase:before,
+.quantity[data-type=type-2] .ct-decrease:before {
+  margin-top: 2px;
+  font-size: 10px;
+}
+.quantity[data-type=type-2] .ct-increase {
+  right: 9%;
+}
+.quantity[data-type=type-2] .ct-increase:before {
+  content: "\e909";
+}
+.quantity[data-type=type-2] .ct-decrease {
+  left: 9%;
+}
+.quantity[data-type=type-2] .ct-decrease:before {
+  content: "\e90a";
+}/*# sourceMappingURL=main.css.map */

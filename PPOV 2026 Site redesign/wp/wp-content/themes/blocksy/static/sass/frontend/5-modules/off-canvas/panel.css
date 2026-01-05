@@ -1,0 +1,21 @@
+[data-behaviour*=side] > section {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  max-width: var(--side-panel-width, 500px);
+  box-shadow: var(--box-shadow);
+  transition: transform 0.25s ease-in-out;
+}
+[data-behaviour*=side].active > section {
+  transform: translate3d(0, 0, 0);
+}
+
+[data-behaviour*=right-side] > section {
+  right: 0;
+  transform: translate3d(20%, 0, 0);
+}
+
+[data-behaviour*=left-side] > section {
+  left: 0;
+  transform: translate3d(-20%, 0, 0);
+}/*# sourceMappingURL=panel.css.map */

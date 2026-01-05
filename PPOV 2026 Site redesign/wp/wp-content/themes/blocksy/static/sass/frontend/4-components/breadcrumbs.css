@@ -1,0 +1,22 @@
+.ct-breadcrumbs {
+  color: var(--color);
+}
+.ct-breadcrumbs > span {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+}
+.ct-breadcrumbs > span .separator {
+  margin: 0 8px;
+}
+.ct-breadcrumbs .first-item svg + span, .ct-breadcrumbs .last-item svg + span {
+  display: none;
+}
+.ct-breadcrumbs svg {
+  fill: currentColor;
+}
+.ct-breadcrumbs .ct-home-icon {
+  position: relative;
+  top: -0.15em;
+  vertical-align: middle;
+}/*# sourceMappingURL=breadcrumbs.css.map */

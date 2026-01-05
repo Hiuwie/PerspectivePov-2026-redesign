@@ -1,0 +1,8 @@
+[data-footer*=reveal] .site-main {
+  z-index: 1;
+  box-shadow: var(--box-shadow);
+}
+[data-footer*=reveal] .ct-footer {
+  position: var(--position);
+  bottom: 0;
+}/*# sourceMappingURL=footer-reveal.css.map */

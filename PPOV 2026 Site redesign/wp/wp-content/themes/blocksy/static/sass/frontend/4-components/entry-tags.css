@@ -1,0 +1,27 @@
+.entry-tags {
+  margin-top: 40px;
+  clear: both;
+  margin-bottom: -10px;
+}
+.entry-tags a {
+  --buttonMinHeight: 30px;
+  --padding: 0 12px;
+  --button-border: none;
+  --buttonFontSize: 14px;
+  --buttonFontWeight: 500;
+  --buttonTextInitialColor: var(--color);
+  --buttonInitialColor: transparent;
+  margin-bottom: 10px;
+  box-shadow: inset 0px 0px 0px 1px var(--border-color);
+}
+.entry-tags a:hover {
+  box-shadow: inset 0px 0px 0px 1px var(--paletteColor2);
+}
+.entry-tags a:after {
+  order: -1;
+  content: "#";
+  margin-right: 5px;
+}
+.entry-tags a:not(:last-child) {
+  margin-right: 10px;
+}/*# sourceMappingURL=entry-tags.css.map */

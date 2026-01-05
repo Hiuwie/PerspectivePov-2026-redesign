@@ -1,0 +1,42 @@
+.ct-option-border {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.ct-option-border > *:first-child {
+  order: 2;
+  margin-left: 10px;
+}
+.ct-option-border .ct-disabled {
+  justify-content: center;
+}
+.ct-option-border .ct-disabled input, .ct-option-border .ct-disabled .ct-value-divider {
+  display: none;
+}
+.ct-option-border .ct-disabled ~ .ct-color-picker-container {
+  display: none;
+}
+.ct-option-border .ct-color-picker-container:not(:last-child) {
+  margin-right: 10px;
+}
+.ct-option-border [data-style]:before {
+  content: "";
+  width: 22px;
+  border-bottom-width: 2px;
+  border-bottom-color: currentColor;
+}
+.ct-option-border [data-style=dotted]:before {
+  border-bottom-style: dotted;
+}
+.ct-option-border [data-style=solid]:before {
+  border-bottom-style: solid;
+}
+.ct-option-border [data-style=dashed]:before {
+  border-bottom-style: dashed;
+}
+.ct-option-border [data-style=none] {
+  font-size: 9px;
+}
+.ct-option-border [data-style=none]:before {
+  display: none;
+}/*# sourceMappingURL=border.css.map */

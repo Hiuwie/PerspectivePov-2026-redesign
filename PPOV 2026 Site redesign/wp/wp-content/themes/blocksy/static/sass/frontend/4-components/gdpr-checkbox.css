@@ -1,0 +1,10 @@
+.gdpr-confirm-policy label a {
+  text-decoration: underline;
+}
+.gdpr-confirm-policy label:after {
+  content: "*";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 3px;
+}/*# sourceMappingURL=gdpr-checkbox.css.map */

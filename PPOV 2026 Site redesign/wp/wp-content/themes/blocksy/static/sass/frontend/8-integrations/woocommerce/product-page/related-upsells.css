@@ -1,0 +1,9 @@
+.single-product .related,
+.single-product .up-sells {
+  margin-top: 50px;
+}
+.single-product .related > h2,
+.single-product .up-sells > h2 {
+  --fontSize: 20px;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=related-upsells.css.map */

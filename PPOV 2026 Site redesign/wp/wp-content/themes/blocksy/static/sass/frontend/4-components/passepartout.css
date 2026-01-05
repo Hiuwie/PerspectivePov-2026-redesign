@@ -1,0 +1,18 @@
+[data-frame=default] {
+  border: var(--frame-size, 0px) solid var(--frame-color);
+}
+[data-frame=default]:before, [data-frame=default]:after {
+  position: fixed;
+  content: "";
+  z-index: 99999;
+  left: 0;
+  width: 100%;
+  height: var(--frame-size, 0px);
+  background: var(--frame-color);
+}
+[data-frame=default]:before {
+  top: calc(var(--admin-bar, 0px));
+}
+[data-frame=default]:after {
+  bottom: 0;
+}/*# sourceMappingURL=passepartout.css.map */

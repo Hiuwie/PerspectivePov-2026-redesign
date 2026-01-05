@@ -1,0 +1,66 @@
+.ct-date-time-picker .DayPicker__horizontal,
+.ct-date-time-picker .DayPicker__horizontal > div > div,
+.ct-date-time-picker .DayPicker_transitionContainer,
+.ct-date-time-picker .CalendarMonthGrid,
+.ct-date-time-picker .CalendarMonthGrid_month__horizontal,
+.ct-date-time-picker .CalendarMonth_table {
+  width: 100% !important;
+}
+.ct-date-time-picker .CalendarMonthGrid__horizontal {
+  left: 0;
+}
+.ct-date-time-picker .CalendarMonth {
+  padding: 0 !important;
+}
+.ct-date-time-picker .DayPickerNavigation_rightButton__horizontalDefault {
+  right: 0;
+}
+.ct-date-time-picker .DayPicker_weekHeaders__horizontal {
+  margin-left: 0;
+}
+.ct-date-time-picker .DayPicker,
+.ct-date-time-picker .DayPicker__horizontal,
+.ct-date-time-picker .CalendarMonth,
+.ct-date-time-picker .CalendarMonthGrid,
+.ct-date-time-picker .CalendarDay__default:not(:hover):not(.CalendarDay__selected) {
+  background: transparent;
+}
+.ct-date-time-picker .CalendarDay {
+  height: 36px !important;
+}
+.ct-date-time-picker .components-datetime__time-field-month {
+  flex: 1;
+}
+.ct-date-time-picker .components-datetime__time-field-month select {
+  width: calc(100% - 5px);
+}
+.ct-date-time-picker .components-datetime__time-field-month select:not(:focus) {
+  border-color: var(--borderColor, #ddd);
+}
+.ct-date-time-picker .components-datetime__time-field-day-input,
+.ct-date-time-picker .components-datetime__time-field-hours-input,
+.ct-date-time-picker .components-datetime__time-field-minutes-input {
+  --width: 35px;
+  --margin: 0 4px 0 0;
+}
+.ct-date-time-picker .components-datetime__time-field-year-input {
+  --width: 55px;
+}
+.ct-date-time-picker .DayPicker_weekHeader {
+  right: 0px;
+  top: 55px;
+  padding: 0 !important;
+}
+.ct-date-time-picker .DayPicker_weekHeader_ul {
+  display: flex;
+  justify-content: space-between;
+}
+.ct-date-time-picker .DayPicker_weekHeader_li {
+  margin-bottom: 0;
+}
+.ct-date-time-picker .DayPicker_transitionContainer[style*="height: 246px"] {
+  height: 270px !important;
+}
+.ct-date-time-picker .DayPicker_transitionContainer[style*="height: 275px"] {
+  height: 305px !important;
+}/*# sourceMappingURL=date-picker.css.map */

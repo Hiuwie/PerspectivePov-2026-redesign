@@ -1,0 +1,13 @@
+.elementor-widget-container .flex-viewport {
+  margin-bottom: 20px;
+}
+.elementor-widget-container .flex-control-thumbs {
+  margin: 0 -10px;
+}
+.elementor-widget-container .flex-control-thumbs li {
+  padding: 0 10px 10px 10px;
+}
+
+.elementor-section-wrap form.woocommerce-checkout {
+  --display: initial;
+}/*# sourceMappingURL=elementor.css.map */

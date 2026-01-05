@@ -1,0 +1,64 @@
+.woocommerce-product-rating {
+  display: flex;
+  align-items: center;
+}
+.woocommerce-product-rating .woocommerce-review-link {
+  margin-left: 10px;
+  font-size: 12px;
+  --linkInitialColor: var(--color);
+}
+
+.comment-form-rating {
+  display: flex;
+  align-items: center;
+}
+.comment-form-rating label {
+  --fontSize: 11px;
+  --fontWeight: 500;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.comment-form-rating .stars {
+  color: var(--star-rating-initial-color, #fda256);
+  font-size: 0.9em;
+}
+.comment-form-rating .stars span {
+  display: flex;
+}
+.comment-form-rating .stars a {
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  text-indent: -999em;
+  text-decoration: none;
+  color: currentColor;
+  margin-left: 8px;
+}
+.comment-form-rating .stars a:before {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  font-family: "star";
+  content: "s";
+  line-height: 1;
+  text-indent: 0;
+}
+.comment-form-rating .stars a:hover ~ a:before {
+  content: "s";
+}
+.comment-form-rating .stars:hover a:before {
+  content: "S";
+}
+.comment-form-rating .stars.selected a.active:before {
+  content: "S";
+}
+.comment-form-rating .stars.selected a.active ~ a:before {
+  content: "s";
+}
+.comment-form-rating .stars.selected a:not(.active):before {
+  content: "S";
+}/*# sourceMappingURL=star-rating.css.map */

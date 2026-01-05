@@ -1,0 +1,27 @@
+.ct-responsive-controls {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.ct-responsive-controls li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--color);
+}
+.ct-responsive-controls li.active {
+  --color: var(--accentColor);
+}
+.ct-responsive-controls li:not(.active) {
+  --color: #CFD1D2;
+}
+.ct-responsive-controls li:not(.active):hover {
+  --color: #a5abaf;
+}
+.ct-responsive-controls li.ct-desktop {
+  margin-right: 18px;
+}
+.ct-responsive-controls li.ct-tablet {
+  margin-right: 17px;
+}/*# sourceMappingURL=responsive-controls.css.map */

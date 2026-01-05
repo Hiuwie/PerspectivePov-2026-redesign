@@ -1,0 +1,64 @@
+.ct-palettes-preview .ct-color-picker-container,
+.ct-palettes-modal .ct-color-picker-container {
+  justify-content: initial;
+}
+
+.ct-palettes-preview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 5px 12px 0 12px;
+  margin: 0 -14px;
+  border-radius: 100px;
+}
+.ct-palettes-preview:after {
+  font-family: "dashicons";
+  content: "\f347";
+  font-size: 12px;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+.ct-palettes-preview:hover:after {
+  opacity: 1;
+}
+
+.ct-palettes-modal {
+  max-height: 450px;
+  overflow-y: scroll;
+}
+.ct-palettes-modal:before {
+  display: none;
+}
+.ct-palettes-modal .ct-single-palette {
+  position: relative;
+  padding: 16px 12px;
+  cursor: pointer;
+}
+.ct-palettes-modal .ct-single-palette:not(:last-child) {
+  border-bottom: 1px dashed #eee;
+}
+.ct-palettes-modal .ct-single-palette.ct-active label:after {
+  content: "\f147";
+  font: 400 17px/17px dashicons;
+}
+.ct-palettes-modal .ct-single-palette:hover, .ct-palettes-modal .ct-single-palette.ct-active {
+  background: rgba(0, 0, 0, 0.02);
+}
+.ct-palettes-modal .ct-single-palette:hover label, .ct-palettes-modal .ct-single-palette.ct-active label {
+  opacity: 1;
+}
+.ct-palettes-modal label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 500;
+  color: #50575e;
+  opacity: 0.7;
+  margin-bottom: 10px;
+  -webkit-font-smoothing: antialiased;
+}
+.ct-palettes-modal .ct-tooltip-top {
+  display: none;
+}/*# sourceMappingURL=color-palette.css.map */

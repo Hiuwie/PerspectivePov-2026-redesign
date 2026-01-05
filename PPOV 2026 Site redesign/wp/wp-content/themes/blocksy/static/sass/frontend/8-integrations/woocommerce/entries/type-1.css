@@ -1,0 +1,41 @@
+[data-products=type-1] {
+  grid-row-gap: calc(var(--grid-columns-gap, 30px) + 20px);
+}
+[data-products=type-1] .product {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+[data-products=type-1] .woocommerce-loop-product__link {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+[data-products=type-1] .ct-image-container {
+  border-radius: var(--borderRadius);
+  margin-bottom: 25px;
+}
+[data-products=type-1] .price {
+  margin-top: 5px;
+}
+[data-products=type-1] .star-rating {
+  margin-bottom: 15px;
+}
+[data-products=type-1] .ct-woo-card-actions {
+  padding-top: 20px;
+  margin-top: auto;
+}
+[data-products=type-1][data-alignment=center] .product {
+  text-align: center;
+}
+[data-products=type-1][data-alignment=center] .product .star-rating {
+  margin-left: auto;
+  margin-right: auto;
+}
+[data-products=type-1][data-alignment=right] .product {
+  text-align: right;
+}
+[data-products=type-1][data-alignment=right] .product .star-rating {
+  margin-left: auto;
+}/*# sourceMappingURL=type-1.css.map */

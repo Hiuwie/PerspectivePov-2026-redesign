@@ -1,0 +1,19 @@
+.wp-block-table thead {
+  border-bottom: 0;
+}
+.wp-block-table tfoot {
+  border-top: 0;
+}
+.wp-block-table td, .wp-block-table th {
+  border-color: var(--border-color) !important;
+}
+.wp-block-table th {
+  font-weight: 700;
+  text-align: inherit;
+}
+.wp-block-table th.has-text-align-center {
+  text-align: center;
+}
+.wp-block-table th.has-text-align-right {
+  text-align: right;
+}/*# sourceMappingURL=block-table.css.map */

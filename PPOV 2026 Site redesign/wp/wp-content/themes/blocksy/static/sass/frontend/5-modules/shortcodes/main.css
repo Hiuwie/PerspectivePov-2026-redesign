@@ -1,0 +1,6 @@
+[data-link] .ct-posts-shortcode .entry-title a {
+  --has-link-decoration: var(--false);
+}
+[data-link] .ct-posts-shortcode .entry-title a:hover {
+  color: var(--linkHoverColor);
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,13 @@
+.ct-button-ghost, div.is-style-outline > .wp-block-button__link {
+  --buttonTextInitialColor: var(--buttonInitialColor);
+  border-width: 2px;
+  border-style: solid;
+  color: var(--buttonTextInitialColor);
+  background-color: transparent;
+  border-color: var(--buttonInitialColor);
+}
+.ct-button-ghost:hover, div.is-style-outline > .wp-block-button__link:hover {
+  color: var(--buttonTextHoverColor);
+  border-color: var(--buttonHoverColor);
+  background-color: var(--buttonHoverColor);
+}/*# sourceMappingURL=type-2.css.map */

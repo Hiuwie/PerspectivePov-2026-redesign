@@ -1,0 +1,197 @@
+.ct-social-box {
+  display: flex;
+  flex-wrap: var(--wrap, wrap);
+  margin-top: calc(var(--spacing, 15px) * -1);
+  margin-left: calc(var(--spacing, 15px) / -2);
+  margin-right: calc(var(--spacing, 15px) / -2);
+}
+.ct-social-box a {
+  display: flex;
+  align-items: center;
+  margin-top: var(--spacing, 15px);
+  margin-left: calc(var(--spacing, 15px) / 2);
+  margin-right: calc(var(--spacing, 15px) / 2);
+}
+.ct-social-box .ct-label:not([hidden]) {
+  margin-left: 0.7em;
+  display: var(--visibility);
+  transition: color 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+[data-color=official] > * {
+  --transition: opacity 0.12s cubic-bezier(.455,.03,.515,.955);
+}
+[data-color=official] > *:hover {
+  opacity: 0.8;
+}
+[data-color=official] .ct-icon-container {
+  --icon-color: var(--official-color);
+  --icon-hover-color: var(--official-color);
+}
+[data-color=official] .ct-label {
+  color: var(--official-color);
+}
+[data-color=official][data-icons-type*=solid] .ct-icon-container {
+  --icon-color: #fff;
+  --icon-hover-color: #fff;
+  background-color: var(--official-color);
+}
+[data-color=official][data-icons-type*=outline] .ct-icon-container {
+  border: 1px solid var(--official-color);
+}
+[data-color=official] [data-network=facebook] {
+  --official-color: #557dbc;
+}
+[data-color=official] [data-network=facebook_group] {
+  --official-color: #3D87FB;
+}
+[data-color=official] [data-network=discord] {
+  --official-color: #7187D4;
+}
+[data-color=official] [data-network=tripadvisor] {
+  --official-color: #40DFA3;
+}
+[data-color=official] [data-network=foursquare] {
+  --official-color: #F84A7A;
+}
+[data-color=official] [data-network=yelp] {
+  --official-color: #CA252A;
+}
+[data-color=official] [data-network=twitter] {
+  --official-color: #7acdee;
+}
+[data-color=official] [data-network=instagram] {
+  --official-color: #ED1376;
+}
+[data-color=official] [data-network=pinterest] {
+  --official-color: #ea575a;
+}
+[data-color=official] [data-network=dribbble] {
+  --official-color: #d77ea6;
+}
+[data-color=official] [data-network=behance] {
+  --official-color: #1B64F6;
+}
+[data-color=official] [data-network=unsplash] {
+  --official-color: #000000;
+}
+[data-color=official] [data-network=five-hundred-px] {
+  --official-color: #000000;
+}
+[data-color=official] [data-network=linkedin] {
+  --official-color: #1c86c6;
+}
+[data-color=official] [data-network=parler] {
+  --official-color: #BC2131;
+}
+[data-color=official] [data-network=mastodon] {
+  --official-color: #368AD2;
+}
+[data-color=official] [data-network=medium] {
+  --official-color: #292929;
+}
+[data-color=official] [data-network=slack] {
+  --official-color: #4E1850;
+}
+[data-color=official] [data-network=codepen] {
+  --official-color: #000000;
+}
+[data-color=official] [data-network=reddit] {
+  --official-color: #FC471E;
+}
+[data-color=official] [data-network=twitch] {
+  --official-color: #9150FB;
+}
+[data-color=official] [data-network=tiktok] {
+  --official-color: #000000;
+}
+[data-color=official] [data-network=snapchat] {
+  --official-color: #f9d821;
+}
+[data-color=official] [data-network=spotify] {
+  --official-color: #2AB859;
+}
+[data-color=official] [data-network=soundcloud] {
+  --official-color: #FD561F;
+}
+[data-color=official] [data-network=apple_podcast] {
+  --official-color: #933AC3;
+}
+[data-color=official] [data-network=patreon] {
+  --official-color: #e65c4b;
+}
+[data-color=official] [data-network=alignable] {
+  --official-color: #4A396F;
+}
+[data-color=official] [data-network=vk] {
+  --official-color: #5382b6;
+}
+[data-color=official] [data-network=youtube] {
+  --official-color: #e96651;
+}
+[data-color=official] [data-network=dtube] {
+  --official-color: #233253;
+}
+[data-color=official] [data-network=vimeo] {
+  --official-color: #8ecfde;
+}
+[data-color=official] [data-network=rss] {
+  --official-color: #f09124;
+}
+[data-color=official] [data-network=whatsapp] {
+  --official-color: #5BBA67;
+}
+[data-color=official] [data-network=viber] {
+  --official-color: #7F509E;
+}
+[data-color=official] [data-network=telegram] {
+  --official-color: #229CCE;
+}
+[data-color=official] [data-network=xing] {
+  --official-color: #0A5C5D;
+}
+[data-color=official] [data-network=weibo] {
+  --official-color: #E41C34;
+}
+[data-color=official] [data-network=tumblr] {
+  --official-color: #314255;
+}
+[data-color=official] [data-network=qq] {
+  --official-color: #487FC8;
+}
+[data-color=official] [data-network=wechat] {
+  --official-color: #2DC121;
+}
+[data-color=official] [data-network=strava] {
+  --official-color: #2DC121;
+}
+[data-color=official] [data-network=flickr] {
+  --official-color: #0F64D1;
+}
+[data-color=official] [data-network=phone] {
+  --official-color: #244371;
+}
+[data-color=official] [data-network=email] {
+  --official-color: #392C44;
+}
+[data-color=official] [data-network=github] {
+  --official-color: #24292E;
+}
+[data-color=official] [data-network=gitlab] {
+  --official-color: #F8713F;
+}
+[data-color=official] [data-network=skype] {
+  --official-color: #1CAAE7;
+}
+[data-color=official] [data-network=wordpress] {
+  --official-color: #1074A8;
+}
+[data-color=official] [data-network=hacker_news] {
+  --official-color: #FD6721;
+}
+[data-color=official] [data-network=ok] {
+  --official-color: #EB7E2F;
+}
+[data-color=official] [data-network=flipboard] {
+  --official-color: #C40812;
+}/*# sourceMappingURL=main.css.map */

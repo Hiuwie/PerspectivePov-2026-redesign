@@ -1,0 +1,3317 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Mart Pro\n"
+"POT-Creation-Date: 2020-07-09 16:31+0530\n"
+"PO-Revision-Date: 2020-07-09 16:35+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:21
+msgid "404"
+msgstr ""
+
+#: 404.php:22
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:26
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:236
+#: customizer/background/class-open-mart-background-image-control.php:241
+msgid "Select Image"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:237
+msgid "Change Image"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:238
+msgid "Remove"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:239
+#: customizer/background/class-open-mart-background-image-control.php:283
+#: customizer/section/typo/base-typography.php:34
+#: customizer/section/typo/base-typography.php:50
+#: customizer/section/typo/content-typography.php:48
+#: customizer/section/typo/content-typography.php:65
+#: customizer/section/typo/content-typography.php:200
+#: customizer/section/typo/content-typography.php:217
+#: customizer/section/typo/content-typography.php:351
+#: customizer/section/typo/content-typography.php:368
+#: customizer/section/typo/content-typography.php:502
+#: customizer/section/typo/content-typography.php:519
+#: customizer/section/typo/content-typography.php:651
+#: customizer/section/typo/content-typography.php:668
+#: customizer/section/typo/content-typography.php:801
+#: customizer/section/typo/content-typography.php:818
+#: customizer/section/typo/title-typography.php:34
+#: customizer/section/typo/title-typography.php:50
+msgid "Default"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:240
+msgid "No image selected"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:242
+msgid "Choose Image"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:257
+msgid "Background Repeat"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:258
+msgid "Background Size"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:259
+msgid "Background Position"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:260
+msgid "Background Attachment"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:277
+msgid "No Repeat"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:278
+msgid "Tile"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:279
+msgid "Tile Horizontally"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:280
+msgid "Tile Vertically"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:284
+msgid "Cover"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:285
+msgid "Contain"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:288
+msgid "Left Top"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:289
+msgid "Left Center"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:290
+msgid "Left Bottom"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:291
+msgid "Right Top"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:292
+msgid "Right Center"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:293
+msgid "Right Bottom"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:294
+msgid "Center Top"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:295
+msgid "Center Center"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:296
+msgid "Center Bottom"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:299
+msgid "Fixed"
+msgstr ""
+
+#: customizer/background/class-open-mart-background-image-control.php:300
+msgid "Scroll"
+msgstr ""
+
+#: customizer/custom-customizer.php:522
+msgid "Doc"
+msgstr ""
+
+#: customizer/extend-customizer/class-open-mart-wp-customize-section.php:50
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: customizer/extend-customizer/class-open-mart-wp-customize-section.php:52
+msgid "Customizing"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:70
+#: customizer/models/class-open-mart-defaults-models.php:76
+#: customizer/models/class-open-mart-defaults-models.php:82
+#: customizer/models/class-open-mart-defaults-models.php:88
+msgid "Free Shiping"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:71
+#: customizer/models/class-open-mart-defaults-models.php:77
+#: customizer/models/class-open-mart-defaults-models.php:83
+#: customizer/models/class-open-mart-defaults-models.php:89
+msgid "On all order over "
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:103
+#: customizer/models/class-open-mart-defaults-models.php:109
+#: customizer/models/class-open-mart-defaults-models.php:115
+#: customizer/models/class-open-mart-defaults-models.php:121
+#: customizer/models/class-open-mart-defaults-models.php:127
+#: customizer/models/class-open-mart-defaults-models.php:133
+#: customizer/models/class-open-mart-defaults-models.php:139
+#: customizer/models/class-open-mart-defaults-models.php:145
+msgid "What do you want to know"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:105
+#: customizer/models/class-open-mart-defaults-models.php:111
+#: customizer/models/class-open-mart-defaults-models.php:117
+#: customizer/models/class-open-mart-defaults-models.php:123
+#: customizer/models/class-open-mart-defaults-models.php:129
+#: customizer/models/class-open-mart-defaults-models.php:135
+#: customizer/models/class-open-mart-defaults-models.php:141
+#: customizer/models/class-open-mart-defaults-models.php:147
+msgid ""
+"Nulla et sodales nisl. Nam auctor quis odio eu congue. Lorem ipsum dolor sit "
+"amet, consectetur adipiscing elit."
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:166
+msgid "Development"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:167
+#: customizer/models/class-open-mart-defaults-models.php:175
+#: customizer/models/class-open-mart-defaults-models.php:183
+msgid ""
+"Nam varius mauris eget sodales tempus. Quisque sollicitudin consectetur "
+"accumsan. Ut imperdiet mi velit, ut congue justo sagittis eget"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:174
+msgid "Design"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:182
+msgid "Seo"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:204
+msgid "Surbhi"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:205
+#: customizer/models/class-open-mart-defaults-models.php:222
+msgid "Business Owner"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:206
+#: customizer/models/class-open-mart-defaults-models.php:214
+#: customizer/models/class-open-mart-defaults-models.php:223
+msgid ""
+"\"Nunc eu elementum libero. Etiam egestas leo eget urna ultrices, in finibus "
+"eros gravida. Donec scelerisque pulvinar dapibus. Nam pretium risus sed "
+"metus ultrices blandit. Pellentesque rhoncus est non nunc ultricies "
+"accumsan. Nullam gravida turpis et lacinia cursus. Fusce iaculis mattis "
+"consectetur.\""
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:212
+msgid "Nataliya"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:213
+msgid "Artist"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:221
+#: customizer/models/class-open-mart-defaults-models.php:292
+#: customizer/models/class-open-mart-defaults-models.php:318
+#: page-aboutus.php:59
+msgid "Ramedrin"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:238
+msgid "Gabriel"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:239
+msgid "Developer"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:240
+#: customizer/models/class-open-mart-defaults-models.php:267
+#: customizer/models/class-open-mart-defaults-models.php:294
+#: customizer/models/class-open-mart-defaults-models.php:320
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:265
+msgid "Maurics"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:266
+msgid "Marketer"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:293
+#: customizer/models/class-open-mart-defaults-models.php:319
+msgid "Designer"
+msgstr ""
+
+#: customizer/models/class-open-mart-defaults-models.php:361
+#: customizer/models/class-open-mart-defaults-models.php:365
+#: customizer/models/class-open-mart-defaults-models.php:369
+#: customizer/models/class-open-mart-defaults-models.php:373
+msgid "1008"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:10
+msgid "WordPress Default"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:25
+#: customizer/section-ordering.php:61 customizer/section-ordering.php:89
+#: customizer/section-ordering.php:146
+#: customizer/section/color/above-footer-color.php:151
+#: customizer/section/color/above-header-color.php:87
+#: customizer/section/color/bottom-footer-color.php:153
+#: customizer/section/color/content-color.php:121
+#: customizer/section/color/footer-widget-color.php:164
+#: customizer/section/color/global-color.php:124
+#: customizer/section/color/sidebar-color.php:98
+#: customizer/section/color/woo-product-color.php:216
+#: customizer/section/frontpage/banner.php:182
+#: customizer/section/frontpage/brand.php:64
+#: customizer/section/frontpage/category-list-tab.php:99
+#: customizer/section/frontpage/category-slider.php:104
+#: customizer/section/frontpage/category-tab.php:115
+#: customizer/section/frontpage/custom-one.php:100
+#: customizer/section/frontpage/higlight.php:71
+#: customizer/section/frontpage/product-bigfeature.php:92
+#: customizer/section/frontpage/product-list.php:94
+#: customizer/section/frontpage/product-slide.php:107
+#: customizer/section/frontpage/ribbon.php:118
+#: customizer/section/frontpage/top-slider.php:256
+#: customizer/section/layout/blog/blog.php:102
+#: customizer/section/layout/footer/above-footer.php:371
+#: customizer/section/layout/footer/bottom-footer.php:373
+#: customizer/section/layout/footer/widget-footer.php:81
+#: customizer/section/layout/header/above-header.php:380
+#: customizer/section/layout/header/loader.php:55
+#: customizer/section/layout/header/main-header.php:278
+#: customizer/section/layout/header/set-identity.php:99
+#: customizer/section/layout/social-icon/social-icon.php:147
+#: customizer/section/woo/cart.php:80 customizer/section/woo/product.php:47
+#: customizer/section/woo/shop.php:64
+#: customizer/section/woo/single-product.php:174
+msgid "To know more go with this"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:32
+#: customizer/section/color/woo-product-color.php:85
+#: customizer/section/color/woo-product-color.php:184
+msgid "Background"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:43
+#: customizer/section/frontpage/banner.php:23
+#: customizer/section/frontpage/custom-four.php:44
+#: customizer/section/frontpage/custom-one.php:44
+#: customizer/section/frontpage/custom-three.php:44
+#: customizer/section/frontpage/custom-two.php:44
+#: customizer/section/layout/footer/above-footer.php:17
+#: customizer/section/layout/footer/bottom-footer.php:16
+#: customizer/section/layout/footer/widget-footer.php:16
+#: customizer/section/layout/header/above-header.php:32
+msgid "Layout"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:48
+#: customizer/register-panels-and-sections.php:273
+#: customizer/register-panels-and-sections.php:320
+msgid "Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:56
+#: customizer/register-panels-and-sections.php:279
+msgid "Above Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:64
+#: customizer/register-panels-and-sections.php:287
+msgid "Main Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:73 inc/admin-function.php:809
+msgid "Blog"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:80
+#: customizer/register-panels-and-sections.php:373
+msgid "Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:87
+#: customizer/register-panels-and-sections.php:364
+msgid "Sidebar"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:94
+msgid "Move To Top"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:101
+#: customizer/register-panels-and-sections.php:380
+msgid "Above Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:109
+msgid "Widget Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:117
+msgid "Below Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:128
+msgid "Preloader"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:135
+msgid "Social Icon"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:144
+msgid "Frontpage Sections"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:148
+#: customizer/register-panels-and-sections.php:449
+#: customizer/section-ordering.php:33
+msgid "Top Slider"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:155
+#: customizer/register-panels-and-sections.php:473
+#: customizer/section-ordering.php:36
+msgid "Tabbed Product Carousel"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:162
+#: customizer/register-panels-and-sections.php:465
+#: customizer/section-ordering.php:35
+msgid "Product Carousel"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:169
+#: customizer/register-panels-and-sections.php:457
+#: customizer/section-ordering.php:34
+msgid "Woo Category"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:176
+#: customizer/register-panels-and-sections.php:481
+#: customizer/section-ordering.php:37
+msgid "Product List Carousel"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:183
+#: customizer/register-panels-and-sections.php:529
+#: customizer/section-ordering.php:43
+msgid "Big Featured Product"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:189
+#: customizer/register-panels-and-sections.php:489
+#: customizer/section-ordering.php:38
+msgid "Tabbed Product List Carousel"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:196
+#: customizer/register-panels-and-sections.php:505
+#: customizer/section-ordering.php:40
+msgid "Ribbon"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:203
+#: customizer/register-panels-and-sections.php:497
+#: customizer/section-ordering.php:39
+msgid "Banner"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:210
+#: customizer/register-panels-and-sections.php:513
+#: customizer/section-ordering.php:41 customizer/section/frontpage/brand.php:26
+msgid "Brand"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:217
+#: customizer/register-panels-and-sections.php:521
+#: customizer/section-ordering.php:42
+msgid "Highlight"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:224
+#: customizer/section-ordering.php:44
+#: customizer/section/frontpage/custom-one.php:19
+#: customizer/section/frontpage/custom-one.php:26
+msgid "First Custom Section"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:231
+#: customizer/section-ordering.php:45
+#: customizer/section/frontpage/custom-two.php:19
+#: customizer/section/frontpage/custom-two.php:26
+msgid "Second Custom Section"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:238
+#: customizer/section-ordering.php:46
+#: customizer/section/frontpage/custom-three.php:19
+#: customizer/section/frontpage/custom-three.php:26
+msgid "Third Custom Section"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:245
+#: customizer/section-ordering.php:47
+#: customizer/section/frontpage/custom-four.php:19
+#: customizer/section/frontpage/custom-four.php:26
+msgid "Fourth Custom Section"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:253
+#: customizer/section-ordering.php:30
+msgid "Section Ordering"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:263
+msgid "Total Color & BG Options"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:267
+msgid "Global Colors"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:295
+#: customizer/section/layout/header/main-header.php:206
+msgid "Sticky Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:304
+msgid "Mobile"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:312
+#: customizer/section/layout/header/main-header.php:177
+msgid "Off Canvas Sidebar"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:329
+msgid "Main Menu"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:338 inc/header-function.php:239
+msgid "Category"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:346
+#: customizer/section/layout/footer/bottom-footer.php:139
+#: customizer/section/layout/footer/bottom-footer.php:223
+#: inc/header-function.php:471 searchform.php:13
+msgid "Search"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:354
+msgid "Shop Icon"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:388
+msgid "Footer Widget"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:396
+msgid "Bottom Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:407
+msgid "Woocommerce"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:414
+msgid "Product"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:423
+msgid "Sale Badge"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:431
+#: customizer/register-panels-and-sections.php:592
+msgid "Single Product"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:442
+msgid "Frontpage"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:539
+msgid "Custom Section One"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:547
+msgid "Custom Section Two"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:555
+msgid "Custom Section Three"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:564
+msgid "Custom Section Four"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:576
+#: customizer/section/color/woo-single-color.php:55
+msgid "Content Color"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:585
+msgid "Product Style"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:599
+msgid "Cart Page"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:606
+msgid "Shop Page"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:617
+msgid "Typography"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:620
+msgid "Base Typography"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:626
+#: customizer/repeater/class-open-mart-repeater.php:469
+#: customizer/repeater/class-open-mart-repeater.php:620
+#: customizer/section/color/woo-product-color.php:26
+#: inc/widget/about-us-widget.php:126 inc/widget/product-widget-two.php:353
+msgid "Title"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:633
+msgid "Content"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:643
+msgid "Inner Page Template "
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:647
+#: customizer/section/inner-page/faq-page.php:17
+msgid "Faq"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:654
+msgid "Contact Us"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:661
+msgid "About Us"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:164
+msgid "Add new field"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:169
+msgid "Customizer Repeater"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:448
+#: customizer/repeater/class-open-mart-repeater.php:459
+#: customizer/repeater/class-open-mart-repeater.php:600
+#: customizer/repeater/class-open-mart-repeater.php:610
+#: customizer/section/color/woo-product-color.php:198
+msgid "Color"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:480
+#: customizer/repeater/class-open-mart-repeater.php:631
+#: customizer/section/color/woo-product-color.php:58
+msgid "Price"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:491
+#: customizer/repeater/class-open-mart-repeater.php:642
+msgid "Number"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:501
+#: customizer/repeater/class-open-mart-repeater.php:653
+msgid "Subtitle"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:510
+#: customizer/repeater/class-open-mart-repeater.php:662
+#: customizer/section/frontpage/ribbon.php:76
+#: customizer/section/layout/footer/above-footer.php:52
+#: customizer/section/layout/footer/above-footer.php:67
+#: customizer/section/layout/footer/above-footer.php:138
+#: customizer/section/layout/footer/above-footer.php:152
+#: customizer/section/layout/footer/above-footer.php:221
+#: customizer/section/layout/footer/above-footer.php:235
+#: customizer/section/layout/footer/bottom-footer.php:51
+#: customizer/section/layout/footer/bottom-footer.php:66
+#: customizer/section/layout/footer/bottom-footer.php:137
+#: customizer/section/layout/footer/bottom-footer.php:152
+#: customizer/section/layout/footer/bottom-footer.php:221
+#: customizer/section/layout/footer/bottom-footer.php:236
+#: customizer/section/layout/header/above-header.php:65
+#: customizer/section/layout/header/above-header.php:81
+#: customizer/section/layout/header/above-header.php:150
+#: customizer/section/layout/header/above-header.php:166
+#: customizer/section/layout/header/above-header.php:235
+#: customizer/section/layout/header/above-header.php:252
+msgid "Text"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:519
+#: customizer/repeater/class-open-mart-repeater.php:538
+#: customizer/repeater/class-open-mart-repeater.php:671
+#: customizer/repeater/class-open-mart-repeater.php:689
+#: customizer/repeater/class-open-mart-repeater.php:916
+#: customizer/repeater/class-open-mart-repeater.php:942
+#: inc/widget/about-us-widget.php:151
+msgid "Link"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:529
+#: customizer/repeater/class-open-mart-repeater.php:680
+#: customizer/section/frontpage/ribbon.php:90
+#: customizer/section/layout/header/main-header.php:74
+#: customizer/section/layout/header/main-header.php:80
+#: inc/widget/product-widget-two.php:357
+msgid "Button Text"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:548
+#: customizer/repeater/class-open-mart-repeater.php:698
+msgid "Shortcode"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:567
+#: customizer/repeater/class-open-mart-repeater.php:710
+msgid "Delete field"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:782
+#: customizer/repeater/class-open-mart-repeater.php:872
+#: customizer/section/color/sticky-header-color.php:301
+msgid "Icon"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:788
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at Fontawesome Website."
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:830
+#: customizer/repeater/class-open-mart-repeater.php:873
+msgid "Image"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:833
+#: customizer/repeater/class-open-mart-repeater.php:856
+msgid "Upload Image"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:853
+#: customizer/repeater/class-open-mart-repeater.php:874
+msgid "Logo Image"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:869
+msgid "Image type"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:875
+#: customizer/section/layout/footer/above-footer.php:51
+#: customizer/section/layout/footer/above-footer.php:137
+#: customizer/section/layout/footer/above-footer.php:220
+#: customizer/section/layout/footer/bottom-footer.php:50
+#: customizer/section/layout/footer/bottom-footer.php:136
+#: customizer/section/layout/footer/bottom-footer.php:220
+#: customizer/section/layout/header/above-header.php:64
+#: customizer/section/layout/header/above-header.php:149
+#: customizer/section/layout/header/above-header.php:234
+#: customizer/section/layout/header/main-header.php:64
+#: customizer/section/layout/header/main-header.php:181
+#: customizer/section/typo/base-typography.php:51
+#: customizer/section/typo/content-typography.php:66
+#: customizer/section/typo/content-typography.php:218
+#: customizer/section/typo/content-typography.php:369
+#: customizer/section/typo/content-typography.php:520
+#: customizer/section/typo/content-typography.php:669
+#: customizer/section/typo/content-typography.php:819
+#: customizer/section/typo/title-typography.php:51
+#: customizer/section/woo/product.php:18
+msgid "None"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:889
+msgid "Social icons"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:894
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at Fontawesome website ."
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:919
+#: customizer/repeater/class-open-mart-repeater.php:956
+msgid "Remove Icon"
+msgstr ""
+
+#: customizer/repeater/class-open-mart-repeater.php:924
+#: customizer/repeater/class-open-mart-repeater.php:962
+msgid "Add Icon"
+msgstr ""
+
+#: customizer/section-ordering.php:72
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: customizer/section-ordering.php:100
+msgid "Enable"
+msgstr ""
+
+#: customizer/section-ordering.php:115
+#: customizer/section/color/above-footer-color.php:25
+#: customizer/section/color/above-header-color.php:14
+#: customizer/section/color/bottom-footer-color.php:25
+#: customizer/section/color/canvas-color.php:37
+#: customizer/section/color/canvas-color.php:136
+#: customizer/section/color/content-color.php:11
+#: customizer/section/color/footer-widget-color.php:23
+#: customizer/section/color/frontpage/banner-color.php:11
+#: customizer/section/color/frontpage/big-featured-color.php:11
+#: customizer/section/color/frontpage/brand-color.php:11
+#: customizer/section/color/frontpage/category-slider-color.php:26
+#: customizer/section/color/frontpage/category-tab-color.php:25
+#: customizer/section/color/frontpage/custom-four-color.php:11
+#: customizer/section/color/frontpage/custom-one-color.php:11
+#: customizer/section/color/frontpage/custom-three-color.php:11
+#: customizer/section/color/frontpage/custom-two-color.php:11
+#: customizer/section/color/frontpage/highlight-color.php:11
+#: customizer/section/color/frontpage/product-list-slider.php:25
+#: customizer/section/color/frontpage/product-list-tab-slider.php:25
+#: customizer/section/color/frontpage/product-slider-color.php:25
+#: customizer/section/color/frontpage/ribbon-color.php:11
+#: customizer/section/color/frontpage/top-slider-color.php:11
+#: customizer/section/color/main-header-color.php:25
+#: customizer/section/color/main-header-color.php:270
+#: customizer/section/color/main-header-color.php:335
+#: customizer/section/color/main-header-color.php:375
+#: customizer/section/color/main-header-color.php:423
+#: customizer/section/color/main-header-color.php:464
+#: customizer/section/color/main-header-color.php:505
+#: customizer/section/color/main-header-color.php:547
+#: customizer/section/color/main-header-color.php:588
+#: customizer/section/color/mobile-pan-color.php:36
+#: customizer/section/color/mobile-pan-color.php:108
+#: customizer/section/color/sidebar-color.php:22
+#: customizer/section/color/sticky-header-color.php:25
+#: customizer/section/color/sticky-header-color.php:213
+#: customizer/section/color/woo-single-color.php:70
+#: customizer/section/inner-page/aboutus-page.php:336
+#: customizer/section/inner-page/contact-page.php:124
+#: customizer/section/inner-page/faq-page.php:80
+#: customizer/section/layout/header/loader.php:23
+msgid "Background Color"
+msgstr ""
+
+#: customizer/section-ordering.php:129
+#: customizer/section/color/canvas-color.php:11
+#: customizer/section/color/canvas-color.php:151
+#: customizer/section/color/frontpage/highlight-color.php:56
+#: customizer/section/color/main-header-color.php:520
+#: customizer/section/color/main-header-color.php:562
+#: customizer/section/color/mobile-pan-color.php:123
+msgid "Icon Color"
+msgstr ""
+
+#: customizer/section/color/above-footer-color.php:71
+#: customizer/section/color/bottom-footer-color.php:71
+#: customizer/section/color/footer-widget-color.php:69
+#: customizer/section/color/main-header-color.php:73
+#: customizer/section/color/sticky-header-color.php:73
+#: customizer/section/frontpage/ribbon.php:53
+#: customizer/section/inner-page/aboutus-page.php:315
+#: inc/widget/product-widget-two.php:414
+msgid "Background Image"
+msgstr ""
+
+#: customizer/section/color/above-footer-color.php:105
+#: customizer/section/color/above-header-color.php:41
+#: customizer/section/color/bottom-footer-color.php:106
+#: customizer/section/color/canvas-color.php:110
+#: customizer/section/color/footer-widget-color.php:117
+#: customizer/section/color/frontpage/ribbon-color.php:55
+#: customizer/section/color/global-color.php:77
+#: customizer/section/color/main-header-color.php:166
+#: customizer/section/color/main-header-color.php:349
+#: customizer/section/color/main-header-color.php:389
+#: customizer/section/color/main-header-color.php:438
+#: customizer/section/color/main-header-color.php:479
+#: customizer/section/color/main-header-color.php:603
+#: customizer/section/color/sidebar-color.php:52
+#: customizer/section/color/woo-product-color.php:100
+#: customizer/section/color/woo-product-color.php:153
+#: customizer/section/inner-page/contact-page.php:137
+msgid "Text Color"
+msgstr ""
+
+#: customizer/section/color/above-footer-color.php:119
+#: customizer/section/color/above-header-color.php:55
+#: customizer/section/color/bottom-footer-color.php:120
+#: customizer/section/color/canvas-color.php:81
+#: customizer/section/color/footer-widget-color.php:132
+#: customizer/section/color/frontpage/big-featured-color.php:42
+#: customizer/section/color/frontpage/category-tab-color.php:40
+#: customizer/section/color/frontpage/product-list-tab-slider.php:40
+#: customizer/section/color/frontpage/top-slider-color.php:70
+#: customizer/section/color/global-color.php:46
+#: customizer/section/color/main-header-color.php:181
+#: customizer/section/color/main-header-color.php:224
+#: customizer/section/color/main-header-color.php:286
+#: customizer/section/color/mobile-pan-color.php:65
+#: customizer/section/color/sidebar-color.php:67
+#: customizer/section/color/sticky-header-color.php:168
+#: customizer/section/color/sticky-header-color.php:229
+#: customizer/section/color/woo-single-color.php:85
+msgid "Link Color"
+msgstr ""
+
+#: customizer/section/color/above-footer-color.php:133
+#: customizer/section/color/above-header-color.php:69
+#: customizer/section/color/bottom-footer-color.php:134
+#: customizer/section/color/canvas-color.php:96
+#: customizer/section/color/footer-widget-color.php:146
+#: customizer/section/color/frontpage/big-featured-color.php:57
+#: customizer/section/color/frontpage/category-tab-color.php:55
+#: customizer/section/color/frontpage/product-list-tab-slider.php:55
+#: customizer/section/color/frontpage/top-slider-color.php:84
+#: customizer/section/color/global-color.php:61
+#: customizer/section/color/main-header-color.php:195
+#: customizer/section/color/main-header-color.php:240
+#: customizer/section/color/main-header-color.php:301
+#: customizer/section/color/mobile-pan-color.php:81
+#: customizer/section/color/sidebar-color.php:81
+#: customizer/section/color/sticky-header-color.php:184
+#: customizer/section/color/sticky-header-color.php:244
+msgid "Link Hover Color"
+msgstr ""
+
+#: customizer/section/color/canvas-color.php:66
+#: customizer/section/color/frontpage/category-slider-color.php:41
+#: customizer/section/color/global-color.php:92
+#: customizer/section/color/main-header-color.php:108
+#: customizer/section/color/sticky-header-color.php:109
+#: customizer/section/color/woo-single-color.php:10
+#: inc/widget/product-widget-two.php:428
+msgid "Title Color"
+msgstr ""
+
+#: customizer/section/color/content-color.php:27
+msgid "Heading (H1) Color"
+msgstr ""
+
+#: customizer/section/color/content-color.php:42
+msgid "Heading (H2) Color"
+msgstr ""
+
+#: customizer/section/color/content-color.php:57
+msgid "Heading (H3) Color"
+msgstr ""
+
+#: customizer/section/color/content-color.php:72
+msgid "Heading (H4) Color"
+msgstr ""
+
+#: customizer/section/color/content-color.php:87
+msgid "Heading (H5) Color"
+msgstr ""
+
+#: customizer/section/color/content-color.php:103
+msgid "Heading (H6) Color"
+msgstr ""
+
+#: customizer/section/color/footer-widget-color.php:102
+#: customizer/section/color/sidebar-color.php:37
+#: inc/widget/product-widget-one.php:293
+#: inc/widget/product-widget-three.php:275
+msgid "Widget Title Color"
+msgstr ""
+
+#: customizer/section/color/frontpage/big-featured-color.php:27
+#: customizer/section/color/frontpage/category-slider-color.php:10
+#: customizer/section/color/frontpage/category-tab-color.php:10
+#: customizer/section/color/frontpage/custom-four-color.php:25
+#: customizer/section/color/frontpage/custom-one-color.php:25
+#: customizer/section/color/frontpage/custom-three-color.php:25
+#: customizer/section/color/frontpage/custom-two-color.php:25
+#: customizer/section/color/frontpage/highlight-color.php:26
+#: customizer/section/color/frontpage/product-list-slider.php:10
+#: customizer/section/color/frontpage/product-list-tab-slider.php:10
+#: customizer/section/color/frontpage/product-slider-color.php:10
+#: customizer/section/color/frontpage/ribbon-color.php:26
+#: customizer/section/color/frontpage/top-slider-color.php:40
+#: customizer/section/inner-page/aboutus-page.php:350
+msgid "Heading Color"
+msgstr ""
+
+#: customizer/section/color/frontpage/category-slider-color.php:56
+msgid "Number Color"
+msgstr ""
+
+#: customizer/section/color/frontpage/highlight-color.php:41
+#: customizer/section/color/frontpage/top-slider-color.php:55
+msgid "Sub Heading Color"
+msgstr ""
+
+#: customizer/section/color/frontpage/ribbon-color.php:40
+msgid "Button Background Color"
+msgstr ""
+
+#: customizer/section/color/frontpage/top-slider-color.php:26
+msgid "Overlay Color"
+msgstr ""
+
+#: customizer/section/color/global-color.php:13
+msgid "Color Scheme"
+msgstr ""
+
+#: customizer/section/color/global-color.php:17
+msgid "Light"
+msgstr ""
+
+#: customizer/section/color/global-color.php:18
+msgid "Dark"
+msgstr ""
+
+#: customizer/section/color/global-color.php:31
+msgid "Theme Color"
+msgstr ""
+
+#: customizer/section/color/main-header-color.php:123
+#: customizer/section/color/sticky-header-color.php:124
+msgid "Title Hover Color"
+msgstr ""
+
+#: customizer/section/color/main-header-color.php:139
+#: customizer/section/color/sticky-header-color.php:140
+msgid "Tagline Color"
+msgstr ""
+
+#: customizer/section/color/main-header-color.php:316
+#: customizer/section/color/sticky-header-color.php:259
+msgid "Link Background Hover Color"
+msgstr ""
+
+#: customizer/section/color/main-header-color.php:404
+msgid "Text Hover Color"
+msgstr ""
+
+#: customizer/section/color/mobile-pan-color.php:10
+msgid "Mobile Header Color"
+msgstr ""
+
+#: customizer/section/color/sticky-header-color.php:286
+msgid "Icon Background Color"
+msgstr ""
+
+#: customizer/section/color/woo-product-color.php:10
+msgid "Product Background"
+msgstr ""
+
+#: customizer/section/color/woo-product-color.php:42
+msgid "Rating"
+msgstr ""
+
+#: customizer/section/color/woo-product-color.php:126
+msgid "Button Color"
+msgstr ""
+
+#: customizer/section/color/woo-product-color.php:168
+msgid "Hover Color"
+msgstr ""
+
+#: customizer/section/color/woo-single-color.php:25
+msgid "Rating Color"
+msgstr ""
+
+#: customizer/section/color/woo-single-color.php:40
+msgid "Price Color"
+msgstr ""
+
+#: customizer/section/frontpage/banner.php:7
+#: customizer/section/frontpage/brand.php:7
+#: customizer/section/frontpage/category-list-tab.php:7
+#: customizer/section/frontpage/category-slider.php:7
+#: customizer/section/frontpage/category-tab.php:21
+#: customizer/section/frontpage/higlight.php:7
+#: customizer/section/frontpage/product-bigfeature.php:10
+#: customizer/section/frontpage/product-list.php:7
+#: customizer/section/frontpage/product-slide.php:17
+#: customizer/section/frontpage/ribbon.php:7
+#: customizer/section/frontpage/top-slider.php:7
+msgid "Disable Section"
+msgstr ""
+
+#: customizer/section/frontpage/banner.php:54
+#: customizer/section/frontpage/top-slider.php:126
+#: customizer/section/frontpage/top-slider.php:148
+#: customizer/section/frontpage/top-slider.php:211
+msgid "Image 1"
+msgstr ""
+
+#: customizer/section/frontpage/banner.php:66
+#: customizer/section/frontpage/banner.php:89
+#: customizer/section/frontpage/banner.php:113
+#: customizer/section/frontpage/banner.php:136
+#: customizer/section/frontpage/banner.php:158
+#: customizer/section/frontpage/top-slider.php:136
+#: customizer/section/frontpage/top-slider.php:158
+#: customizer/section/frontpage/top-slider.php:178
+#: customizer/section/frontpage/top-slider.php:199
+#: customizer/section/frontpage/top-slider.php:221
+#: customizer/section/frontpage/top-slider.php:242
+msgid "url"
+msgstr ""
+
+#: customizer/section/frontpage/banner.php:77
+#: customizer/section/frontpage/top-slider.php:168
+#: customizer/section/frontpage/top-slider.php:232
+msgid "Image 2"
+msgstr ""
+
+#: customizer/section/frontpage/banner.php:101
+#: customizer/section/frontpage/top-slider.php:189
+msgid "Image 3"
+msgstr ""
+
+#: customizer/section/frontpage/banner.php:126
+msgid "Image 4"
+msgstr ""
+
+#: customizer/section/frontpage/banner.php:148
+msgid "Image 5"
+msgstr ""
+
+#: customizer/section/frontpage/banner.php:168
+#: customizer/section/frontpage/category-list-tab.php:85
+#: customizer/section/frontpage/category-slider.php:90
+#: customizer/section/frontpage/category-tab.php:102
+#: customizer/section/frontpage/custom-four.php:87
+#: customizer/section/frontpage/custom-one.php:86
+#: customizer/section/frontpage/custom-three.php:87
+#: customizer/section/frontpage/custom-two.php:87
+#: customizer/section/frontpage/product-bigfeature.php:78
+#: customizer/section/frontpage/product-list.php:81
+#: customizer/section/frontpage/product-slide.php:93
+msgid "Disable Content Padding"
+msgstr ""
+
+#: customizer/section/frontpage/brand.php:23
+msgid "Brand Content"
+msgstr ""
+
+#: customizer/section/frontpage/brand.php:25
+msgid "Add new Brand"
+msgstr ""
+
+#: customizer/section/frontpage/brand.php:50
+#: customizer/section/frontpage/category-list-tab.php:75
+#: customizer/section/frontpage/category-slider.php:79
+#: customizer/section/frontpage/category-tab.php:91
+#: customizer/section/frontpage/product-bigfeature.php:67
+#: customizer/section/frontpage/product-list.php:71
+#: customizer/section/frontpage/product-slide.php:83
+#: customizer/section/frontpage/top-slider.php:112
+msgid "Slide Auto Play"
+msgstr ""
+
+#: customizer/section/frontpage/category-list-tab.php:14
+#: customizer/section/frontpage/category-slider.php:15
+#: customizer/section/frontpage/category-tab.php:28
+msgid "Category Slider"
+msgstr ""
+
+#: customizer/section/frontpage/category-list-tab.php:20
+#: customizer/section/frontpage/category-slider.php:21
+#: customizer/section/frontpage/category-tab.php:34
+#: customizer/section/frontpage/product-bigfeature.php:23
+#: customizer/section/frontpage/product-list.php:20
+#: customizer/section/frontpage/product-slide.php:30
+msgid "Section Heading"
+msgstr ""
+
+#: customizer/section/frontpage/category-list-tab.php:33
+#: customizer/section/frontpage/category-slider.php:65
+#: customizer/section/frontpage/category-tab.php:47
+#: customizer/section/frontpage/product-bigfeature.php:36
+msgid "Choose Categories To Show"
+msgstr ""
+
+#: customizer/section/frontpage/category-list-tab.php:48
+#: customizer/section/frontpage/category-tab.php:62
+#: customizer/section/frontpage/product-bigfeature.php:50
+#: customizer/section/frontpage/product-list.php:43
+#: customizer/section/frontpage/product-slide.php:54
+msgid "Choose Option"
+msgstr ""
+
+#: customizer/section/frontpage/category-list-tab.php:52
+#: customizer/section/frontpage/category-tab.php:66
+#: customizer/section/frontpage/product-bigfeature.php:54
+#: customizer/section/frontpage/product-list.php:47
+#: customizer/section/frontpage/product-slide.php:58
+#: inc/widget/product-widget-four.php:232
+#: inc/widget/product-widget-multi-slide.php:207
+#: inc/widget/product-widget-one.php:245
+#: inc/widget/product-widget-three.php:226
+#: inc/widget/product-widget-two.php:364
+msgid "Recent"
+msgstr ""
+
+#: customizer/section/frontpage/category-list-tab.php:53
+#: customizer/section/frontpage/category-tab.php:67
+#: customizer/section/frontpage/product-bigfeature.php:55
+#: customizer/section/frontpage/product-list.php:48
+#: customizer/section/frontpage/product-slide.php:59
+#: inc/widget/product-widget-four.php:233
+#: inc/widget/product-widget-multi-slide.php:208
+#: inc/widget/product-widget-one.php:246
+#: inc/widget/product-widget-three.php:227
+#: inc/widget/product-widget-two.php:365
+msgid "Featured"
+msgstr ""
+
+#: customizer/section/frontpage/category-list-tab.php:54
+#: customizer/section/frontpage/category-tab.php:68
+#: customizer/section/frontpage/product-bigfeature.php:56
+#: customizer/section/frontpage/product-list.php:49
+#: customizer/section/frontpage/product-slide.php:60
+#: inc/widget/product-widget-four.php:234
+#: inc/widget/product-widget-multi-slide.php:209
+#: inc/widget/product-widget-one.php:247
+#: inc/widget/product-widget-three.php:228
+#: inc/widget/product-widget-two.php:366
+msgid "Random"
+msgstr ""
+
+#: customizer/section/frontpage/category-list-tab.php:64
+#: customizer/section/frontpage/category-tab.php:78
+#: customizer/section/frontpage/product-list.php:58
+#: customizer/section/frontpage/product-slide.php:70
+msgid "Enable Single Row Slide"
+msgstr ""
+
+#: customizer/section/frontpage/category-slider.php:38
+msgid "Category Layout"
+msgstr ""
+
+#: customizer/section/frontpage/custom-four.php:13
+#: customizer/section/frontpage/custom-one.php:13
+#: customizer/section/frontpage/custom-three.php:13
+#: customizer/section/frontpage/custom-two.php:13
+msgid "Disable section"
+msgstr ""
+
+#: customizer/section/frontpage/custom-four.php:75
+#: customizer/section/frontpage/custom-one.php:75
+#: customizer/section/frontpage/custom-three.php:75
+#: customizer/section/frontpage/custom-two.php:75
+#: customizer/section/layout/footer/above-footer.php:83
+#: customizer/section/layout/footer/above-footer.php:168
+#: customizer/section/layout/footer/above-footer.php:268
+#: customizer/section/layout/footer/bottom-footer.php:82
+#: customizer/section/layout/footer/bottom-footer.php:168
+#: customizer/section/layout/footer/bottom-footer.php:269
+#: customizer/section/layout/footer/widget-footer.php:64
+#: customizer/section/layout/header/above-header.php:97
+#: customizer/section/layout/header/above-header.php:199
+#: customizer/section/layout/header/above-header.php:301
+#: customizer/section/layout/header/main-header.php:144
+msgid "Go To Widget"
+msgstr ""
+
+#: customizer/section/frontpage/higlight.php:38
+msgid "Highlight Content"
+msgstr ""
+
+#: customizer/section/frontpage/higlight.php:41
+msgid "Add new Feature"
+msgstr ""
+
+#: customizer/section/frontpage/higlight.php:42
+msgid "Feature"
+msgstr ""
+
+#: customizer/section/frontpage/product-bigfeature.php:17
+msgid "Big Featured Slider"
+msgstr ""
+
+#: customizer/section/frontpage/product-list.php:14
+msgid "Product List"
+msgstr ""
+
+#: customizer/section/frontpage/product-list.php:30
+#: customizer/section/frontpage/product-slide.php:41
+msgid "Select Category"
+msgstr ""
+
+#: customizer/section/frontpage/product-slide.php:24
+msgid "Product Slider"
+msgstr ""
+
+#: customizer/section/frontpage/ribbon.php:103
+#: customizer/section/layout/header/main-header.php:92
+msgid "Button Link"
+msgstr ""
+
+#: customizer/section/frontpage/top-slider.php:23
+msgid "Slider Layout"
+msgstr ""
+
+#: customizer/section/frontpage/top-slider.php:59
+#: customizer/section/frontpage/top-slider.php:88
+msgid "Slide Content"
+msgstr ""
+
+#: customizer/section/frontpage/top-slider.php:61
+#: customizer/section/frontpage/top-slider.php:90
+msgid "Add new Slide"
+msgstr ""
+
+#: customizer/section/frontpage/top-slider.php:62
+#: customizer/section/frontpage/top-slider.php:91
+msgid "Slide"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:19
+msgid "Services Content"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:22
+msgid "Add new Service"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:23
+msgid "Service"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:50
+msgid "Introduction Heading"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:63
+msgid "Introduction Description"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:75
+msgid "Introduction Sign"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:116
+msgid "Introduction Image"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:143
+msgid "Testimonials Content"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:146
+msgid "Add new Testimonial"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:147
+msgid "Testimonial"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:179
+msgid "Team Content"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:182
+msgid "Add new Team"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:183
+msgid "Team"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:212
+msgid "Counter Content"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:215
+msgid "Add new Counter"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:216
+msgid "Counter"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:247
+#: customizer/section/inner-page/contact-page.php:88
+#: customizer/section/inner-page/faq-page.php:46
+msgid "Settings"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:260
+#: customizer/section/inner-page/contact-page.php:100
+#: customizer/section/inner-page/faq-page.php:52
+msgid "Color & Bg"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:364
+msgid "Subheading Color"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:379
+msgid "Description Color"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:393
+#: customizer/section/layout/footer/above-footer.php:354
+#: customizer/section/layout/footer/bottom-footer.php:355
+#: customizer/section/layout/header/above-header.php:364
+msgid "Border Color"
+msgstr ""
+
+#: customizer/section/inner-page/aboutus-page.php:406
+msgid "Border Hover Color"
+msgstr ""
+
+#: customizer/section/inner-page/contact-page.php:8
+msgid "Contact Us Shortcode"
+msgstr ""
+
+#: customizer/section/inner-page/contact-page.php:9
+msgid "Lead Form Builder Plugin Shortcode Insert."
+msgstr ""
+
+#: customizer/section/inner-page/contact-page.php:23
+#: customizer/section/inner-page/contact-page.php:70
+msgid "Address"
+msgstr ""
+
+#: customizer/section/inner-page/contact-page.php:35
+msgid "Mobile Number"
+msgstr ""
+
+#: customizer/section/inner-page/contact-page.php:46
+#: customizer/section/layout/header/main-header.php:129
+msgid "Email"
+msgstr ""
+
+#: customizer/section/inner-page/contact-page.php:59
+msgid "Working Hours"
+msgstr ""
+
+#: customizer/section/inner-page/faq-page.php:13
+msgid "Faq Content"
+msgstr ""
+
+#: customizer/section/inner-page/faq-page.php:16
+msgid "Add new Faq"
+msgstr ""
+
+#: customizer/section/inner-page/faq-page.php:93
+msgid "Faq Heading Color"
+msgstr ""
+
+#: customizer/section/inner-page/faq-page.php:104
+msgid "Faq Description Color"
+msgstr ""
+
+#: customizer/section/inner-page/faq-page.php:115
+msgid "Faq Heading Background Color"
+msgstr ""
+
+#: customizer/section/inner-page/faq-page.php:126
+msgid "Faq Symbol Color"
+msgstr ""
+
+#: customizer/section/layout/blog/blog.php:14
+msgid "Blog Post Content"
+msgstr ""
+
+#: customizer/section/layout/blog/blog.php:18
+msgid "Full Content"
+msgstr ""
+
+#: customizer/section/layout/blog/blog.php:19
+msgid "Excerpt Content"
+msgstr ""
+
+#: customizer/section/layout/blog/blog.php:20
+msgid "No Content"
+msgstr ""
+
+#: customizer/section/layout/blog/blog.php:34
+msgid "Excerpt Length"
+msgstr ""
+
+#: customizer/section/layout/blog/blog.php:54
+#: inc/widget/about-us-widget.php:147
+msgid "Read More Text"
+msgstr ""
+
+#: customizer/section/layout/blog/blog.php:70
+#: customizer/section/woo/shop.php:29
+msgid "Post Pagination"
+msgstr ""
+
+#: customizer/section/layout/blog/blog.php:74
+#: customizer/section/woo/shop.php:33
+msgid "Numbered"
+msgstr ""
+
+#: customizer/section/layout/blog/blog.php:75
+#: customizer/section/woo/shop.php:34 inc/woocommerce/woo-core.php:570
+#: inc/woocommerce/woo-core.php:572
+msgid "Load More"
+msgstr ""
+
+#: customizer/section/layout/blog/blog.php:76
+#: customizer/section/woo/shop.php:35
+msgid "Infinite Scroll"
+msgstr ""
+
+#: customizer/section/layout/blog/blog.php:85
+msgid "Force to disable sidebar in single page."
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:47
+#: customizer/section/layout/footer/bottom-footer.php:46
+#: customizer/section/layout/header/above-header.php:60
+#: customizer/section/layout/header/main-header.php:60
+msgid "Column 1"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:53
+#: customizer/section/layout/footer/above-footer.php:139
+#: customizer/section/layout/footer/above-footer.php:222
+#: customizer/section/layout/footer/bottom-footer.php:52
+#: customizer/section/layout/footer/bottom-footer.php:138
+#: customizer/section/layout/footer/bottom-footer.php:222
+#: customizer/section/layout/header/above-header.php:66
+#: customizer/section/layout/header/above-header.php:151
+#: customizer/section/layout/header/above-header.php:236
+msgid "Menu"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:54
+#: customizer/section/layout/footer/above-footer.php:140
+#: customizer/section/layout/footer/above-footer.php:223
+#: customizer/section/layout/footer/bottom-footer.php:53
+#: customizer/section/layout/footer/bottom-footer.php:140
+#: customizer/section/layout/footer/bottom-footer.php:224
+#: customizer/section/layout/header/above-header.php:67
+#: customizer/section/layout/header/above-header.php:152
+#: customizer/section/layout/header/above-header.php:237
+#: customizer/section/layout/header/main-header.php:67
+msgid "Widget"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:55
+#: customizer/section/layout/footer/above-footer.php:141
+#: customizer/section/layout/footer/above-footer.php:224
+#: customizer/section/layout/footer/bottom-footer.php:54
+#: customizer/section/layout/footer/bottom-footer.php:141
+#: customizer/section/layout/footer/bottom-footer.php:225
+#: customizer/section/layout/header/above-header.php:68
+#: customizer/section/layout/header/above-header.php:153
+#: customizer/section/layout/header/above-header.php:238
+msgid "Social Media"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:60
+#: customizer/section/layout/footer/above-footer.php:146
+#: customizer/section/layout/footer/above-footer.php:229
+#: customizer/section/layout/footer/bottom-footer.php:146
+#: customizer/section/layout/footer/bottom-footer.php:230
+#: customizer/section/layout/header/above-header.php:74
+#: customizer/section/layout/header/above-header.php:159
+#: customizer/section/layout/header/above-header.php:245
+#: inc/footer-function.php:273 inc/footer-function.php:307
+#: inc/footer-function.php:340 inc/footer-function.php:407
+#: inc/footer-function.php:441 inc/header-function.php:69
+#: inc/header-function.php:118 inc/header-function.php:168
+msgid "Add your content here"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:100
+#: customizer/section/layout/footer/above-footer.php:185
+#: customizer/section/layout/footer/above-footer.php:285
+#: customizer/section/layout/footer/bottom-footer.php:99
+#: customizer/section/layout/footer/bottom-footer.php:185
+#: customizer/section/layout/footer/bottom-footer.php:286
+#: customizer/section/layout/header/above-header.php:114
+#: customizer/section/layout/header/above-header.php:182
+#: customizer/section/layout/header/above-header.php:285
+msgid "Go To Menu"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:117
+#: customizer/section/layout/footer/above-footer.php:202
+#: customizer/section/layout/footer/above-footer.php:251
+#: customizer/section/layout/footer/bottom-footer.php:116
+#: customizer/section/layout/footer/bottom-footer.php:202
+#: customizer/section/layout/footer/bottom-footer.php:252
+#: customizer/section/layout/header/above-header.php:131
+#: customizer/section/layout/header/above-header.php:216
+#: customizer/section/layout/header/above-header.php:268
+msgid "Go To Social Media"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:133
+#: customizer/section/layout/footer/bottom-footer.php:132
+#: customizer/section/layout/header/above-header.php:145
+msgid "Column 2"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:216
+#: customizer/section/layout/footer/bottom-footer.php:216
+#: customizer/section/layout/header/above-header.php:230
+msgid "Column 3"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:305
+#: customizer/section/layout/footer/bottom-footer.php:306
+#: customizer/section/layout/header/above-header.php:319
+msgid "Height"
+msgstr ""
+
+#: customizer/section/layout/footer/above-footer.php:331
+#: customizer/section/layout/header/above-header.php:341
+msgid "Bottom Border"
+msgstr ""
+
+#: customizer/section/layout/footer/bottom-footer.php:59
+msgid "Copyright | Open Mart | Developed by ThemeHunk"
+msgstr ""
+
+#: customizer/section/layout/footer/bottom-footer.php:332
+msgid "Top Border"
+msgstr ""
+
+#: customizer/section/layout/header/above-header.php:15
+msgid "Disable in mobile"
+msgstr ""
+
+#: customizer/section/layout/header/loader.php:8
+msgid "Enable Loader"
+msgstr ""
+
+#: customizer/section/layout/header/loader.php:38
+msgid "Pre Loader Image"
+msgstr ""
+
+#: customizer/section/layout/header/loader.php:39
+msgid "(You can also use GIF image.)"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:14
+msgid "Header Layout"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:43
+msgid "Menu Alignment"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:47
+#: customizer/section/layout/header/main-header.php:162
+msgid "Left"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:48
+#: customizer/section/layout/header/main-header.php:163
+msgid "center"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:49
+#: customizer/section/layout/header/main-header.php:164
+msgid "Right"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:65
+msgid "Button"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:66
+msgid "Call-To"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:86
+msgid "#"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:100
+msgid "Call To"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:106
+msgid "Call To Text"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:112
+msgid "+1800090098"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:118
+msgid "Call To Number"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:123
+msgid "Info@gmail.com"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:158
+msgid "Mobile Menu"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:182
+msgid "Before logo"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:183
+msgid "After logo"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:192
+msgid "Check to disable category dropdown"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:219
+msgid "Sticky Header Effect"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:223
+msgid "Effect One"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:224
+msgid "Effect Two"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:236
+msgid "Check to disable whislist icon in mobile device"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:248
+msgid "Check to disable account icon in mobile device"
+msgstr ""
+
+#: customizer/section/layout/header/main-header.php:260
+msgid "Check to disable cart icon in mobile device"
+msgstr ""
+
+#: customizer/section/layout/header/set-identity.php:27
+msgid "Retina Logo"
+msgstr ""
+
+#: customizer/section/layout/header/set-identity.php:40
+msgid "Display Site Title"
+msgstr ""
+
+#: customizer/section/layout/header/set-identity.php:55
+msgid "Display Tagline"
+msgstr ""
+
+#: customizer/section/layout/header/set-identity.php:75
+msgid "Logo Width"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:8
+msgid "Show Original Color"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:19
+msgid "Facebook URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:32
+msgid "LinkedIn URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:44
+msgid "Pinterest URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:57
+msgid "Twitter URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:69
+msgid "Instagram URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:81
+msgid "Tumblr URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:93
+msgid "Youtube URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:105
+msgid "Stumbleupon URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:117
+msgid "Dribble URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon/social-icon.php:130
+msgid "Skype URL"
+msgstr ""
+
+#: customizer/section/typo/base-typography.php:10
+#: customizer/section/typo/content-typography.php:23
+#: customizer/section/typo/content-typography.php:175
+#: customizer/section/typo/content-typography.php:326
+#: customizer/section/typo/content-typography.php:477
+#: customizer/section/typo/content-typography.php:626
+#: customizer/section/typo/content-typography.php:776
+msgid "Font Family"
+msgstr ""
+
+#: customizer/section/typo/base-typography.php:15
+#: customizer/section/typo/content-typography.php:28
+#: customizer/section/typo/content-typography.php:180
+#: customizer/section/typo/content-typography.php:331
+#: customizer/section/typo/content-typography.php:482
+#: customizer/section/typo/content-typography.php:631
+#: customizer/section/typo/content-typography.php:781
+#: customizer/section/typo/title-typography.php:15
+#: inc/class-openmart-pro-font-families.php:540
+msgid "Default System Font"
+msgstr ""
+
+#: customizer/section/typo/base-typography.php:29
+#: customizer/section/typo/content-typography.php:43
+#: customizer/section/typo/content-typography.php:195
+#: customizer/section/typo/content-typography.php:346
+#: customizer/section/typo/content-typography.php:497
+#: customizer/section/typo/content-typography.php:646
+#: customizer/section/typo/content-typography.php:796
+msgid "Font Weight"
+msgstr ""
+
+#: customizer/section/typo/base-typography.php:46
+#: customizer/section/typo/content-typography.php:61
+#: customizer/section/typo/content-typography.php:213
+#: customizer/section/typo/content-typography.php:364
+#: customizer/section/typo/content-typography.php:515
+#: customizer/section/typo/content-typography.php:664
+#: customizer/section/typo/content-typography.php:814
+#: customizer/section/typo/title-typography.php:46
+msgid "Text Transform"
+msgstr ""
+
+#: customizer/section/typo/base-typography.php:52
+#: customizer/section/typo/content-typography.php:67
+#: customizer/section/typo/content-typography.php:219
+#: customizer/section/typo/content-typography.php:370
+#: customizer/section/typo/content-typography.php:521
+#: customizer/section/typo/content-typography.php:670
+#: customizer/section/typo/content-typography.php:820
+#: customizer/section/typo/title-typography.php:52
+msgid "Capitalize"
+msgstr ""
+
+#: customizer/section/typo/base-typography.php:53
+#: customizer/section/typo/content-typography.php:68
+#: customizer/section/typo/content-typography.php:220
+#: customizer/section/typo/content-typography.php:371
+#: customizer/section/typo/content-typography.php:522
+#: customizer/section/typo/content-typography.php:671
+#: customizer/section/typo/content-typography.php:821
+#: customizer/section/typo/title-typography.php:53
+msgid "Uppercase"
+msgstr ""
+
+#: customizer/section/typo/base-typography.php:54
+#: customizer/section/typo/content-typography.php:69
+#: customizer/section/typo/content-typography.php:221
+#: customizer/section/typo/content-typography.php:372
+#: customizer/section/typo/content-typography.php:523
+#: customizer/section/typo/content-typography.php:672
+#: customizer/section/typo/content-typography.php:822
+#: customizer/section/typo/title-typography.php:54
+msgid "Lowercase"
+msgstr ""
+
+#: customizer/section/typo/base-typography.php:71
+#: customizer/section/typo/content-typography.php:88
+#: customizer/section/typo/content-typography.php:240
+#: customizer/section/typo/content-typography.php:391
+#: customizer/section/typo/content-typography.php:542
+#: customizer/section/typo/content-typography.php:691
+#: customizer/section/typo/content-typography.php:841
+msgid "Font-Size"
+msgstr ""
+
+#: customizer/section/typo/base-typography.php:95
+#: customizer/section/typo/content-typography.php:113
+#: customizer/section/typo/content-typography.php:265
+#: customizer/section/typo/content-typography.php:416
+#: customizer/section/typo/content-typography.php:567
+#: customizer/section/typo/content-typography.php:716
+#: customizer/section/typo/content-typography.php:866
+msgid "Line-Height"
+msgstr ""
+
+#: customizer/section/typo/base-typography.php:119
+#: customizer/section/typo/content-typography.php:138
+#: customizer/section/typo/content-typography.php:290
+#: customizer/section/typo/content-typography.php:441
+#: customizer/section/typo/content-typography.php:592
+#: customizer/section/typo/content-typography.php:741
+#: customizer/section/typo/content-typography.php:891
+msgid "Letter-Spacing"
+msgstr ""
+
+#: customizer/section/typo/content-typography.php:10
+msgid "Heading 1"
+msgstr ""
+
+#: customizer/section/typo/content-typography.php:162
+msgid "Heading 2"
+msgstr ""
+
+#: customizer/section/typo/content-typography.php:313
+msgid "Heading 3"
+msgstr ""
+
+#: customizer/section/typo/content-typography.php:464
+msgid "Heading 4"
+msgstr ""
+
+#: customizer/section/typo/content-typography.php:615
+msgid "Heading 5"
+msgstr ""
+
+#: customizer/section/typo/content-typography.php:765
+msgid "Heading 6"
+msgstr ""
+
+#: customizer/section/typo/title-typography.php:10
+msgid "font family"
+msgstr ""
+
+#: customizer/section/typo/title-typography.php:29
+msgid "Weight"
+msgstr ""
+
+#: customizer/section/woo/cart.php:33
+#: customizer/section/woo/single-product.php:53
+#: customizer/section/woo/single-product.php:126
+msgid "Number Of Column To Show"
+msgstr ""
+
+#: customizer/section/woo/cart.php:55
+#: customizer/section/woo/single-product.php:77
+#: customizer/section/woo/single-product.php:150
+msgid "Number Of Product To Show"
+msgstr ""
+
+#: customizer/section/woo/checkout.php:22
+msgid "Enable Distraction Free Checkout."
+msgstr ""
+
+#: customizer/section/woo/checkout.php:38
+#, php-format
+msgid "To know more go with this <a target=\"_blank\" href=\"%s\">Doc</a> !"
+msgstr ""
+
+#: customizer/section/woo/product.php:14
+msgid "Product Image Hover Style"
+msgstr ""
+
+#: customizer/section/woo/product.php:19
+msgid "Zoom"
+msgstr ""
+
+#: customizer/section/woo/product.php:20
+msgid "Swap"
+msgstr ""
+
+#: customizer/section/woo/product.php:31
+msgid "Enable Quick View."
+msgstr ""
+
+#: customizer/section/woo/shop.php:9
+msgid "Display Product View"
+msgstr ""
+
+#: customizer/section/woo/shop.php:10
+msgid "(Select layout to display products at shop page.)"
+msgstr ""
+
+#: customizer/section/woo/shop.php:14
+msgid "Grid"
+msgstr ""
+
+#: customizer/section/woo/shop.php:15
+msgid "List"
+msgstr ""
+
+#: customizer/section/woo/shop.php:48
+msgid "Load More Text"
+msgstr ""
+
+#: customizer/section/woo/single-product.php:14
+msgid "Force to disable sidebar in product page."
+msgstr ""
+
+#: customizer/section/woo/single-product.php:29
+msgid "Up Sell Product"
+msgstr ""
+
+#: customizer/section/woo/single-product.php:37
+msgid "Display up sell product"
+msgstr ""
+
+#: customizer/section/woo/single-product.php:100
+msgid "Related Product"
+msgstr ""
+
+#: customizer/section/woo/single-product.php:108
+msgid "Display Related product"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:107
+msgid "Inherit"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:109
+msgid "Thin 100"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:110
+msgid "100 Italic"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:111
+msgid "Extra-Light 200"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:112
+msgid "200 Italic"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:113
+msgid "Light 300"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:114
+msgid "300 Italic"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:115
+msgid "Normal 400"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:116
+msgid "400 Italic"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:117
+msgid "Medium 500"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:118
+msgid "500 Italic"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:119
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:120
+msgid "600 Italic"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:121
+msgid "Bold 700"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:122
+msgid "700 Italic"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:123
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:124
+msgid "800 Italic"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:125
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: customizer/typography/class-openmart-pro-control-typography.php:126
+msgid "900 Italic"
+msgstr ""
+
+#: functions.php:122
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:124
+msgid "Add widgets here to appear in your primary sidebar."
+msgstr ""
+
+#: functions.php:131
+msgid "Above Header First Widget"
+msgstr ""
+
+#: functions.php:133 functions.php:142 functions.php:151
+msgid "Add widgets here to appear in top header."
+msgstr ""
+
+#: functions.php:140
+msgid "Above Header Second Widget"
+msgstr ""
+
+#: functions.php:149
+msgid "Above Header Third Widget"
+msgstr ""
+
+#: functions.php:159
+msgid "Main Header Widget"
+msgstr ""
+
+#: functions.php:161
+msgid "Add widgets here to appear in main header."
+msgstr ""
+
+#: functions.php:168
+msgid "Footer Top First Widget"
+msgstr ""
+
+#: functions.php:170 functions.php:179 functions.php:188 functions.php:197
+#: functions.php:206 functions.php:215
+msgid "Add widgets here to appear in top footer."
+msgstr ""
+
+#: functions.php:177
+msgid "Footer Top Second Widget"
+msgstr ""
+
+#: functions.php:186
+msgid "Footer Top Third Widget"
+msgstr ""
+
+#: functions.php:195
+msgid "Footer Below First Widget"
+msgstr ""
+
+#: functions.php:204
+msgid "Footer Below Second Widget"
+msgstr ""
+
+#: functions.php:213
+msgid "Footer Below Third Widget"
+msgstr ""
+
+#: functions.php:223
+#, php-format
+msgid "Footer Widget Area %d"
+msgstr ""
+
+#: functions.php:234
+#, php-format
+msgid "First Custom Section Widget Area %d"
+msgstr ""
+
+#: functions.php:243
+#, php-format
+msgid "Second Custom Section Widget Area %d"
+msgstr ""
+
+#: functions.php:252
+#, php-format
+msgid "Third Custom Section Widget Area %d"
+msgstr ""
+
+#: functions.php:261
+#, php-format
+msgid "Fourth Custom Section Widget Area %d"
+msgstr ""
+
+#: header.php:74
+msgid "Skip to content"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:131
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:167
+#: import/importer/class-wxr-importer.php:283
+#: import/importer/class-wxr-importer.php:356
+#, php-format
+msgid ""
+"This WXR file (version %1$s) is newer than the importer (version %2$s) and "
+"may not be supported. Please consider updating."
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:504
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:564
+msgid "Invalid author mapping"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:665
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:753
+#, php-format
+msgid "Failed to import \"%1$s\": Invalid post type %2$s"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:763
+#, php-format
+msgid "%1$s \"%2$s\" already exists."
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:857
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:878
+#, php-format
+msgid "Failed to import \"%1$s\" (%2$s)"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:910
+#: import/importer/class-wxr-importer.php:1755
+#, php-format
+msgid "Imported \"%1$s\" (%2$s)"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:915
+#, php-format
+msgid "Post %1$d remapped to %2$d"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1062
+msgid "Invalid file type"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1560
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1581
+#, php-format
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1585
+#, php-format
+msgid "User %1$d remapped to %2$d"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1731
+#, php-format
+msgid "Failed to import %1$s %2$s"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1760
+#, php-format
+msgid "Term %1$d remapped to %2$d"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1813
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1826
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1831
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1837
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1859
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1872
+#, php-format
+msgid "Could not find the post parent for \"%1$s\" (post #%2$d)"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1877
+#, php-format
+msgid "Post %1$d was imported with parent %2$d, but could not be found"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1891
+#, php-format
+msgid "Could not find the author for \"%1$s\" (post #%2$d)"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1896
+#, php-format
+msgid "Post %1$d was imported with author \"%2$s\", but could not be found"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1922
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1933
+#, php-format
+msgid "Could not update \"%1$s\" (post #%2$d) with mapped data"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1978
+#, php-format
+msgid "Could not find the menu object for \"%1$s\" (post #%2$d)"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:1983
+#, php-format
+msgid ""
+"Post %1$d was imported with object \"%2$d\" of type \"%3$s\", but could not "
+"be found"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:2005
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:2009
+#, php-format
+msgid "Comment %1$d was imported with parent %2$d, but could not be found"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:2023
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:2027
+#, php-format
+msgid "Comment %1$d was imported with author %2$d, but could not be found"
+msgstr ""
+
+#: import/importer/class-wxr-importer.php:2044
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: import/importer/wxr-importer.php:189 import/inc/importer.php:189
+msgid "Import complete!"
+msgstr ""
+
+#: import/inc/admin-ajax.php:74
+msgid "No plugin specified"
+msgstr ""
+
+#: import/inc/admin-ajax.php:98
+msgid "Plugin Successfully Activated"
+msgstr ""
+
+#: import/inc/admin-ajax.php:215
+msgid "You have not \"customize\" access to import the Themehunk site library."
+msgstr ""
+
+#: import/inc/admin-ajax.php:239
+msgid "Request site API URL is empty. Try again!"
+msgstr ""
+
+#: import/inc/admin-ajax.php:265
+msgid "There was an error downloading the XML file."
+msgstr ""
+
+#: import/inc/admin-ajax.php:271
+msgid "Invalid site XML file!"
+msgstr ""
+
+#: import/inc/admin-ajax.php:291
+msgid "Customizer data is empty!"
+msgstr ""
+
+#: import/inc/admin-ajax.php:304
+msgid "Site options are empty!"
+msgstr ""
+
+#: import/inc/admin-ajax.php:328
+msgid "Widget data is empty!"
+msgstr ""
+
+#: import/inc/admin-load-page.php:44
+#, php-format
+msgid ""
+"Themehunk Theme needs to be active for you to use currently installed \"%1$s"
+"\" plugin. <a href=\"%2$s\">Install & Activate Now</a>"
+msgstr ""
+
+#: import/inc/admin-load-page.php:77
+msgid "See Library"
+msgstr ""
+
+#: import/inc/admin-load-page.php:114
+msgid "BUY NOW"
+msgstr ""
+
+#: import/inc/admin-load-page.php:116
+msgid "Upgrade"
+msgstr ""
+
+#: import/inc/admin-load-page.php:121
+msgid "Error!"
+msgstr ""
+
+#: import/inc/admin-load-page.php:122
+msgid "Error! Read Possibilities."
+msgstr ""
+
+#: import/inc/admin-load-page.php:124
+msgid "Done! View Site"
+msgstr ""
+
+#: import/inc/admin-load-page.php:125
+msgid "Activating"
+msgstr ""
+
+#: import/inc/admin-load-page.php:126
+msgid "Active"
+msgstr ""
+
+#: import/inc/admin-load-page.php:127
+msgid "Import failed."
+msgstr ""
+
+#: import/inc/admin-load-page.php:128
+msgid "Import failed. See error log."
+msgstr ""
+
+#: import/inc/admin-load-page.php:129
+msgid "Import This Site"
+msgstr ""
+
+#: import/inc/admin-load-page.php:130
+msgid "Importing.."
+msgstr ""
+
+#: import/inc/admin-load-page.php:131
+msgid "Read more"
+msgstr ""
+
+#: import/inc/admin-load-page.php:132
+msgid "Hide"
+msgstr ""
+
+#: import/inc/admin-load-page.php:133
+msgid "There was a problem receiving a response from server."
+msgstr ""
+
+#: import/inc/admin-load-page.php:134
+msgid "No Demos found, Try a different search."
+msgstr ""
+
+#: import/inc/admin-load-page.php:135
+msgid ""
+"Executing Demo Import will make your site similar as ours. Please bear in "
+"mind -\n"
+"\n"
+"1. It is recommended to run import on a fresh WordPress installation.\n"
+"\n"
+"2. Importing site does not delete any pages or posts. However, it can "
+"overwrite your existing content.\n"
+"\n"
+"3. Copyrighted media will not be imported. Instead it will be replaced with "
+"placeholders."
+msgstr ""
+
+#: import/inc/admin-load-page.php:136
+msgid "Import Complete.."
+msgstr ""
+
+#: import/inc/admin-load-page.php:137
+msgid "Importing Customizer"
+msgstr ""
+
+#: import/inc/admin-load-page.php:138
+msgid "Setting up import data.."
+msgstr ""
+
+#: import/inc/admin-load-page.php:139
+msgid "Importing Pages & Media.."
+msgstr ""
+
+#: import/inc/admin-load-page.php:140
+msgid "Importing Widgets.."
+msgstr ""
+
+#: import/inc/admin-load-page.php:141
+msgid "Importing Options Data.."
+msgstr ""
+
+#: import/inc/admin-load-page.php:143
+msgid "Getting Site Information.."
+msgstr ""
+
+#: import/inc/admin-tmpl.php:30
+msgid " Pro Theme"
+msgstr ""
+
+#: import/inc/admin-tmpl.php:33
+msgid "Search Sites"
+msgstr ""
+
+#: import/inc/admin-tmpl.php:34
+msgid "Search Sites..."
+msgstr ""
+
+#: import/inc/admin-tmpl.php:106
+msgid "Close"
+msgstr ""
+
+#: import/inc/admin-tmpl.php:108
+msgid "Previous"
+msgstr ""
+
+#: import/inc/admin-tmpl.php:110
+msgid "Next"
+msgstr ""
+
+#: import/inc/admin-tmpl.php:112 import/inc/admin-tmpl.php:154
+msgid "Install Plugins"
+msgstr ""
+
+#: import/inc/admin-tmpl.php:130
+msgid "Required Plugins"
+msgstr ""
+
+#: import/inc/admin-tmpl.php:161
+msgid "Collapse"
+msgstr ""
+
+#: import/inc/admin-tmpl.php:167
+msgid "Enter desktop preview mode"
+msgstr ""
+
+#: import/inc/admin-tmpl.php:170
+msgid "Enter tablet preview mode"
+msgstr ""
+
+#: import/inc/admin-tmpl.php:173
+msgid "Enter mobile preview mode"
+msgstr ""
+
+#: import/inc/admin-tmpl.php:181
+msgid "Preview"
+msgstr ""
+
+#: import/inc/import-log.php:255
+msgid "Enabled"
+msgstr ""
+
+#: import/inc/import-log.php:258
+msgid "Disabled"
+msgstr ""
+
+#: import/inc/import-log.php:276
+#, php-format
+msgctxt "Recommended Memory Limit"
+msgid ""
+"Current memory limit %1$s. We recommend setting memory to at least %2$s."
+msgstr ""
+
+#: import/inc/import-log.php:343 import/inc/import-log.php:400
+msgid "Yes"
+msgstr ""
+
+#: import/inc/import-log.php:346 import/inc/import-log.php:403
+msgid "No"
+msgstr ""
+
+#: import/inc/import-log.php:357
+msgctxt "PHP Version"
+msgid "We recommend to use php 5.4 or higher"
+msgstr ""
+
+#: import/inc/import-widgets.php:77
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: import/inc/import-widgets.php:120
+msgid "Widget area does not exist in theme (using Inactive)"
+msgstr ""
+
+#: import/inc/import-widgets.php:142
+msgid "Site does not support widget"
+msgstr ""
+
+#: import/inc/import-widgets.php:178
+msgid "Widget already exists"
+msgstr ""
+
+#: import/inc/import-widgets.php:248
+msgid "Imported"
+msgstr ""
+
+#: import/inc/import-widgets.php:251
+msgid "Imported to Inactive"
+msgstr ""
+
+#: import/inc/import-widgets.php:257
+msgid "No Title"
+msgstr ""
+
+#: import/inc/library-page.php:43 import/themehunk.php:14
+msgid "Themehunk Sites"
+msgstr ""
+
+#: import/inc/started-theme.php:2
+msgid "Started with "
+msgstr ""
+
+#. Author of the plugin/theme
+#: import/inc/started-theme.php:26
+msgid "ThemeHunk"
+msgstr ""
+
+#: import/inc/started-theme.php:28
+msgid "Welcome to "
+msgstr ""
+
+#: import/inc/started-theme.php:29
+msgid ""
+" is beautiful one page shopping Woocommerce theme. This theme carries "
+"multiple powerful features which will help you in creating an amazing "
+"shopping site.You can design any type of shopping site and generate more "
+"profit."
+msgstr ""
+
+#: import/inc/started-theme.php:33
+msgid "Setup Home Page"
+msgstr ""
+
+#: import/inc/started-theme.php:35
+msgid ""
+"Go to the Customize > Homepage Settings and select \"Your Latest Post\" "
+"under \"Your homepage display\""
+msgstr ""
+
+#: import/inc/started-theme.php:36
+msgid "Go To Recommended Action"
+msgstr ""
+
+#: import/inc/started-theme.php:37
+msgid "Import Demo Content"
+msgstr ""
+
+#: import/inc/started-theme.php:38
+msgid "Customize Your Website"
+msgstr ""
+
+#: import/inc/started-theme.php:39
+#, php-format
+msgid ""
+"%s theme support live customizer for home page set up. Everything visible at "
+"home page can be changed through customize panel"
+msgstr ""
+
+#: import/inc/started-theme.php:40
+msgid "Start Customize"
+msgstr ""
+
+#: import/inc/started-theme.php:42
+msgid "Theme Support"
+msgstr ""
+
+#: import/inc/started-theme.php:44
+msgid "Support Forum"
+msgstr ""
+
+#: import/inc/started-theme.php:46
+msgid "Theme Documentation"
+msgstr ""
+
+#: import/inc/started-theme.php:48
+msgid ""
+"If you need any help you can contact to our support team, our team is always "
+"ready to help you."
+msgstr ""
+
+#: import/inc/started-theme.php:78
+msgid "Import Demo Template"
+msgstr ""
+
+#: import/themehunk.php:3
+msgid "Open Mart"
+msgstr ""
+
+#: inc/admin-function.php:38
+msgid "Header Above Menu"
+msgstr ""
+
+#: inc/admin-function.php:39
+msgid "Main"
+msgstr ""
+
+#: inc/admin-function.php:40
+msgid "Sticky"
+msgstr ""
+
+#: inc/admin-function.php:41
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/admin-function.php:499 inc/admin-function.php:507
+#: inc/admin-function.php:513 inc/admin-function.php:521
+#: inc/admin-function.php:527 inc/admin-function.php:533
+#: inc/admin-function.php:570 inc/admin-function.php:578
+#: inc/admin-function.php:584 inc/admin-function.php:592
+#: inc/admin-function.php:598 inc/admin-function.php:604
+#: inc/admin-function.php:640 inc/admin-function.php:648
+#: inc/admin-function.php:654 inc/admin-function.php:662
+#: inc/admin-function.php:668 inc/admin-function.php:674
+#: inc/admin-function.php:706 inc/admin-function.php:714
+#: inc/admin-function.php:720 inc/admin-function.php:728
+#: inc/admin-function.php:734 inc/admin-function.php:740
+#: inc/footer-function.php:68 inc/footer-function.php:78
+#: inc/footer-function.php:83 inc/footer-function.php:94
+#: inc/footer-function.php:99 inc/footer-function.php:104
+#: inc/footer-function.php:118 inc/footer-function.php:123
+#: inc/footer-function.php:128 inc/footer-function.php:137
+#: inc/footer-function.php:152 inc/footer-function.php:157
+#: inc/footer-function.php:162 inc/footer-function.php:176
+#: inc/footer-function.php:181 inc/footer-function.php:186
+#: inc/footer-function.php:198 inc/footer-function.php:203
+#: inc/footer-function.php:211 inc/footer-function.php:216
+#: inc/footer-function.php:288 inc/footer-function.php:321
+#: inc/footer-function.php:354 inc/footer-function.php:388
+#: inc/footer-function.php:422 inc/footer-function.php:456
+#: inc/header-function.php:99 inc/header-function.php:149
+#: inc/header-function.php:199
+msgid "Add Widget"
+msgstr ""
+
+#: inc/admin-function.php:802
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/blog-function.php:85
+msgid "Read More"
+msgstr ""
+
+#: inc/footer-function.php:281 inc/footer-function.php:314
+#: inc/footer-function.php:347 inc/footer-function.php:380
+#: inc/footer-function.php:414 inc/footer-function.php:448
+msgid "Assign footer menu"
+msgstr ""
+
+#: inc/header-function.php:92 inc/header-function.php:141
+#: inc/header-function.php:191
+msgid "Assign Above header menu"
+msgstr ""
+
+#: inc/header-function.php:455
+msgctxt "placeholder"
+msgid "Search for Product"
+msgstr ""
+
+#: inc/header-function.php:455
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: inc/header-function.php:465
+msgid "All Category"
+msgstr ""
+
+#: inc/header-function.php:470
+msgctxt "submit button"
+msgid "Submit"
+msgstr ""
+
+#: inc/pagination/pagination.php:51
+msgid "No More Posts"
+msgstr ""
+
+#: inc/widget/about-us-widget.php:23
+msgid "Open Mart : About Us widget"
+msgstr ""
+
+#: inc/widget/about-us-widget.php:96
+msgid "fa fa-facebook"
+msgstr ""
+
+#: inc/widget/about-us-widget.php:97
+msgid "fa fa-twitter"
+msgstr ""
+
+#: inc/widget/about-us-widget.php:98
+msgid "fa fa-linkedin"
+msgstr ""
+
+#: inc/widget/about-us-widget.php:99
+msgid "fa fa-google"
+msgstr ""
+
+#: inc/widget/about-us-widget.php:131
+msgid "Member Image"
+msgstr ""
+
+#: inc/widget/about-us-widget.php:141
+msgid "About Me Description"
+msgstr ""
+
+#: inc/widget/about-us-widget.php:156
+msgid ""
+"Go to this link for <a target=\"_blank\" href=\"//fontawesome.io/icons/"
+"\">Fontawesome icons</a> and copy the class of icon that you need & paste it "
+"below."
+msgstr ""
+
+#: inc/widget/about-us-widget.php:158
+msgid "Fontawesome Social Icon-1"
+msgstr ""
+
+#: inc/widget/about-us-widget.php:162 inc/widget/about-us-widget.php:168
+#: inc/widget/about-us-widget.php:174
+msgid "Social Icon Link"
+msgstr ""
+
+#: inc/widget/about-us-widget.php:166
+msgid "Fontawesome Social Icon-2"
+msgstr ""
+
+#: inc/widget/about-us-widget.php:172
+msgid "Fontawesome Social Icon-3"
+msgstr ""
+
+#: inc/widget/about-us-widget.php:178
+msgid "Fontawesome Social Icon-4"
+msgstr ""
+
+#: inc/widget/about-us-widget.php:180
+msgid "Social Icon Link-4"
+msgstr ""
+
+#: inc/widget/post-single-slide-widget.php:13
+msgid "Open Mart : Post Slide widget"
+msgstr ""
+
+#: inc/widget/post-single-slide-widget.php:21
+msgid "writing your description"
+msgstr ""
+
+#: inc/widget/post-single-slide-widget.php:97
+msgid "Latest News"
+msgstr ""
+
+#: inc/widget/post-single-slide-widget.php:116
+msgid "Latest News Title"
+msgstr ""
+
+#: inc/widget/post-single-slide-widget.php:119
+msgid "Add Number of Post Show"
+msgstr ""
+
+#: inc/widget/post-single-slide-widget.php:123
+msgid "Select Specific Option To Display Post"
+msgstr ""
+
+#: inc/widget/post-single-slide-widget.php:128
+msgid "Show Post Orderby "
+msgstr ""
+
+#: inc/widget/post-single-slide-widget.php:130
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widget/post-single-slide-widget.php:131
+msgid "Random Post"
+msgstr ""
+
+#: inc/widget/post-single-slide-widget.php:132
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/widget/post-single-slide-widget.php:139
+msgid "Unique Post Option"
+msgstr ""
+
+#: inc/widget/post-single-slide-widget.php:140
+msgid ""
+"(Post displaying in this section will be excluded from all bottom sections. "
+"You can use this option to stop repeated post)"
+msgstr ""
+
+#: inc/widget/post-single-slide-widget.php:141
+msgid "Check here to display unique post"
+msgstr ""
+
+#: inc/widget/product-widget-four.php:14
+msgid "Open Mart : Single Product slider widget"
+msgstr ""
+
+#: inc/widget/product-widget-four.php:21 inc/widget/product-widget-four.php:197
+#: inc/widget/product-widget-multi-slide.php:21
+#: inc/widget/product-widget-multi-slide.php:172
+#: inc/widget/product-widget-one.php:21 inc/widget/product-widget-one.php:208
+#: inc/widget/product-widget-three.php:21
+#: inc/widget/product-widget-three.php:189 inc/widget/product-widget-two.php:34
+#: inc/widget/product-widget-two.php:319
+msgid "Latest"
+msgstr ""
+
+#: inc/widget/product-widget-four.php:107
+#: inc/widget/product-widget-multi-slide.php:83
+#: inc/widget/product-widget-one.php:80 inc/widget/product-widget-two.php:145
+#: inc/woocommerce/woo-core.php:341 inc/woocommerce/woo-function.php:709
+#: inc/woocommerce/woo-function.php:785 inc/woocommerce/woo-function.php:912
+#: inc/woocommerce/woocommerce-ajax.php:230
+msgid "Quick View"
+msgstr ""
+
+#: inc/widget/product-widget-four.php:225
+#: inc/widget/product-widget-multi-slide.php:200
+#: inc/widget/product-widget-one.php:238
+#: inc/widget/product-widget-three.php:219
+msgid "Widget Title"
+msgstr ""
+
+#: inc/widget/product-widget-four.php:230
+#: inc/widget/product-widget-multi-slide.php:205
+#: inc/widget/product-widget-one.php:243
+#: inc/widget/product-widget-three.php:224
+#: inc/widget/product-widget-two.php:362
+msgid "Choose Product Type "
+msgstr ""
+
+#: inc/widget/product-widget-four.php:235
+#: inc/widget/product-widget-multi-slide.php:210
+#: inc/widget/product-widget-one.php:248
+#: inc/widget/product-widget-three.php:229
+#: inc/widget/product-widget-two.php:367
+msgid "Sale"
+msgstr ""
+
+#: inc/widget/product-widget-four.php:240
+#: inc/widget/product-widget-multi-slide.php:215
+#: inc/widget/product-widget-one.php:253
+#: inc/widget/product-widget-three.php:234
+#: inc/widget/product-widget-two.php:372
+msgid "Choose Category to Show Product"
+msgstr ""
+
+#: inc/widget/product-widget-four.php:244
+#: inc/widget/product-widget-multi-slide.php:219
+#: inc/widget/product-widget-one.php:265
+#: inc/widget/product-widget-three.php:246
+#: inc/widget/product-widget-two.php:383
+msgid "Add Number of Product to fetch"
+msgstr ""
+
+#: inc/widget/product-widget-four.php:249
+#: inc/widget/product-widget-multi-slide.php:224
+#: inc/widget/product-widget-one.php:270
+#: inc/widget/product-widget-three.php:251
+#: inc/widget/product-widget-two.php:387
+msgid "Autoplay Slider"
+msgstr ""
+
+#: inc/widget/product-widget-multi-slide.php:14
+msgid "Open Mart : Multi Product slider widget"
+msgstr ""
+
+#: inc/widget/product-widget-one.php:14
+msgid "Open Mart : Product slider widget"
+msgstr ""
+
+#: inc/widget/product-widget-one.php:257
+#: inc/widget/product-widget-three.php:238
+#: inc/widget/product-widget-two.php:376
+msgid "Number of Column"
+msgstr ""
+
+#: inc/widget/product-widget-one.php:280
+#: inc/widget/product-widget-three.php:261
+#: inc/widget/product-widget-two.php:395
+msgid "Choose Title Alignment"
+msgstr ""
+
+#: inc/widget/product-widget-three.php:14
+msgid "Open Mart : Product List Slider widget"
+msgstr ""
+
+#: inc/widget/product-widget-two.php:18
+msgid "Open Mart : Single Category Slider"
+msgstr ""
+
+#: inc/widget/product-widget-two.php:404
+msgid "Choose Background"
+msgstr ""
+
+#: inc/widget/product-widget-two.php:405
+msgid ""
+"(For showing the background color of title, first you have to choose "
+"Background as \"Color)"
+msgstr ""
+
+#: inc/widget/product-widget-two.php:423
+msgid "Title Background Color"
+msgstr ""
+
+#: inc/woocommerce/quick-view/quick-view-product-image.php:52
+msgid "Placeholder"
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:89
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:91
+msgid "Add widgets here to appear in your WooCommerce Sidebar."
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:98
+msgid "Product Sidebar"
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:100 inc/woocommerce/woo-core.php:109
+msgid "This sidebar will be used on Single Product page."
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:107
+msgid "Off Canvass Sidebar"
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:236
+msgid "No more products to show."
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:496 inc/woocommerce/woo-core.php:500
+msgid "Grid View"
+msgstr ""
+
+#: inc/woocommerce/woo-core.php:498 inc/woocommerce/woo-core.php:502
+msgid "List View"
+msgstr ""
+
+#: inc/woocommerce/woo-function.php:27 inc/woocommerce/woo-function.php:66
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/woocommerce/woo-function.php:27 inc/woocommerce/woo-function.php:66
+msgid "item"
+msgstr ""
+
+#: inc/woocommerce/woo-function.php:27 inc/woocommerce/woo-function.php:66
+msgid "items"
+msgstr ""
+
+#: inc/woocommerce/woo-function.php:27 inc/woocommerce/woo-function.php:66
+#, php-format
+msgid "<span class=\"count-item\">%d <span class=\"item\">"
+msgid_plural "<span class=\"count-item\">%d <span class=\"item\">"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce/woo-function.php:329
+msgid "No categories"
+msgstr ""
+
+#: inc/woocommerce/woo-function.php:530 inc/woocommerce/woo-function.php:739
+#: inc/woocommerce/woo-function.php:814 inc/woocommerce/woo-function.php:849
+msgid "No products found"
+msgstr ""
+
+#: inc/woocommerce/woo-function.php:1062
+msgid "Click here to assign a widget for this area."
+msgstr ""
+
+#: inc/woocommerce/woocommerce-ajax.php:26
+#, php-format
+msgid "<span class=\"count-item\">%d <span class=\"item\">item</span></span>"
+msgid_plural ""
+"<span class=\"count-item\">%d <span class=\"item\">items</span></span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/breadcrumbs/breadcrumbs.php:248
+msgid "Browse:"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:249
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:250
+msgid "Home"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:251
+msgid "404 Not Found"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:252
+msgid "Archives"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:254
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:256
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:258
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:260
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:712
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:729
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:746
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:762 lib/breadcrumbs/breadcrumbs.php:791
+#: lib/breadcrumbs/breadcrumbs.php:818 lib/breadcrumbs/breadcrumbs.php:845
+#: lib/breadcrumbs/breadcrumbs.php:1186
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:763 lib/breadcrumbs/breadcrumbs.php:819
+#: lib/breadcrumbs/breadcrumbs.php:1190
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:764 lib/breadcrumbs/breadcrumbs.php:1194
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:792
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: lib/page-meta-box/open-page-meta-box.php:25
+msgid "Dynamic Sidebar"
+msgstr ""
+
+#: lib/page-meta-box/open-page-meta-box.php:34
+msgid "Disable Sidebar"
+msgstr ""
+
+#: page-aboutus.php:39
+msgid "The Founder"
+msgstr ""
+
+#: page-aboutus.php:49
+msgid ""
+"Nam varius mauris eget sodales tempus. Quisque sollicitudin consectetur "
+"accumsan. Ut imperdiet mi velit, ut congue justo sagittis eget."
+msgstr ""
+
+#: page-contact.php:38
+msgid "959, Sant  Bhms 066, India"
+msgstr ""
+
+#: page-contact.php:50
+msgid "212-938-3621, 917-204-2105"
+msgstr ""
+
+#: page-contact.php:62
+msgid "support@domain.com"
+msgstr ""
+
+#: page-contact.php:74
+msgid "Everyday 9:00-17:00"
+msgstr ""
+
+#: searchform.php:12
+msgid "search.."
+msgstr ""
+
+#: template-parts/author-bio.php:18
+msgid "Written by"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:17 template-parts/content-single.php:46
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:29
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/content-single.php:35
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Open Mart Pro"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid ""
+"https://themehunk.com/product/open-mart-multipurpose-responsive-ecommerce-"
+"theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Open Mart is a lightweight eCommerce multipurpose theme, You can create any "
+"type of store site using it. Best suited for furniture, grocery, clothing, "
+"electronic, food, home appliances site, gadget store, fashion shop and "
+"decorative stores. Theme option panel is so easy to use, Which definitely "
+"enhance your site making experience. Some theme features are #compare "
+"product, #quick view, #translation ready, #shop with category, #hero slider, "
+"#Product Filter, #Home shop, #Instagram feed, #call to action. Theme is "
+"deeply integrated with Woocommerce plugin. And comes with professionally "
+"designed desktop view as well as with specially focused Mobile view for "
+"better user experience. See demo here: https://themehunk.com/wp-themes/open-"
+"shop-light-scheme/."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.themehunk.com"
+msgstr ""

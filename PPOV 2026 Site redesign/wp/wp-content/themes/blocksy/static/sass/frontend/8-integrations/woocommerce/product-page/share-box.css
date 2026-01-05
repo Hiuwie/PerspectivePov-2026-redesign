@@ -1,0 +1,9 @@
+.entry-summary .ct-share-box {
+  margin-top: var(--product-element-spacing, 35px);
+  padding-top: var(--product-element-spacing, 35px);
+  border-top: 1px solid var(--border-color);
+}
+.entry-summary .ct-share-box .ct-module-title {
+  --font-weight: 600;
+  --margin: 0 0 20px 0;
+}/*# sourceMappingURL=share-box.css.map */

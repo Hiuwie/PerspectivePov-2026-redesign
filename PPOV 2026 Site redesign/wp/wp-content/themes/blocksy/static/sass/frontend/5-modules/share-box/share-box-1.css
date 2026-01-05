@@ -1,0 +1,15 @@
+.ct-share-box[data-type=type-1] > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  border: var(--border);
+  overflow: hidden;
+}
+.ct-share-box[data-type=type-1] a {
+  margin-right: -1px;
+  margin-bottom: -1px;
+  border-right: var(--border);
+  border-bottom: var(--border);
+}
+.ct-share-box[data-type=type-1] .ct-icon-container {
+  height: 50px;
+}/*# sourceMappingURL=share-box-1.css.map */

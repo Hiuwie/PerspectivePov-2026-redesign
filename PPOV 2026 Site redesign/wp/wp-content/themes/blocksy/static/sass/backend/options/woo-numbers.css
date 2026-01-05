@@ -1,0 +1,12 @@
+.ct-woo-columns-and-rows {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 23px;
+}
+.ct-woo-columns-and-rows .ct-option-number {
+  --width: 100%;
+}
+.ct-woo-columns-and-rows.ct-mobile > *:last-child {
+  opacity: 0.5;
+  pointer-events: none;
+}/*# sourceMappingURL=woo-numbers.css.map */

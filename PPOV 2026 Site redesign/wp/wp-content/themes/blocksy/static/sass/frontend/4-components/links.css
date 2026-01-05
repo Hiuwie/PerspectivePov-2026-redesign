@@ -1,0 +1,66 @@
+a {
+  color: var(--linkInitialColor);
+  -webkit-text-decoration: var(--has-link-decoration, var(--textDecoration, none));
+          text-decoration: var(--has-link-decoration, var(--textDecoration, none));
+}
+a:hover {
+  color: var(--linkHoverColor);
+}
+
+[data-link=type-2] .entry-content p > a, [data-link=type-2] .entry-content h1 > a, [data-link=type-2] .entry-content h2 > a, [data-link=type-2] .entry-content h3 > a, [data-link=type-2] .entry-content h4 > a, [data-link=type-2] .entry-content h5 > a, [data-link=type-2] .entry-content h6 > a, [data-link=type-2] .entry-content em > a, [data-link=type-2] .entry-content strong > a, [data-link=type-2] .entry-content > ul a, [data-link=type-2] .entry-content > ol a, [data-link=type-2] .wp-block-column > ul a, [data-link=type-2] .wp-block-column > ol a, [data-link=type-2] [class*=_inner-container] > ul a, [data-link=type-2] [class*=_inner-container] > ol a, [data-link=type-2] .gdpr-confirm-policy a {
+  --textDecoration: underline;
+}
+
+[data-link=type-3] .entry-content p > a, [data-link=type-3] .entry-content h1 > a, [data-link=type-3] .entry-content h2 > a, [data-link=type-3] .entry-content h3 > a, [data-link=type-3] .entry-content h4 > a, [data-link=type-3] .entry-content h5 > a, [data-link=type-3] .entry-content h6 > a, [data-link=type-3] .entry-content em > a, [data-link=type-3] .entry-content strong > a, [data-link=type-3] .entry-content > ul a, [data-link=type-3] .entry-content > ol a, [data-link=type-3] .wp-block-column > ul a, [data-link=type-3] .wp-block-column > ol a, [data-link=type-3] [class*=_inner-container] > ul a, [data-link=type-3] [class*=_inner-container] > ol a, [data-link=type-3] .gdpr-confirm-policy a {
+  background-position: var(--has-link-decoration, 0% 100%);
+  background-repeat: var(--has-link-decoration, no-repeat);
+  background-size: var(--has-link-decoration, 0% 2px);
+  background-image: var(--has-link-decoration, linear-gradient(currentColor, currentColor));
+}
+[data-link=type-3] .entry-content p > a:hover, [data-link=type-3] .entry-content h1 > a:hover, [data-link=type-3] .entry-content h2 > a:hover, [data-link=type-3] .entry-content h3 > a:hover, [data-link=type-3] .entry-content h4 > a:hover, [data-link=type-3] .entry-content h5 > a:hover, [data-link=type-3] .entry-content h6 > a:hover, [data-link=type-3] .entry-content em > a:hover, [data-link=type-3] .entry-content strong > a:hover, [data-link=type-3] .entry-content > ul a:hover, [data-link=type-3] .entry-content > ol a:hover, [data-link=type-3] .wp-block-column > ul a:hover, [data-link=type-3] .wp-block-column > ol a:hover, [data-link=type-3] [class*=_inner-container] > ul a:hover, [data-link=type-3] [class*=_inner-container] > ol a:hover, [data-link=type-3] .gdpr-confirm-policy a:hover {
+  background-size: var(--has-link-decoration, 100% 2px);
+}
+
+[data-link=type-4] .entry-content p > a, [data-link=type-4] .entry-content h1 > a, [data-link=type-4] .entry-content h2 > a, [data-link=type-4] .entry-content h3 > a, [data-link=type-4] .entry-content h4 > a, [data-link=type-4] .entry-content h5 > a, [data-link=type-4] .entry-content h6 > a, [data-link=type-4] .entry-content em > a, [data-link=type-4] .entry-content strong > a, [data-link=type-4] .entry-content > ul a, [data-link=type-4] .entry-content > ol a, [data-link=type-4] .wp-block-column > ul a, [data-link=type-4] .wp-block-column > ol a, [data-link=type-4] [class*=_inner-container] > ul a, [data-link=type-4] [class*=_inner-container] > ol a, [data-link=type-4] .gdpr-confirm-policy a {
+  background-position: var(--has-link-decoration, 0% 100%);
+  background-repeat: var(--has-link-decoration, no-repeat);
+  background-size: var(--has-link-decoration, 100% 2px);
+  background-image: var(--has-link-decoration, linear-gradient(currentColor, currentColor));
+}
+[data-link=type-4] .entry-content p > a:hover, [data-link=type-4] .entry-content h1 > a:hover, [data-link=type-4] .entry-content h2 > a:hover, [data-link=type-4] .entry-content h3 > a:hover, [data-link=type-4] .entry-content h4 > a:hover, [data-link=type-4] .entry-content h5 > a:hover, [data-link=type-4] .entry-content h6 > a:hover, [data-link=type-4] .entry-content em > a:hover, [data-link=type-4] .entry-content strong > a:hover, [data-link=type-4] .entry-content > ul a:hover, [data-link=type-4] .entry-content > ol a:hover, [data-link=type-4] .wp-block-column > ul a:hover, [data-link=type-4] .wp-block-column > ol a:hover, [data-link=type-4] [class*=_inner-container] > ul a:hover, [data-link=type-4] [class*=_inner-container] > ol a:hover, [data-link=type-4] .gdpr-confirm-policy a:hover {
+  color: var(--has-link-decoration, #fff);
+  background-size: var(--has-link-decoration, 100% 100%);
+  background-image: var(--has-link-decoration, linear-gradient(var(--linkHoverColor), var(--linkHoverColor)));
+}
+
+[data-link=type-5] .entry-content p > a, [data-link=type-5] .entry-content h1 > a, [data-link=type-5] .entry-content h2 > a, [data-link=type-5] .entry-content h3 > a, [data-link=type-5] .entry-content h4 > a, [data-link=type-5] .entry-content h5 > a, [data-link=type-5] .entry-content h6 > a, [data-link=type-5] .entry-content em > a, [data-link=type-5] .entry-content strong > a, [data-link=type-5] .entry-content > ul a, [data-link=type-5] .entry-content > ol a, [data-link=type-5] .wp-block-column > ul a, [data-link=type-5] .wp-block-column > ol a, [data-link=type-5] [class*=_inner-container] > ul a, [data-link=type-5] [class*=_inner-container] > ol a, [data-link=type-5] .gdpr-confirm-policy a {
+  background-repeat: var(--has-link-decoration, no-repeat);
+  background-size: var(--has-link-decoration, 0% 100%);
+  background-image: var(--has-link-decoration, linear-gradient(var(--linkHoverColor), var(--linkHoverColor)));
+}
+[data-link=type-5] .entry-content p > a:hover, [data-link=type-5] .entry-content h1 > a:hover, [data-link=type-5] .entry-content h2 > a:hover, [data-link=type-5] .entry-content h3 > a:hover, [data-link=type-5] .entry-content h4 > a:hover, [data-link=type-5] .entry-content h5 > a:hover, [data-link=type-5] .entry-content h6 > a:hover, [data-link=type-5] .entry-content em > a:hover, [data-link=type-5] .entry-content strong > a:hover, [data-link=type-5] .entry-content > ul a:hover, [data-link=type-5] .entry-content > ol a:hover, [data-link=type-5] .wp-block-column > ul a:hover, [data-link=type-5] .wp-block-column > ol a:hover, [data-link=type-5] [class*=_inner-container] > ul a:hover, [data-link=type-5] [class*=_inner-container] > ol a:hover, [data-link=type-5] .gdpr-confirm-policy a:hover {
+  color: var(--has-link-decoration, #fff);
+  background-size: var(--has-link-decoration, 100% 100%);
+}
+
+:target {
+  scroll-margin-top: calc(var(--admin-bar, 0px) + var(--frame-size, 0px) + var(--scroll-margin-top-offset, 0px));
+}
+
+[data-header*=sticky] {
+  --scroll-margin-top-offset: calc(
+  	(
+  			var(--headerStickyHeight, var(--headerHeight, 0px)) *
+  				var(--has-transparent-header) *
+  				(var(--stickyShrink, 100) / 100)
+  		) + var(--headerStickyHeight, var(--headerHeight, 0px)) *
+  		(1 - var(--has-transparent-header))
+  );
+}
+
+[data-header*="sticky:shrink"] {
+  --scroll-margin-top-offset: calc(
+  	var(--headerStickyHeight, var(--headerHeight, 0px)) *
+  		(var(--stickyShrink, 100) / 100)
+  );
+}/*# sourceMappingURL=links.css.map */

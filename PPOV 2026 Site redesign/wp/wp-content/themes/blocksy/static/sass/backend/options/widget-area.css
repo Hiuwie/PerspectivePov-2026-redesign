@@ -1,0 +1,28 @@
+.ct-option-widget-area > .customize-pane-child {
+  display: flex !important;
+  flex-direction: column;
+  position: relative !important;
+  padding: 0 !important;
+  margin-top: 25px !important;
+  border-bottom: none !important;
+  overflow: initial !important;
+}
+.ct-option-widget-area > .customize-pane-child .customize-control {
+  --ui-padding: 0 8px;
+}
+.ct-option-widget-area > .customize-pane-child .customize-control-sidebar_widgets {
+  order: 100;
+}
+
+.customize-control-widget_form .widget-top .widget-title h3 {
+  padding: 13px 15px;
+}
+.customize-control-widget_form .widget-top .widget-action {
+  padding: 8px;
+}
+.customize-control-widget_form .widget-top .widget-reorder-nav span {
+  height: 39px;
+}
+.customize-control-widget_form .widget-top .widget-reorder-nav span:before {
+  line-height: 39px;
+}/*# sourceMappingURL=widget-area.css.map */

@@ -1,0 +1,22 @@
+.ct-inner-layer {
+  --layer-content-padding: 0 15px 20px 15px;
+}
+.ct-inner-layer .ct-layer-controls {
+  height: 34px;
+}
+.ct-inner-layer .ct-layer-controls button {
+  flex: 0 0 33px;
+  width: 33px;
+}
+.ct-inner-layer .ct-layer-controls span {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 0 10px;
+}
+.ct-inner-layer .ct-layer-controls .ct-visibility svg {
+  width: 13px;
+  height: 13px;
+}
+.ct-inner-layer .ct-layer-controls .ct-visibility:before {
+  width: 15px;
+}/*# sourceMappingURL=ct-inner-layers.css.map */

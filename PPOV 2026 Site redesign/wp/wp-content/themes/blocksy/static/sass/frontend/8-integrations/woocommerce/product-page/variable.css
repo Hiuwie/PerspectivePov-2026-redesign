@@ -1,0 +1,50 @@
+form.variations_form table.variations {
+  border: none;
+  margin-bottom: 40px;
+}
+form.variations_form table.variations tr {
+  display: flex;
+  flex-direction: column;
+}
+form.variations_form table.variations tr:not(:last-child) {
+  margin-bottom: 1.5em;
+}
+form.variations_form table.variations td {
+  padding: 0;
+  border: none;
+}
+form.variations_form table.variations label {
+  display: block;
+  margin-bottom: 10px;
+  --fontWeight: 500;
+}
+form.variations_form table.variations select {
+  width: 100%;
+  max-width: 100%;
+}
+form.variations_form table.variations .reset_variations {
+  margin-top: 1em;
+  font-size: 15px;
+  line-height: normal;
+  --linkInitialColor: var(--color);
+  display: none;
+}
+form.variations_form table.variations .reset_variations[style*="visibility: hidden"] {
+  display: none !important;
+}
+form.variations_form table.variations .reset_variations[style*="visibility: visible"] {
+  display: inline-block !important;
+}
+form.variations_form table.variations .reset_variations:before {
+  font-family: "woo";
+  content: "\e910";
+  margin-right: 5px;
+  font-size: 12px;
+}
+form.variations_form .single_variation {
+  display: none;
+}
+form.variations_form .single_variation,
+form.variations_form .wc-no-matching-variations {
+  margin-bottom: 40px;
+}/*# sourceMappingURL=variable.css.map */

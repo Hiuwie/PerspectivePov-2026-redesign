@@ -1,0 +1,53 @@
+[data-reveal] {
+  transition-property: opacity, transform;
+  transition-duration: 1.5s;
+  transition-timing-function: cubic-bezier(0.2, 1, 0.2, 1);
+  will-change: transform;
+}
+[data-reveal][data-reveal*=no] {
+  opacity: 0;
+}
+[data-reveal][data-reveal*=bottom] {
+  transform: translateY(100px);
+}
+[data-reveal][data-reveal*=left] {
+  transform: translateX(-100px);
+}
+[data-reveal] [class*=ct-lazy] > picture,
+[data-reveal] [class*=ct-lazy] > img {
+  transition: opacity 2s ease;
+}
+
+[class*=entries] article[data-reveal*="2"] {
+  transition-delay: 0.3s;
+}
+[class*=entries] article[data-reveal*="3"] {
+  transition-delay: 0.6s;
+}
+[class*=entries] article[data-reveal*="4"] {
+  transition-delay: 0.9s;
+}
+[class*=entries] article[data-reveal*="5"] {
+  transition-delay: 1.2s;
+}
+[class*=entries] article[data-reveal*="6"] {
+  transition-delay: 1.5s;
+}
+[class*=entries] article[data-reveal*="7"] {
+  transition-delay: 1.8s;
+}
+[class*=entries] article[data-reveal*="8"] {
+  transition-delay: 2.1s;
+}
+[class*=entries] article[data-reveal*="9"] {
+  transition-delay: 2.4s;
+}
+[class*=entries] article[data-reveal*="10"] {
+  transition-delay: 2.7s;
+}
+[class*=entries] article[data-reveal*="11"] {
+  transition-delay: 3s;
+}
+[class*=entries] article[data-reveal*="12"] {
+  transition-delay: 3.3s;
+}/*# sourceMappingURL=reveal-animation.css.map */

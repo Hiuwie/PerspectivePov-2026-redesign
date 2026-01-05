@@ -1,0 +1,47 @@
+.ct-option-spacing {
+  display: flex;
+  align-items: flex-start;
+}
+.ct-option-spacing > span:not(:last-of-type) {
+  margin-right: 4px;
+}
+.ct-option-spacing > span input {
+  text-align: center;
+  position: relative;
+}
+.ct-option-spacing > span input.inactive {
+  color: rgba(50, 55, 60, 0.5);
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.8);
+}
+.ct-option-spacing > span input:focus + small {
+  color: rgba(85, 93, 102, 0.8);
+}
+.ct-option-spacing > span small {
+  display: block;
+  margin-top: 5px;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(85, 93, 102, 0.5);
+}
+.ct-option-spacing .ct-spacing-controls {
+  margin-left: 4px;
+}
+.ct-option-spacing .ct-spacing-controls a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 100%;
+  cursor: pointer;
+  color: #555d66;
+}
+.ct-option-spacing .ct-spacing-controls a:hover {
+  color: var(--accentColor);
+}
+.ct-option-spacing .ct-spacing-controls a svg {
+  fill: currentColor;
+}/*# sourceMappingURL=spacing.css.map */

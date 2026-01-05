@@ -1,0 +1,89 @@
+.ct-language-switcher ul {
+  --listIndent: 0;
+  --listItemSpacing: 0;
+  --listStyleType: none;
+  --contentSpacing: 0;
+}
+.ct-language-switcher ul li a {
+  display: flex;
+  align-items: center;
+}
+.ct-language-switcher ul li img {
+  max-width: 18px;
+}
+.ct-language-switcher ul li span:not(:only-child) {
+  margin-left: 7px !important;
+}
+.ct-language-switcher[data-type=inline] ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top: -5px;
+}
+.ct-language-switcher[data-type=inline] ul li {
+  margin-top: 5px;
+}
+.ct-language-switcher[data-type=inline] ul li:not(:last-child) {
+  margin-right: var(--items-spacing, 20px);
+}
+.ct-language-switcher[data-type=inline] ul li.current-lang {
+  --linkInitialColor: var(--linkHoverColor);
+}
+.ct-language-switcher[data-type=dropdown] {
+  position: relative;
+}
+.ct-language-switcher[data-type=dropdown] ul {
+  position: absolute;
+  margin-top: var(--margin-top);
+  border-radius: var(--border-radius);
+  background: var(--background-color);
+  box-shadow: var(--box-shadow);
+  opacity: 0;
+  visibility: hidden;
+  transform: translate3d(0, 10px, 0);
+  transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
+}
+.ct-language-switcher[data-type=dropdown] ul[data-placement=right] {
+  left: -15px;
+}
+.ct-language-switcher[data-type=dropdown] ul[data-placement=left] {
+  right: -15px;
+}
+.ct-language-switcher[data-type=dropdown] ul li:not(:last-child) {
+  border-bottom: var(--border);
+}
+.ct-language-switcher[data-type=dropdown] ul li a {
+  padding: var(--padding) 15px;
+}
+.ct-language-switcher[data-type=dropdown] ul li.current-lang {
+  display: none;
+}
+.ct-language-switcher[data-type=dropdown] ul:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--margin-top);
+  transform: translateY(-100%);
+}
+.ct-language-switcher[data-type=dropdown]:hover ul, .ct-language-switcher[data-type=dropdown]:focus-within ul {
+  opacity: 1;
+  visibility: visible;
+  transform: translate3d(0, 0, 0);
+}
+
+.ct-language {
+  color: var(--linkInitialColor);
+}
+
+.ct-active-language {
+  display: flex;
+  align-items: center;
+}
+.ct-active-language span:not(:only-child) {
+  margin-left: 7px;
+}
+.ct-active-language svg {
+  margin-top: 0.1em;
+  margin-left: 2px;
+}/*# sourceMappingURL=language-switcher.css.map */

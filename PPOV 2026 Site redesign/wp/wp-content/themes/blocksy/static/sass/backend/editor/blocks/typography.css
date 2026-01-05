@@ -1,0 +1,40 @@
+body .editor-styles-wrapper {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+body .editor-styles-wrapper,
+body .editor-styles-wrapper h1,
+body .editor-styles-wrapper h2,
+body .editor-styles-wrapper h3,
+body .editor-styles-wrapper h4,
+body .editor-styles-wrapper h5,
+body .editor-styles-wrapper h6,
+body .editor-styles-wrapper pre,
+body .editor-styles-wrapper code,
+body .editor-styles-wrapper .wp-block-pullquote p,
+body .editor-styles-wrapper .wp-block-quote.is-style-large p {
+  font-family: var(--fontFamily);
+  font-size: var(--fontSize);
+  font-weight: var(--fontWeight);
+  font-style: var(--fontStyle, inherit);
+  line-height: var(--lineHeight);
+  letter-spacing: var(--letterSpacing);
+  text-transform: var(--textTransform);
+  -webkit-text-decoration: var(--textDecoration);
+          text-decoration: var(--textDecoration);
+}
+body .editor-styles-wrapper .wp-block-button__link {
+  font-family: var(--buttonFontFamily, var(--fontFamily));
+  font-size: var(--buttonFontSize);
+  font-weight: var(--buttonFontWeight);
+  font-style: var(--buttonFontStyle);
+  line-height: var(--buttonLineHeight);
+  letter-spacing: var(--buttonLetterSpacing);
+  text-transform: var(--buttonTextTransform);
+  -webkit-text-decoration: var(--buttonTextDecoration);
+          text-decoration: var(--buttonTextDecoration);
+}
+body .editor-post-title__block .editor-post-title__input {
+  font-family: var(--fontFamily);
+  font-weight: 700;
+}/*# sourceMappingURL=typography.css.map */

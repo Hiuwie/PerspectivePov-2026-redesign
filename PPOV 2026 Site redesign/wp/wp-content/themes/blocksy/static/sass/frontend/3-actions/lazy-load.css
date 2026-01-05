@@ -1,0 +1,34 @@
+.ct-lazy > picture,
+.ct-lazy > img,
+.ct-lazy-loading-start > picture,
+.ct-lazy-loading-start > img {
+  opacity: 0;
+}
+.ct-lazy > [data-loader],
+.ct-lazy-loading-start > [data-loader] {
+  opacity: 1;
+  animation-play-state: running;
+}
+
+.ct-lazy-loading > picture,
+.ct-lazy-loading > img {
+  opacity: 1;
+}
+.ct-lazy-loading > [data-loader] {
+  opacity: 0;
+  animation-play-state: running;
+}
+
+.ct-lazy-loading-start:not(.ct-lazy-static) > picture,
+.ct-lazy-loading-start:not(.ct-lazy-static) > img,
+.ct-lazy-loading-start:not(.ct-lazy-static) > [data-loader],
+.ct-lazy-loading:not(.ct-lazy-static) > picture,
+.ct-lazy-loading:not(.ct-lazy-static) > img,
+.ct-lazy-loading:not(.ct-lazy-static) > [data-loader] {
+  transition: opacity 0.5s ease-in;
+}
+
+.ct-lazy-loaded > [data-loader] {
+  display: none;
+  visibility: hidden;
+}/*# sourceMappingURL=lazy-load.css.map */

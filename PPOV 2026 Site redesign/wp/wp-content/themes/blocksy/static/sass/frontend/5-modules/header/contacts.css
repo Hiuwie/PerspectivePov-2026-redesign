@@ -1,0 +1,15 @@
+.ct-contact-info ul {
+  --listIndent: 0;
+  --listItemSpacing: 0;
+  --listStyleType: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: calc(var(--items-spacing, 15px) / -2);
+}
+.ct-contact-info ul li {
+  margin-top: calc(var(--items-spacing, 15px) / 2);
+}
+.ct-contact-info ul li:not(:last-child) {
+  margin-right: var(--items-spacing, 15px);
+}/*# sourceMappingURL=contacts.css.map */

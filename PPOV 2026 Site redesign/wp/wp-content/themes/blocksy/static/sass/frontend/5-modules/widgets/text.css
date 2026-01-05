@@ -1,0 +1,6 @@
+.textwidget > * {
+  margin: 0;
+}
+.textwidget > *:not(:first-child) {
+  margin-top: 20px;
+}/*# sourceMappingURL=text.css.map */

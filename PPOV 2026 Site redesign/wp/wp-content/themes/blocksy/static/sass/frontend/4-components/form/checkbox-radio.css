@@ -1,0 +1,62 @@
+.gdpr-confirm-policy input[type=checkbox], .comment-subscription-form input[type=checkbox], .comment-form input[type=checkbox], #ship-to-different-address-checkbox, .woocommerce-form__input[type=checkbox], #wc-stripe-new-payment-method[type=checkbox], .ct-login-form input[type=checkbox], .wpforms-container:not(.wpforms-container-full) input[type=checkbox], .wc_payment_method > input[type=radio], .woocommerce-shipping-methods input[type=radio], .mp-ticket-payments input[type=radio], .wpforms-container:not(.wpforms-container-full) input[type=radio] {
+  display: inline-block;
+  vertical-align: baseline;
+  position: relative;
+  top: var(--top, 3px);
+  min-width: 16px;
+  width: 16px;
+  height: 16px;
+  padding: 0 !important;
+  margin: var(--cr-margin, 0 0.7em 0 0);
+  border-width: var(--form-field-border-width);
+  border-style: solid;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background: transparent;
+  border-color: var(--radioCheckboxInitialColor);
+}
+.gdpr-confirm-policy input[type=checkbox]:before, .comment-subscription-form input[type=checkbox]:before, .comment-form input[type=checkbox]:before, #ship-to-different-address-checkbox:before, .woocommerce-form__input[type=checkbox]:before, #wc-stripe-new-payment-method[type=checkbox]:before, .ct-login-form input[type=checkbox]:before, .wpforms-container:not(.wpforms-container-full) input[type=checkbox]:before, .wc_payment_method > input[type=radio]:before, .woocommerce-shipping-methods input[type=radio]:before, .mp-ticket-payments input[type=radio]:before, .wpforms-container:not(.wpforms-container-full) input[type=radio]:before {
+  position: absolute;
+  content: "";
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  margin: auto;
+}
+.gdpr-confirm-policy input[type=checkbox]:checked, .comment-subscription-form input[type=checkbox]:checked, .comment-form input[type=checkbox]:checked, #ship-to-different-address-checkbox:checked, .woocommerce-form__input[type=checkbox]:checked, #wc-stripe-new-payment-method[type=checkbox]:checked, .ct-login-form input[type=checkbox]:checked, .wpforms-container:not(.wpforms-container-full) input[type=checkbox]:checked, .wc_payment_method > input[type=radio]:checked, .woocommerce-shipping-methods input[type=radio]:checked, .mp-ticket-payments input[type=radio]:checked, .wpforms-container:not(.wpforms-container-full) input[type=radio]:checked {
+  border-color: var(--radioCheckboxAccentColor) !important;
+  background: var(--radioCheckboxAccentColor) !important;
+}
+.gdpr-confirm-policy input[type=checkbox]:checked:before, .comment-subscription-form input[type=checkbox]:checked:before, .comment-form input[type=checkbox]:checked:before, #ship-to-different-address-checkbox:checked:before, .woocommerce-form__input[type=checkbox]:checked:before, #wc-stripe-new-payment-method[type=checkbox]:checked:before, .ct-login-form input[type=checkbox]:checked:before, .wpforms-container:not(.wpforms-container-full) input[type=checkbox]:checked:before, .wc_payment_method > input[type=radio]:checked:before, .woocommerce-shipping-methods input[type=radio]:checked:before, .mp-ticket-payments input[type=radio]:checked:before, .wpforms-container:not(.wpforms-container-full) input[type=radio]:checked:before {
+  opacity: 1;
+}
+.gdpr-confirm-policy input[type=checkbox]:focus, .comment-subscription-form input[type=checkbox]:focus, .comment-form input[type=checkbox]:focus, #ship-to-different-address-checkbox:focus, .woocommerce-form__input[type=checkbox]:focus, #wc-stripe-new-payment-method[type=checkbox]:focus, .ct-login-form input[type=checkbox]:focus, .wpforms-container:not(.wpforms-container-full) input[type=checkbox]:focus, .wc_payment_method > input[type=radio]:focus, .woocommerce-shipping-methods input[type=radio]:focus, .mp-ticket-payments input[type=radio]:focus, .wpforms-container:not(.wpforms-container-full) input[type=radio]:focus {
+  outline: none;
+  border-color: var(--radioCheckboxAccentColor) !important;
+}
+
+.gdpr-confirm-policy input[type=checkbox], .comment-subscription-form input[type=checkbox], .comment-form input[type=checkbox], #ship-to-different-address-checkbox, .woocommerce-form__input[type=checkbox], #wc-stripe-new-payment-method[type=checkbox], .ct-login-form input[type=checkbox], .wpforms-container:not(.wpforms-container-full) input[type=checkbox] {
+  border-radius: 3px;
+}
+.gdpr-confirm-policy input[type=checkbox]:before, .comment-subscription-form input[type=checkbox]:before, .comment-form input[type=checkbox]:before, #ship-to-different-address-checkbox:before, .woocommerce-form__input[type=checkbox]:before, #wc-stripe-new-payment-method[type=checkbox]:before, .ct-login-form input[type=checkbox]:before, .wpforms-container:not(.wpforms-container-full) input[type=checkbox]:before {
+  top: -2px;
+  width: 8px;
+  height: 5px;
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  transform: rotate(-45deg);
+}
+
+.wc_payment_method > input[type=radio], .woocommerce-shipping-methods input[type=radio], .mp-ticket-payments input[type=radio], .wpforms-container:not(.wpforms-container-full) input[type=radio] {
+  border-radius: 100% !important;
+}
+.wc_payment_method > input[type=radio]:before, .woocommerce-shipping-methods input[type=radio]:before, .mp-ticket-payments input[type=radio]:before, .wpforms-container:not(.wpforms-container-full) input[type=radio]:before {
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  border-radius: inherit;
+}/*# sourceMappingURL=checkbox-radio.css.map */

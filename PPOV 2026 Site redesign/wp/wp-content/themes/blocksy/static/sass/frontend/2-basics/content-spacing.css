@@ -1,0 +1,52 @@
+p {
+  margin-bottom: var(--contentSpacing);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 20px;
+}
+
+ul, ol {
+  padding-left: var(--listIndent);
+  margin-bottom: var(--contentSpacing);
+}
+ul li, ol li {
+  margin-bottom: var(--listItemSpacing);
+}
+ul li:last-child, ol li:last-child {
+  margin-bottom: 0;
+}
+ul ul, ul ol, ol ul, ol ol {
+  margin-top: var(--listItemSpacing);
+  margin-bottom: 0;
+}
+
+.entry-content > * {
+  margin-bottom: var(--contentSpacing);
+}
+.entry-content > *:first-child {
+  margin-top: 0 !important;
+}
+.entry-content > *:last-child {
+  margin-bottom: 0 !important;
+}
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 {
+  margin-top: var(--contentSpacing);
+  margin-bottom: calc(0.2em + 10px);
+}
+.entry-content h1:first-child, .entry-content h2:first-child, .entry-content h3:first-child, .entry-content h4:first-child, .entry-content h5:first-child, .entry-content h6:first-child {
+  margin-top: 0;
+}
+.entry-content h1:last-child, .entry-content h2:last-child, .entry-content h3:last-child, .entry-content h4:last-child, .entry-content h5:last-child, .entry-content h6:last-child {
+  margin-bottom: 0;
+}
+
+[class*=_inner-container] > * {
+  margin-bottom: var(--contentSpacing);
+}
+[class*=_inner-container] > *:first-child {
+  margin-top: 0 !important;
+}
+[class*=_inner-container] > *:last-child {
+  margin-bottom: 0 !important;
+}/*# sourceMappingURL=content-spacing.css.map */

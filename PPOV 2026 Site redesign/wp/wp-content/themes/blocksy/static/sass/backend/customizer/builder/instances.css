@@ -1,0 +1,56 @@
+[class*=ct-instance-button] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 40px;
+  max-width: 40px;
+  height: 37px;
+  cursor: pointer;
+  margin-inline-start: 10px;
+  border-radius: 3px;
+  color: inherit;
+  box-sizing: border-box;
+}
+[class*=ct-instance-button]:focus {
+  outline: none;
+}
+[class*=ct-instance-button]:hover {
+  border-color: var(--accentColor);
+}
+[class*=ct-instance-button]:hover .ct-tooltip-top {
+  opacity: 1;
+  visibility: visible;
+  transform: translate3d(0px, -38px, 0px);
+}
+
+.ct-instance-button-global svg {
+  width: 11px;
+  height: 11px;
+  fill: currentColor;
+}
+.ct-instance-button-global.active {
+  color: #fff;
+  background: var(--accentColor);
+  border-color: #007bba;
+}
+.ct-instance-button-global.active svg {
+  animation: spin 4.5s infinite linear;
+}
+
+.ct-global-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  padding: 2px 5px;
+  margin-left: auto;
+  border-radius: 2px;
+  background: var(--accentColor);
+}
+
+.selected .ct-global-item {
+  margin-right: 21px;
+}/*# sourceMappingURL=instances.css.map */

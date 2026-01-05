@@ -1,0 +1,6 @@
+.widget_recent_comments ul li a {
+  word-wrap: break-word;
+}
+.widget_recent_comments .comment-author-link {
+  font-weight: 600;
+}/*# sourceMappingURL=recent-comments.css.map */

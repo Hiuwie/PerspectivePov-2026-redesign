@@ -1,0 +1,23 @@
+.ct-dark-mode-switch {
+  cursor: pointer;
+}
+
+.ct-light-mode-icon {
+  display: none;
+}
+
+[data-palette=dark] {
+  --paletteColor1: var(--darkPaletteColor1);
+  --paletteColor2: var(--darkPaletteColor2);
+  --paletteColor3: var(--darkPaletteColor3);
+  --paletteColor4: var(--darkPaletteColor4);
+  --paletteColor5: var(--darkPaletteColor5);
+  --paletteColor6: var(--darkPaletteColor6);
+  --paletteColor7: var(--darkPaletteColor7);
+}
+[data-palette=dark] .ct-light-mode-icon {
+  display: block;
+}
+[data-palette=dark] .ct-dark-mode-icon {
+  display: none;
+}/*# sourceMappingURL=dark-mode-switch.css.map */
