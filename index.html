@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
-	<title>Perspective Point of View</title>
+	<title>Perspective Point of View | Web Design &amp; Development for Small Businesses</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shartcut icon" type="icon/x-image" href="Assets/Illustrations/PERES_logo.png" id="title-bar-logo">
+	<meta name="description" content="Professional web design and development in South Africa. UX-focused, conversion-ready websites for small businesses, media, entertainment, and creators. Get a free quote.">
+	<link rel="canonical" href="https://perspectivepov.co.za/">
+	<meta property="og:title" content="Perspective Point of View | Web Design &amp; Development">
+	<meta property="og:description" content="Professional web design and development in South Africa. UX-focused, conversion-ready websites for small businesses, media, entertainment, and creators.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://perspectivepov.co.za/">
+	<meta property="og:image" content="https://perspectivepov.co.za/Assets/Illustrations/software-wireframe.gif">
+	<meta property="og:image:alt" content="Perspective Point of View hero illustration">
+	<meta property="og:site_name" content="Perspective Point of View">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Perspective Point of View | Web Design &amp; Development">
+	<meta name="twitter:description" content="Professional web design and development in South Africa. UX-focused, conversion-ready websites for small businesses, media, entertainment, and creators.">
+	<meta name="twitter:image" content="https://perspectivepov.co.za/Assets/Illustrations/software-wireframe.gif">
+	<link rel="shortcut icon" type="icon/x-image" href="Assets/Illustrations/PERES_logo.png" id="title-bar-logo">
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "Organization",
+	  "name": "Perspective Point of View",
+	  "url": "https://perspectivepov.co.za/",
+	  "logo": "https://perspectivepov.co.za/Assets/Illustrations/PERES_logo.png",
+	  "description": "Professional web design and development studio in South Africa."
+	}
+	</script>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" type="text/css" href="stylesheet-two.css">
 
@@ -45,9 +68,9 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 	
 	<!-- nav-bar -->
-	<nav class="navbar smart-scroll navbar-expand-lg navbar-light" id="navbar-trigger">
+	<nav class="navbar smart-scroll navbar-expand-lg navbar-light landing-nav" id="navbar-trigger">
 		<a class="navbar-brand" href="index.html">
-			<img src="Assets/Illustrations/PERES_logo.png">Perspective Point of View
+			<img src="Assets/Illustrations/PERES_logo.png" alt="Perspective Point of View logo">Perspective Point of View
 		</a>
 		
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,7 +80,7 @@
 		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 			<ul class="navbar-nav  ml-auto mt-2 mt-lg-0">
 
-				<li class="nav-item">
+				<li class="nav-item active">
 					<a class="nav-link" href="index.html">Home</a>
 				</li>
 				<!-- <li class="nav-item">
@@ -69,80 +92,122 @@
 				<!-- <li class="nav-item">
 					<a class="nav-link" href="#samples">Samples</a>
 				</li> -->
-				<li class="nav-item">
-					<a class="nav-link" href="services.html">Get in touch</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+					<li class="nav-item">
+						<a class="nav-link" href="services.html#contacts">Get a Free Quote</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://tools.perspectivepov.co.za">| Tools <span class="nav-badge">New</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="uxui.html">| Portfolio</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
-	<!-- Hero Section -->
-	<div class="hero-section hero-full" id="header-slide">
-		<div class="hero-container">
-			<div class="hero-content">
-				<div class="hero-left">
-					<div class="hero-graphic">
-						<!-- <img src="Assets/Illustrations/Programming Illustration.svg" alt="Professional Web Design Services" class="animate-fade-in-left"> -->
-						<!-- <video loop src="Assets/Animations/User Experience Animation.mp4"  ="Professional Web Design Services" class="animate-fade-in-left"></video> -->
+	<!-- Message for form submission -->
+	<div id="message" class="alert" style="display:none;"></div>
 
-						<creattie-embed
-						src="https://d1jj76g3lut4fe.cloudfront.net/saved_colors/137840/AbPbX1yJ9uRpAE7j.json"
-						delay="1"
-						speed="100"
-						frame_rate="24"
-						trigger="loop"
-						style="width:1080px;background-color: transparent;">
-						</creattie-embed>
-						<script src="https://creattie.com/js/embed.js?id=3efa1fcb5d85991e845a" defer></script>
+		<!-- Hero Section -->
+		<div class="hero-section hero-full landing-hero" id="header-slide">
+			<div class="hero-ide-layer" aria-hidden="true">
+				<div class="hero-ide">
+					<div class="hero-ide-bar">
+						<span class="ide-dot dot-red"></span>
+						<span class="ide-dot dot-yellow"></span>
+						<span class="ide-dot dot-green"></span>
+						<span class="hero-ide-title">launch.ts</span>
+					</div>
+					<div class="hero-ide-body">
+						<span class="ide-line" style="--chars: 28; --delay: 0s; --duration: 0.4s;"><span class="token-comment">// init landing pipeline</span></span>
+						<span class="ide-line" style="--chars: 52; --delay: 0.45s; --duration: 0.4s;"><span class="token-key">import</span> { hero, tools, trust } <span class="token-key">from</span> <span class="token-string">"./config"</span>;</span>
+						<span class="ide-line" style="--chars: 54; --delay: 0.9s; --duration: 0.45s;"><span class="token-key">const</span> env = process.env.NODE_ENV ?? <span class="token-string">"production"</span>;</span>
+						<span class="ide-line" style="--chars: 72; --delay: 1.4s; --duration: 0.45s;"><span class="token-key">const</span> palette = { ink: <span class="token-string">"#0d0d0d"</span>, accent: <span class="token-string">"#FF5F3A"</span> };</span>
+						<span class="ide-line" style="--chars: 70; --delay: 1.9s; --duration: 0.45s;"><span class="token-key">const</span> nav = buildNav([<span class="token-string">"Home"</span>, <span class="token-string">"Services"</span>, <span class="token-string">"Quote"</span>, <span class="token-string">"Tools"</span>]);</span>
+						<span class="ide-line" style="--chars: 64; --delay: 2.4s; --duration: 0.45s;"><span class="token-key">const</span> hero = composeHero({ title: <span class="token-string">"Professional Web"</span> });</span>
+						<span class="ide-line" style="--chars: 44; --delay: 2.9s; --duration: 0.4s;"><span class="token-key">const</span> telemetry = <span class="token-fn">initAnalytics</span>(<span class="token-string">"ppov"</span>);</span>
+						<span class="ide-line" style="--chars: 56; --delay: 3.3s; --duration: 0.4s;"><span class="token-key">const</span> pipeline = [<span class="token-string">"design"</span>, <span class="token-string">"build"</span>, <span class="token-string">"launch"</span>];</span>
+						<span class="ide-line" style="--chars: 24; --delay: 3.7s; --duration: 0.35s;"><span class="token-comment">// compiling assets...</span></span>
+						<span class="ide-line" style="--chars: 42; --delay: 4.8s; --duration: 0.28s;">hero.<span class="token-key">subtitle</span> = <span class="token-string">"Design &amp; Development"</span>;</span>
+						<span class="ide-line" style="--chars: 44; --delay: 5.08s; --duration: 0.26s;">hero.<span class="token-key">audience</span> = <span class="token-string">"for Small Businesses"</span>;</span>
+						<span class="ide-line" style="--chars: 56; --delay: 5.34s; --duration: 0.26s;">hero.<span class="token-key">promise</span> = <span class="token-string">"Trusted, modern, results-driven"</span>;</span>
+						<span class="ide-line" style="--chars: 40; --delay: 5.6s; --duration: 0.26s;">hero.<span class="token-key">stack</span> = [<span class="token-string">"Brand"</span>, <span class="token-string">"UX"</span>, <span class="token-string">"Dev"</span>];</span>
+						<span class="ide-line" style="--chars: 46; --delay: 5.86s; --duration: 0.26s;">hero.<span class="token-key">cta</span>.<span class="token-key">primary</span> = <span class="token-string">"Get a Free Quote"</span>;</span>
+						<span class="ide-line" style="--chars: 50; --delay: 6.12s; --duration: 0.26s;">hero.<span class="token-key">cta</span>.<span class="token-key">secondary</span> = <span class="token-string">"Explore our tools"</span>;</span>
+						<span class="ide-line" style="--chars: 48; --delay: 6.38s; --duration: 0.24s;">tools.<span class="token-key">url</span> = <span class="token-string">"tools.perspectivepov.co.za"</span>;</span>
+						<span class="ide-line" style="--chars: 30; --delay: 6.62s; --duration: 0.24s;">tools.<span class="token-key">mode</span> = <span class="token-string">"launch-ready"</span>;</span>
+						<span class="ide-line" style="--chars: 32; --delay: 6.86s; --duration: 0.24s;">trust.<span class="token-key">signal</span> = <span class="token-string">"99.9% uptime"</span>;</span>
+						<span class="ide-line" style="--chars: 32; --delay: 7.1s; --duration: 0.22s;"><span class="token-fn">buildQueue.add</span>(hero, tools);</span>
+						<span class="ide-line" style="--chars: 20; --delay: 7.32s; --duration: 0.22s;"><span class="token-fn">render</span>(nav, hero);</span>
+						<span class="ide-line" style="--chars: 44; --delay: 7.54s; --duration: 0.22s;"><span class="token-fn">publish</span>(<span class="token-string">"tools.perspectivepov.co.za"</span>);</span>
+						<span class="ide-line ide-caret" style="--chars: 9; --delay: 7.76s; --duration: 0.22s;"><span class="token-fn">launch</span>();</span>
 					</div>
 				</div>
+			</div>
+			<div class="hero-container">
+				<div class="hero-content landing-hero-content">
+					<div class="hero-left">
+						<div class="hero-text">
+							<h1 class="hero-headline hero-final-headline">
+								<span class="hero-headline-light">Professional Web</span>
+								<span class="hero-headline-strong">Design &amp; Development</span>
+								<span class="hero-headline-light">for Small Businesses</span>
+							</h1>
+							<p class="hero-subheadline hero-final-subheadline">Trusted, modern, and results-driven websites to help your business stand out online.</p>
 
-				<div class="hero-right">
-					<div class="hero-text">
-						<h1 class="hero-headline animate-fade-in">Professional Web Design & Development for Small Businesses</h1>
-						<p class="hero-subheadline animate-fade-in-delayed">Trusted, modern, and results-driven websites to help your business stand out online.</p>
-
-						<div class="hero-cta-buttons animate-fade-in-delayed-2">
-							<a href="services.html#contacts"><button class="cta-primary">Get a Free Quote</button></a>
-							<a href="services.html"><button class="cta-secondary">Services</button></a>
+							<div class="hero-cta-buttons hero-final-actions">
+								<a href="services.html#contacts"><button class="cta-primary">Get a Free Quote</button></a>
+								<a href="https://tools.perspectivepov.co.za"><button class="cta-secondary">Explore our tools</button></a>
+							</div>
 						</div>
+					</div>
 
-						<div class="hero-trust-indicators animate-fade-in-delayed-3">
-							<div class="trust-card">
-								<div class="trust-card-icon">
-									<span class="trust-check">✓</span>
-								</div>
-								<div class="trust-card-content">
-									<h4>5+ Years of Experience</h4>
-									<p>Proven track record in web design</p>
-								</div>
-							</div>
-							<div class="trust-card">
-								<div class="trust-card-icon">
-									<span class="trust-check">✓</span>
-								</div>
-								<div class="trust-card-content">
-									<h4>UX-Focused Design</h4>
-									<p>User-centered approach always</p>
-								</div>
-							</div>
-							<div class="trust-card">
-								<div class="trust-card-icon">
-									<span class="trust-check">✓</span>
-								</div>
-								<div class="trust-card-content">
-									<h4>Fast & SEO Ready</h4>
-									<p>Optimized for speed and search</p>
-								</div>
-							</div>
+					<div class="hero-right">
+						<div class="hero-visual animate-fade-in-delayed">
+							<creattie-embed
+							src="https://ik.imagekit.io/creattie/main/saved_colors/137840/07j7OYrJWK6m5PvI.json"
+							delay="0"
+							speed="100"
+							frame_rate="24"
+							trigger="loop"
+							style="width:100%;height:100%;background-color: transparent;">
+							</creattie-embed>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-		<!--  About section -->
+		<div class="hero-divider" aria-hidden="true">
+			<svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+				<path fill="#0d0d0d" d="M0,0 L900,90 L1440,20 L1440,120 L0,120 Z"></path>
+			</svg>
+		</div>
+
+		<section class="hero-features">
+			<div class="hero-features-inner">
+				<div class="hero-feature">
+					<span class="hero-feature-icon">
+						<img src="Assets/Icons/group-55.svg" alt="">
+					</span>
+					<span class="hero-feature-text">Custom Design &amp; development experience</span>
+				</div>
+				<div class="hero-feature">
+					<span class="hero-feature-icon">
+						<img src="Assets/Icons/group-55.svg" alt="">
+					</span>
+					<span class="hero-feature-text">UX-Focused Design</span>
+				</div>
+				<div class="hero-feature">
+					<span class="hero-feature-icon">
+						<img src="Assets/Icons/group-55.svg" alt="">
+					</span>
+					<span class="hero-feature-text">Fast &amp; SEO Ready Development</span>
+				</div>
+			</div>
+		</section>
+
+				<!--  About section -->
 
 		<!-- <div class="about container page" id="about">
 			<h1>WELCOME TO PERSPECTIVE POINT OF VIEW <br>
@@ -261,13 +326,7 @@
 			<!-- <h1>GET IN TOUCH</h1>
 			<h3 >DESIGN <strong>||</strong> BRANDING <strong>||</strong> UX/UI</h3> -->
 
-			<div class="row col-12 something-coming">
-	
-				<p>Something amazing is coming your way, we're working hard to launch our new tools on our website. Stay tuned for updates!</p>
-
-			</div>
-
-			<div class="social-footer home-social-footer">
+				<div class="social-footer home-social-footer">
 				<p>copyright&copy; 2025 Perspective Point of view</p>
 				<div class="social-box">
 					
@@ -290,6 +349,7 @@
 			</div>
 		</div>
 
+		<script src="https://creattie.com/js/embed.js?id=3efa1fcb5d85991e845a" defer></script>
 		<script type="text/javascript" src="script.js"></script>
 
 </body>

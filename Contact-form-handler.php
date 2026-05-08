@@ -9,7 +9,7 @@
 	$email_from = "info@perspectivepov.co.za";
 
 	// the main subject to show on address what mail is about
-	$email_subject ="Persprctive Point of View ";
+	$email_subject ="Perspective Point of View ";
 
 	// This will be sent to the address
 	$email_body = "User name: $name.\n".
@@ -23,8 +23,14 @@
 
 	$headers .= "Reply-To: $visitor_email \r\n";
 
-	mail($to,$email_subject,$email_body,$headers);
-
-	// location of the html file
-	header("Location:index.html");
+	// Send the email and check if it was successful
+	if (mail($to,$email_subject,$email_body,$headers)) {
+		// Email sent successfully
+		header("Location:services.html?status=success");
+	} else {
+		// Email failed to send, log to file for debugging
+		$log = "Email failed to send. Details:\nTo: $to\nSubject: $email_subject\nBody: $email_body\nHeaders: $headers\n\n";
+		file_put_contents('email_log.txt', $log, FILE_APPEND);
+		header("Location:services.html?status=error");
+	}
 ?>

@@ -1,27 +1,23 @@
 // Smooth scrolling ------------------------------------------------------------
 
 $(document).ready(function(){
-  // Add smooth scrolling to all links
+  // Add smooth scrolling to same-page hash links only
   $("a").on('click', function(event) {
+    var hash = this.hash;
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+    if (hash && this.pathname === window.location.pathname && this.hostname === window.location.hostname) {
+      var $target = $(hash);
 
-      // Store hash
-      var hash = this.hash;
+      if ($target.length) {
+        event.preventDefault();
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
+        $('html, body').animate({
+          scrollTop: $target.offset().top
+        }, 800, function(){
+          window.location.hash = hash;
+        });
+      }
+    }
   });
 
     // Add padding top to show content behind navbar
@@ -58,6 +54,21 @@ $(document).ready(function(){
         localStorage.setItem('autoMessage', 'Hi, I\'m interested in getting a free quote. Please provide more details.');
     });
 
+    // Testimonials auto-carousel
+    var $testimonialCarousel = $('.testimonials-carousel');
+    if ($testimonialCarousel.length) {
+        var $testimonialTrack = $testimonialCarousel.find('.testimonials-track');
+        var $testimonialCards = $testimonialTrack.find('.testimonial-card');
+        var testimonialIndex = 0;
+
+        if ($testimonialCards.length > 1) {
+            setInterval(function() {
+                testimonialIndex = (testimonialIndex + 1) % $testimonialCards.length;
+                $testimonialTrack.css('transform', 'translateX(' + (-testimonialIndex * 100) + '%)');
+            }, 6000);
+        }
+    }
+
     // Check for stored message on page load
     var storedMessage = localStorage.getItem('autoMessage');
     if (storedMessage) {
@@ -68,6 +79,15 @@ $(document).ready(function(){
     // Update copyright year dynamically
     var currentYear = new Date().getFullYear();
     $('.social-footer p').html('copyright&copy; ' + currentYear + ' Perspective Point of view');
+
+    // Check for form submission status in URL
+    var urlParams = new URLSearchParams(window.location.search);
+    var status = urlParams.get('status');
+    if (status === 'success') {
+        $('#message').addClass('success').text('Thank you! Your message has been sent successfully.').show();
+    } else if (status === 'error') {
+        $('#message').addClass('error').text('Sorry, there was an error sending your message. Please try again.').show();
+    }
 
 });
 

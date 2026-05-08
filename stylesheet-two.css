@@ -79,7 +79,8 @@ body nav ul .active {
   font-weight: 500;
 }
 body nav ul .active a {
-  color: #0d0d0d;
+  color: #FF5F3A;
+  font-weight: 600;
 }
 body nav ul li:hover a {
   Color: #595959;
