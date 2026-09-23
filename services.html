@@ -61,6 +61,9 @@
           gtag('config', 'G-GE1MPYF2PQ');
         </script>
  
+	<!-- Owner: set {{META_PIXEL_ID}} in marketing.js. Set {{INSTAGRAM_URL}} and
+	     {{FACEBOOK_URL}} on the footer data-social-url attributes before enabling links. -->
+	<script defer src="marketing.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 	
@@ -90,13 +93,10 @@
 					<a class="nav-link" href="index.html#samples">Samples</a>
 				</li> -->
 					<li class="nav-item">
-						<a class="nav-link" href="#contacts">Get a Free Quote</a>
+						<a class="nav-link" href="#contact">Get a Free Quote</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="https://tools.perspectivepov.co.za">| Tools <span class="nav-badge">New</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="uxui.html">| Portfolio</a>
+						<a class="nav-link" href="#portfolio">| Portfolio</a>
 					</li>
 				</ul>
 			</div>
@@ -296,7 +296,7 @@
 	</div>
 
 	<!-- Pricing Section -->
-	<div class="pricing-section ">
+	<div class="pricing-section" id="pricing">
 		<div class="container">
 			<div class="section-header animate-fade-in">
 				<h2>Simple Pricing Structure</h2>
@@ -312,7 +312,7 @@
 					</div>
 					<div class="pricing-card-body">
 						<p class="pricing-description">Perfect for personal brands or simple sites.</p>
-						<a href="#contacts"><button class="cta-secondary">Get Started</button></a>
+						<a href="#contact"><button class="cta-secondary">Get Started</button></a>
 					</div>
 				</div>
 
@@ -325,7 +325,7 @@
 					</div>
 					<div class="pricing-card-body">
 						<p class="pricing-description">Best for small businesses needing a professional presence.</p>
-						<a href="#contacts"><button class="cta-primary">Choose Plan</button></a>
+						<a href="#contact"><button class="cta-primary">Choose Plan</button></a>
 					</div>
 				</div>
 
@@ -337,7 +337,7 @@
 					</div>
 					<div class="pricing-card-body">
 						<p class="pricing-description">For businesses that need custom pages, animations, integrations, or advanced features.</p>
-						<a href="#contacts"><button class="cta-secondary">Get Started</button></a>
+						<a href="#contact"><button class="cta-secondary">Get Started</button></a>
 					</div>
 				</div>
 			</div>
@@ -373,7 +373,7 @@
 				<!-- FAQ 2 -->
 				<div class="faq-item animate-fade-in-delayed-2">
 					<div class="faq-question">
-						<h3>Can you migrate my existing website?</h3>
+						<h3>Can you migrate an existing website?</h3>
 						<span class="faq-toggle">+</span>
 					</div>
 					<div class="faq-answer">
@@ -442,7 +442,7 @@
 				<!-- FAQ 6 -->
 				<div class="faq-item animate-fade-in-delayed-3">
 					<div class="faq-question">
-						<h3>What if I need changes after launch?</h3>
+						<h3>What if changes are needed after launch?</h3>
 						<span class="faq-toggle">+</span>
 					</div>
 					<div class="faq-answer">
@@ -459,7 +459,7 @@
 		</div>
 	</div>
 
-	<!-- Why Work With Me Section -->
+	<!-- Why Work With Us Section -->
 	<div class="why-work-section ">
 		<div class="container">
 			<div class="section-header animate-fade-in">
@@ -472,8 +472,8 @@
 					<div class="why-work-icon">
 						<span>✓</span>
 					</div>
-					<h4>5+ Years Experience</h4>
-					<p>Proven track record in web design and development</p>
+					<h4>Design Experience</h4>
+					<p>5+ years of design experience behind every project</p>
 				</div>
 				<div class="why-work-item animate-fade-in-delayed-2">
 					<div class="why-work-icon">
@@ -541,39 +541,39 @@
 					</div>
 				</div>
 
-				<!-- Project 2: MJ Records International -->
+				<!-- Project 2: UX/UI Interface Gallery -->
 				<div class="portfolio-card animate-fade-in-delayed-2">
 					<div class="portfolio-card-image">
-						<img src="Assets/Images/in-design-we.jpg" alt="MJ Records International Website">
+						<img src="Assets/Images/UXUI/Music.png" alt="UX/UI music interface design">
 					</div>
 					<div class="portfolio-card-content">
-						<h3>MJ Records International</h3>
-						<p class="portfolio-category">Music & Entertainment</p>
-						<p class="portfolio-description">Artist portfolio and music label website showcasing artists, albums, releases, and music management features for the entertainment industry.</p>
+						<h3>Interface Design Gallery</h3>
+						<p class="portfolio-category">UX/UI Design</p>
+						<p class="portfolio-description">Selected interface concepts showing how we approach layout, hierarchy, content structure, and user-friendly digital experiences.</p>
 						<div class="portfolio-results">
-							<span class="result-badge">✓ Artist Showcase</span>
-							<span class="result-badge">✓ Music Integration</span>
-							<span class="result-badge">✓ Professional Branding</span>
+							<span class="result-badge">✓ Responsive Concepts</span>
+							<span class="result-badge">✓ Visual Hierarchy</span>
+							<span class="result-badge">✓ User-Friendly Layouts</span>
 						</div>
-						<a href="https://mjuniorrecordsinternational.co.za/" target="_blank" class="portfolio-link">View Live Site →</a>
+						<a href="uxui.html" class="portfolio-link">View Gallery →</a>
 					</div>
 				</div>
 
-				<!-- Project 3: Sarel Sibuyi -->
+				<!-- Project 3: Creative Professional Portfolio -->
 				<div class="portfolio-card animate-fade-in-delayed-3">
 					<div class="portfolio-card-image">
-						<img src="https://sarelsibuyi.netlify.app/Me%202.png" alt="Sarel Sibuyi Portfolio Website">
+						<img src="Assets/Images/Design/Dashboards.png" alt="Creative professional portfolio website interface">
 					</div>
 					<div class="portfolio-card-content">
-						<h3>Sarel Sibuyi Portfolio</h3>
+						<h3>Creative Professional Portfolio</h3>
 						<p class="portfolio-category">Professional Portfolio</p>
-						<p class="portfolio-description">Professional portfolio website with secure login credentials system, showcasing work samples and providing direct contact integration.</p>
+						<p class="portfolio-description">Private portfolio build for a creative professional, structured around selected work samples, direct enquiries, and a polished personal brand experience.</p>
 						<div class="portfolio-results">
 							<span class="result-badge">✓ Secure Access</span>
 							<span class="result-badge">✓ Modern Design</span>
 							<span class="result-badge">✓ Direct Contact</span>
 						</div>
-						<a href="https://sarelsibuyi.netlify.app/" target="_blank" class="portfolio-link">View Live Site →</a>
+						<a href="#contact" class="portfolio-link">Request Similar Work →</a>
 					</div>
 				</div>
 			</div>
@@ -584,69 +584,38 @@
 	<div class="testimonials-section ">
 		<div class="container">
 			<div class="section-header animate-fade-in">
-				<h2>What Clients Say</h2>
-				<p class="section-subtitle">Trusted by businesses and creators across South Africa</p>
+				<h2>Client Feedback</h2>
+				<p class="section-subtitle">Sample quotes below are placeholders, not client endorsements.</p>
 			</div>
 
 			<div class="testimonials-grid testimonials-carousel">
 				<div class="testimonials-track">
-				<!-- Testimonial 1 -->
+				<!-- Owner: replace {{TESTIMONIAL_1..3}}, {{CLIENT_NAME_1..3}}, and
+				     {{BUSINESS_NAME_1..3}} with approved quotes and attribution here
+				     and on the homepage. Remove sample labels only once replaced. -->
 				<div class="testimonial-card animate-fade-in-delayed">
 					<div class="testimonial-header">
-						<div class="testimonial-rating">
-							<span>★★★★★</span>
-						</div>
-						<p class="testimonial-text">"Perspective transformed our website from outdated to modern and professional. The design perfectly reflects our brand, and our audience engagement immediately improved. Highly recommend!"</p>
+						<p class="ppv-sample-label">Sample quote &middot; {{TESTIMONIAL_1}}</p>
+						<p class="testimonial-text">Our customers can now find our services and get in touch without hunting for the right information.</p>
+						<p>{{CLIENT_NAME_1}} &middot; {{BUSINESS_NAME_1}}</p>
 					</div>
 				</div>
 
 				<!-- Testimonial 2 -->
 				<div class="testimonial-card animate-fade-in-delayed-2">
 					<div class="testimonial-header">
-						<div class="testimonial-rating">
-							<span>★★★★★</span>
-						</div>
-						<p class="testimonial-text">"The team at Perspective was responsive, professional, and delivered exactly what we needed. Our platform is now fully functional, fast, and looks incredible. Worth every rand!"</p>
+						<p class="ppv-sample-label">Sample quote &middot; {{TESTIMONIAL_2}}</p>
+						<p class="testimonial-text">The process felt clear from the first conversation. We knew what was needed and had space to give feedback.</p>
+						<p>{{CLIENT_NAME_2}} &middot; {{BUSINESS_NAME_2}}</p>
 					</div>
 				</div>
 
 				<!-- Testimonial 3 -->
 				<div class="testimonial-card animate-fade-in-delayed-3">
 					<div class="testimonial-header">
-						<div class="testimonial-rating">
-							<span>★★★★☆</span>
-						</div>
-						<p class="testimonial-text">"Perspective's attention to detail and understanding of my vision was exceptional. My portfolio website is now my best marketing tool. Fast turnaround and excellent communication throughout."</p>
-					</div>
-				</div>
-
-				<!-- Testimonial 4 -->
-				<div class="testimonial-card animate-fade-in-delayed">
-					<div class="testimonial-header">
-						<div class="testimonial-rating">
-							<span>★★★★☆</span>
-						</div>
-						<p class="testimonial-text">"The PDF workspace tool saved us time compiling client decks. We had a few tweaks to the export layout, but the team handled it quickly and kept us informed."</p>
-					</div>
-				</div>
-
-				<!-- Testimonial 5 -->
-				<div class="testimonial-card animate-fade-in-delayed-2">
-					<div class="testimonial-header">
-						<div class="testimonial-rating">
-							<span>★★★☆☆</span>
-						</div>
-						<p class="testimonial-text">"Great design work overall. The new PDF workspace is useful for proposals, but we'd love a couple more templates. Still happy with the service."</p>
-					</div>
-				</div>
-
-				<!-- Testimonial 6 -->
-				<div class="testimonial-card animate-fade-in-delayed-3">
-					<div class="testimonial-header">
-						<div class="testimonial-rating">
-							<span>★★★★★</span>
-						</div>
-						<p class="testimonial-text">"From kickoff to launch, the process was clear and professional. Our site feels premium now, and the tools section makes client handoffs much smoother."</p>
+						<p class="ppv-sample-label">Sample quote &middot; {{TESTIMONIAL_3}}</p>
+						<p class="testimonial-text">Our new website feels like our business, works well on mobile, and is something we are happy to share.</p>
+						<p>{{CLIENT_NAME_3}} &middot; {{BUSINESS_NAME_3}}</p>
 					</div>
 				</div>
 				</div>
@@ -662,8 +631,8 @@
 				<p>Get a Free Quote Today</p>
 				
 				<div class="cta-buttons">
-					<a href="#contacts"><button class="cta-primary">Get a Free Quote</button></a>
-					<a href="uxui.html"><button class="cta-secondary">View Portfolio</button></a>
+					<a href="#contact"><button class="cta-primary">Get a Free Quote</button></a>
+					<a href="#portfolio"><button class="cta-secondary">View Portfolio</button></a>
 				</div>
 			</div>
 		</div>
@@ -671,7 +640,8 @@
 
 	
 
-    <div class="footer " id="contacts">
+    <span id="contacts" aria-hidden="true"></span>
+    <div class="footer " id="contact">
 
         <div class="container">
 
@@ -701,13 +671,6 @@
 						</div>
 						<h4> 069 346 8466</h4>
 					</div>
-
-					<!-- <div class="row contact-type whatsapp-two">
-						<div class="icon">
-							<img src="Assets/Icons/Whatsapp.svg">
-						</div>
-						<h4> 078 191 4714</h4>
-					</div> -->
 
 				</div>
 
@@ -753,21 +716,21 @@
 
 	<div class="social-footer home-social-footer">
 				<p>copyright&copy; 2025 Perspective Point of view</p>
-				<div class="social-box">
+				<div class="social-box" id="social-links">
 					
-					<a href="https://www.instagram.com/perspective_point_of_view_/" class="social">
-						<img src="Assets\Icons\Instagram-social-B.svg" class="icon-black">
-						<img src="Assets\Icons\Instagram_social_W.svg" class="icon-white">
+					<a href="#social-links" data-social-url="{{INSTAGRAM_URL}}" aria-label="Instagram" aria-disabled="true" title="Instagram profile awaiting setup" class="social">
+						<img src="Assets/Icons/Instagram-social-B.svg" class="icon-black">
+						<img src="Assets/Icons/Instagram_social_W.svg" class="icon-white">
 					</a>
 				
-					<a href="https://web.facebook.com/profile.php?id=61565901628476"class="social">
-						<img src="Assets\Icons\Facebook-social-B.svg" class="icon-black">
-						<img src="Assets\Icons\Facebook_social_W.svg" class="icon-white">
+					<a href="#social-links" data-social-url="{{FACEBOOK_URL}}" aria-label="Facebook" aria-disabled="true" title="Facebook profile awaiting setup" class="social">
+						<img src="Assets/Icons/Facebook-social-B.svg" class="icon-black">
+						<img src="Assets/Icons/Facebook_social_W.svg" class="icon-white">
 					</a>
 
-					<a href="https://wa.link/eluege" class="social">
-						<img src="Assets\Icons\Whatsapp-social-B.svg" class="icon-black">
-						<img src="Assets\Icons\Whatsapp-social-W.svg" class="icon-white">
+					<a href="https://wa.me/27697097359?text=Hi%2C%20we%27re%20interested%20in%20a%20website%20for%20our%20business." class="social" target="_blank" rel="noopener">
+						<img src="Assets/Icons/Whatsapp-social-B.svg" class="icon-black">
+						<img src="Assets/Icons/Whatsapp-social-W.svg" class="icon-white">
 					</a>
 
 				</div>

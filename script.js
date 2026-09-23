@@ -41,17 +41,17 @@ $(document).ready(function(){
     // Auto-populate contact form from pricing buttons
     $('.pricing-card .cta-secondary, .pricing-card .cta-primary').on('click', function() {
         var packageName = $(this).closest('.pricing-card').find('h3').text();
-        $('#contact-form textarea[name="message"]').val('Hi, I\'m interested in the ' + packageName + ' package. Please provide more details.');
+        $('#contact-form textarea[name="message"]').val('Hi, we are interested in the ' + packageName + ' package. Please provide more details.');
     });
 
     // Auto-populate contact form from final CTA "Get a Free Quote" button
     $('.final-cta-section .cta-primary').on('click', function() {
-        $('#contact-form textarea[name="message"]').val('Hi, I\'m interested in getting a free quote. Please provide more details.');
+        $('#contact-form textarea[name="message"]').val('Hi, we are interested in getting a free quote. Please provide more details.');
     });
 
     // Auto-populate from home page "Get a Free Quote" button (stores in localStorage)
     $('.hero-cta-buttons .cta-primary').on('click', function() {
-        localStorage.setItem('autoMessage', 'Hi, I\'m interested in getting a free quote. Please provide more details.');
+        localStorage.setItem('autoMessage', 'Hi, we are interested in getting a free quote. Please provide more details.');
     });
 
     // Testimonials auto-carousel

@@ -86,12 +86,15 @@ body nav ul li:hover a {
   Color: #595959;
 }
 body .gallery-section {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
 }
 body .gallery-section .section {
   background-color: white;
-  height: 92%;
+  min-height: 84vh;
+  height: auto;
   padding: 0 !important;
 }
 body .gallery-section .section .content-section {
@@ -104,8 +107,10 @@ body .gallery-section .section .content-section .gallery-implant {
 }
 body .gallery-section .section .content-section .gallery-implant .page-title {
   display: flex;
-  height: 5%;
-  margin-top: 5% !important;
+  min-height: 70px;
+  height: auto;
+  margin-top: 2rem !important;
+  margin-bottom: 1rem;
   background-color: #FFFFFF;
 }
 body .gallery-section .section .content-section .gallery-implant .page-title h1 {
@@ -128,8 +133,22 @@ body .gallery-section .section .content-section .gallery-implant .flex-wrap .fle
   transform: scale(1.5);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-body .gallery-section .section .content-section .gallery-implant .gallery image-thumb a img {
+body .gallery-section .section .content-section .gallery-implant .gallery {
+  row-gap: 1.5rem;
+  padding-bottom: 2rem;
+}
+body .gallery-section .section .content-section .gallery-implant .gallery .image-thumb {
+  margin-bottom: 1.5rem;
+}
+body .gallery-section .section .content-section .gallery-implant .gallery .image-thumb a {
+  display: block;
+  background: #FAFAFA;
+  border: 1px solid #E8E8E8;
+}
+body .gallery-section .section .content-section .gallery-implant .gallery .image-thumb a img {
   width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
   border-radius: 0;
   position: relative;
 }

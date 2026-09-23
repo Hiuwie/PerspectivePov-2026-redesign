@@ -63,6 +63,9 @@
           gtag('config', 'G-GE1MPYF2PQ');
         </script>
 
+	<!-- Owner: set {{META_PIXEL_ID}} in marketing.js. Set {{INSTAGRAM_URL}} and
+	     {{FACEBOOK_URL}} on the footer data-social-url attributes before enabling links. -->
+	<script defer src="marketing.js"></script>
 </head>
 <body>
 
@@ -135,12 +138,12 @@
 
 		<div class="social-footer">
 			<p>copyright&copy; 2024 Perspective Point of view</p>
-			<div class="social-box">
-				<a href="https://www.instagram.com/_perspective_pov/" class="social">
+			<div class="social-box" id="social-links">
+				<a href="#social-links" data-social-url="{{INSTAGRAM_URL}}" aria-label="Instagram" aria-disabled="true" title="Instagram profile awaiting setup" class="social">
 					<img src="Assets\Icons\Instagram-social-B.svg" class="icon-black">
 					<img src="Assets\Icons\Instagram_social_W.svg" class="icon-white">
 				</a>
-				<a href="https://www.facebook.com/PerspectivePointOfView" class="social">
+				<a href="#social-links" data-social-url="{{FACEBOOK_URL}}" aria-label="Facebook" aria-disabled="true" title="Facebook profile awaiting setup" class="social">
 					<img src="Assets\Icons\Facebook-social-B.svg" class="icon-black">
 					<img src="Assets\Icons\Facebook_social_W.svg" class="icon-white">
 				</a>
