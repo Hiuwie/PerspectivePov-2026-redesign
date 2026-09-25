@@ -16,9 +16,40 @@ to the existing PHP-capable hosting before testing production enquiries.
 | `{{INSTAGRAM_EMBED}}` | Commented section near the footer | Replace with your chosen embed only when needed. No embed script loads by default. |
 | `{{SITE_URL}}`, `{{OG_IMAGE_URL}}` | Open Graph and Twitter tags in the homepage head | Replace before publishing with `https://perspectivepov.co.za/` and `https://perspectivepov.co.za/Assets/Images/perspective-pov-social.jpg`, or another public 1200x630 image. |
 
-Remove the visible sample labels and placeholder notice only after all three
-quotes are genuine. Do not use samples as endorsements in ads. There are no
-fabricated ratings, headshots, client counts, or review schema.
+Testimonials are hidden on both the homepage and services page. Keep their
+`hidden` attributes until all quotes and attributions are genuine and approved;
+then remove the sample labels and placeholder notice. Do not use samples as
+endorsements in ads. There are no fabricated ratings or review schema.
+
+## Homepage Previews
+
+- The browser-tab and share title is **Perspective Point of view**. SEO service
+  details remain in the description and page content.
+- The original brand accent is `#F04115` from `colours.scss` and the social SVGs.
+  The homepage uses `#0d0d0d`, `#F1F1F1`, and `#FFFFFF` for its main neutral
+  surfaces. Only the floating WhatsApp CTA retains the green button treatment;
+  it stays out of the way over the hero and contact sections.
+- Primary buttons use brand orange with ink text, lightening to `#F2552C` on
+  hover or keyboard focus. Secondary buttons use an orange outline, transparent
+  fill, and lighter-orange text. Labels enlarge without resizing the button.
+- `previews.js` lazy-loads sandboxed, non-interactive views of
+  `https://10minuteswiththestar.co.za/` in both publishing previews. They load
+  the current source page on each visit with a cache-busting preview query,
+  not a separately maintained hero image. They depend on that site's
+  availability and permission to be embedded;
+  the local screenshot remains for initial loading and JavaScript-free visits.
+  If the source later blocks framing, disable the embeds or arrange a snapshot
+  feed with its owner. The embedded site may load its own scripts/analytics.
+- Four optimised images from the existing UX/UI gallery rotate every six
+  seconds. Controls support keyboard navigation, manual selection, and pausing.
+  Rotation pauses on hover/focus, when off-screen, or when the tab is hidden;
+  reduced-motion visitors start paused.
+- All PDF totals come from the same public **GET** endpoint used by the tools
+  app: `https://tools.perspectivepov.co.za/api/exports`. The metric is **forms
+  exported**, not uploads. One request updates every preview on load, every
+  60 seconds while the tab is visible, and on returning to the tab. No counter
+  writes or increments occur here. If the API fails or returns invalid data,
+  neutral PDF artwork replaces the count until the next successful refresh.
 
 ## What Is Measured
 

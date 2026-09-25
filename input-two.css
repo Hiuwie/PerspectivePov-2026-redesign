@@ -25,7 +25,7 @@
 
 /*---Gallery stuff-------------------------------------------------------*/
 /*region Arrow Navigator Skin Begin 
-          Help: https://www.jssor.com/development/slider-with-arrow-navigator.html */
+			            Help: https://www.jssor.com/development/slider-with-arrow-navigator.html */
 /*---Media query stuff--------------------------------------------------------------------------------------------------------------*/
 body {
   font-family: Roboto;
@@ -33,6 +33,7 @@ body {
   margin: 0;
   overflow-X: hidden;
 }
+
 body nav {
   height: 8%;
   width: 100%;
@@ -42,17 +43,20 @@ body nav {
   position: fixed;
   display: flex;
 }
+
 body nav .navbar-brand {
   text-decoration: none;
-  font-size: 0.5em;
+  font-size: .5em;
   margin-left: 2%;
   color: #0d0d0d;
 }
+
 body nav .navbar-brand img {
   height: 50px;
   width: 50px;
   margin-top: -4%;
 }
+
 body nav ul {
   height: 100%;
   list-style-type: none;
@@ -61,11 +65,13 @@ body nav ul {
   margin: auto;
   margin-right: 10%;
 }
+
 body nav ul li {
   float: left;
   height: 100%;
   display: flex;
 }
+
 body nav ul li a {
   color: #8C8C8C;
   text-align: center;
@@ -73,63 +79,78 @@ body nav ul li a {
   display: flex;
   text-decoration: none;
 }
+
 body nav ul .active {
   font-weight: 500;
 }
+
 body nav ul .active a {
   color: #0d0d0d;
 }
+
 body nav ul li:hover a {
   Color: #595959;
 }
+
 body .gallery-section {
   height: 100vh;
   width: 100%;
 }
+
 body .gallery-section .section {
   background-color: white;
   height: 92%;
   padding: 0 !important;
 }
+
 body .gallery-section .section .content-section {
   background-color: white;
   display: flex;
 }
+
 body .gallery-section .section .content-section .gallery-implant {
   /*Design SET*/
   /* UXUI SET */
 }
+
 body .gallery-section .section .content-section .gallery-implant .page-title {
   display: flex;
   height: 5%;
   margin-top: 5% !important;
   background-color: #FFFFFF;
 }
+
 body .gallery-section .section .content-section .gallery-implant .page-title h1 {
   font-size: 32px;
   font-weight: 500;
   margin: auto;
   margin-left: 0;
 }
+
 body .gallery-section .section .content-section .gallery-implant .page-title h1 strong {
   color: #F04115;
 }
+
 body .gallery-section .section .content-section .gallery-implant .flex-wrap .flex-column {
   max-width: 250px;
 }
+
 body .gallery-section .section .content-section .gallery-implant .flex-wrap .flex-column img {
   margin: 2px;
-  transition: transform 0.2s;
+  transition: transform .2s;
 }
+
 body .gallery-section .section .content-section .gallery-implant .flex-wrap .flex-column img:hover {
   transform: scale(1.5);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 body .gallery-section .section .content-section .gallery-implant .gallery image-thumb a img {
   width: 100%;
   border-radius: 0;
   position: relative;
 }
+
 body .gallery-section .social-footer {
   background-color: #FAFAFA;
   display: flex;
@@ -138,11 +159,13 @@ body .gallery-section .social-footer {
   width: 100%;
   height: 8%;
 }
+
 body .gallery-section .social-footer p {
   margin: auto;
   margin-left: 5%;
   font-size: 10px;
 }
+
 body .gallery-section .social-footer .social-box {
   height: 100%;
   width: 20%;
@@ -150,25 +173,31 @@ body .gallery-section .social-footer .social-box {
   display: flex;
   position: absolute;
 }
+
 body .gallery-section .social-footer .social-box .social {
   height: 100%;
   padding: 2%;
   margin-left: 2%;
 }
+
 body .gallery-section .social-footer .social-box .social img {
   height: 100%;
   weight: 100%;
   margin: auto;
 }
+
 body .gallery-section .social-footer .social-box .social .icon-black {
   display: block;
 }
+
 body .gallery-section .social-footer .social-box .social .icon-white {
   display: none;
 }
+
 body .gallery-section .social-footer .social-box .social:hover .icon-black {
   display: none;
 }
+
 body .gallery-section .social-footer .social-box .social:hover .icon-white {
   display: block;
 }
@@ -179,6 +208,7 @@ body .gallery-section .social-footer .social-box .social:hover .icon-white {
     height: 100vh;
   }
 }
+
 @media only screen and (max-width: 500px) {
   html {
     background-color: #FAFAFA;
@@ -202,4 +232,4 @@ body .gallery-section .social-footer .social-box .social:hover .icon-white {
     height: 50px;
     width: 50px;
   }
-}/*# sourceMappingURL=input-two.css.map */
+}

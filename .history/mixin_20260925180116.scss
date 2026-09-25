@@ -1,0 +1,449 @@
+.page{
+	padding:0;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background:#FAFAFA;
+  box-shadow: inset 0 0 5px #FAFAFA; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8C8C8C; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #F04115; 
+}
+
+@mixin slide{
+	height:100%;
+	width:100%;
+	padding:0;
+
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-origion:center;
+}
+
+@mixin about-box-info{
+	height: 100%;
+	width:95%;
+	margin:auto;
+	border-radius: 5px;
+	box-shadow: 0px 0px 1px $ppov-grey-one;	
+}
+
+@mixin header-texts{
+
+		h1{
+			font-size: 1.7em;
+			font-weight:regular;
+			text-align:center;
+			margin:auto;
+			position:relative;
+			top:20%;
+			z-index:10;
+		}
+
+		h3{
+			font-size: 1.2em;
+			font-family:Roboto;
+			font-weight:regular;
+			text-align:center;
+			margin:auto;
+			position:relative;
+			top:22.5%;
+			z-index:10;
+			
+
+			strong{
+				color:$ppov-orange-one;
+			}
+		}
+}
+
+@mixin about-box-details{
+	.image{
+		height: 30%;
+		display:flex;
+
+		.image-icon{
+			height:90%;
+			width: 60%;
+			margin:auto;
+			margin-bottom:0;
+			display:flex;
+
+			img{
+				margin:auto;
+				margin-bottom:-3%;
+				transition: transform .5s;
+			}
+		}
+	}
+
+	.text{
+		height: 70%;
+
+		.heading{
+			height: 15%;
+
+			h3{
+				strong{
+					color: $ppov-orange-one;
+				}
+				text-align: center;
+			}
+		}
+						
+		p{
+			text-align:center;
+			font-size: .99em;
+			margin-top: 1%;
+			padding:3%;
+			color:#8C8C8C;
+		}
+	}
+}
+
+@mixin illustration-hover{
+	box-shadow: 0px 0px 5px rgba($ppov-orange-one,.2);
+	.image{
+
+		.image-icon{
+
+			img{
+				-ms-transform: scale(1.2); /* IE 9 */
+				-webkit-transform: scale(1.2); /* Safari 3-8 */
+				 transform: scale(1.2); 
+				 z-index:1;
+			}
+		}
+	}		
+}
+
+
+@mixin flip-card {
+  background-color: transparent;
+  /*width: 300px;
+  height: 300px;*/
+  perspective: 1000px;
+}
+
+@mixin flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px $ppov-grey-one;
+}
+
+@mixin flip-card-front {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 5px;
+  background-color: #fff;
+  color: $ppov-black;
+}
+
+@mixin flip-card-front-details{
+	.image{
+		height: 45%;
+
+			img{
+				height:50%;
+				margin-top:25%;
+			}
+		}
+
+	.title{
+		height:55%;
+		padding:0;
+
+		h3{
+			font-size: 24px;
+			font-weight:medium;
+			color: $ppov-grey-four;
+		}
+	}
+}
+
+@mixin flip-card-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 5px;
+  background-color: #fff;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+@mixin flip-card-back-details{
+	p{
+		margin-top: 5%;
+		padding: 5%;
+		color: $ppov-black;
+	}
+
+	a{
+		button{
+			width: 50%;
+			height: 45px;
+			@include CTA-button-style;
+
+		}
+	}	
+}
+
+@mixin card-box-hover{
+	.flip-card-inner{
+		transform: rotateY(-180deg);
+		box-shadow: 0px 0px 3px rgba($ppov-orange-one,.2);
+	}
+}
+
+@mixin projects-section-box{
+
+	.image{		
+		/*height:50%;
+		width:100%;
+		display: flex;*/
+
+		.circle{
+			height: 50px;
+			width: 50px;
+			border-radius: 100%;
+			border:2px solid $ppov-lightgrey;
+			margin:auto;
+			margin-top: 25%;
+		}
+	}
+
+	.title{
+		height:50%;
+			color:$ppov-lightgrey;
+
+		h3{
+			margin-top: -5%;
+		}
+	}
+}
+
+@mixin forms-input-feilds{
+	width: 70%;
+	padding: 12px 20px;
+	margin: 8px 2%;
+	display: inline-block;
+	border: 1px solid $ppov-lighgrey;
+	background-color:$ppov-lighgrey;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+
+@mixin reach-us{
+	.icon{
+		margin-left: 20%;
+		height:6%;
+		width:6%;
+
+		img{
+			height:100%;
+			width:95%;
+		}
+	}
+
+	h4{
+		font-size:1em;
+		margin-left: 2%;
+		color:$ewhite;
+	}
+}
+
+@mixin offer-you{
+	.icon{
+		height: 80%;
+		width: 10%;
+		margin-left: 18%;
+		margin-top:1.5%;
+		position:relative;
+		display:flex;
+
+		img{
+			height:80%;
+			width:70%;
+			margin:auto;
+		}
+	}
+}
+
+@mixin background-images{
+	background-size: cover;
+	background-position: center;
+}
+
+@mixin socail-icons{
+	img{
+		height:100%;
+		weight:100%;
+		margin:auto;
+	}
+
+	.icon-black{
+		display:block;
+	}
+
+	.icon-white{
+		display:none;
+	}
+}
+
+@mixin socail-icons-hover{
+	.icon-black{
+		display:none;
+	}
+
+	.icon-white{
+		display:block;
+	}
+}
+
+
+@mixin CTA-button-style{
+	border: none;
+	background-color:$ppov-orange-one;
+	color:$ppov-lighgrey;
+	font-weight:600;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0px 0px 5px 1px rgba($ppov-orange-one, .4);
+}
+
+
+@mixin home-area{
+	background-color:$ewhite;
+}
+
+@mixin left-home-area{
+
+	.left-carousel-area{
+		height:100vh;
+
+		img{
+			width: 90%;
+			margin-left: 5%;
+			margin-top:10%;
+		}
+	}
+}
+
+@mixin right-home-area{
+
+	.right-carousel-area{
+		height:100%;
+
+		.carousel-caption-area{
+			margin:30% 2%;
+			padding:5%;
+			width: 100%;
+
+			.caption-one{
+				color: $ppov-grey-two;
+				font-size:2.5em;
+			}
+
+			.caption-two{
+				color: $ppov-grey-three;
+				font-size:3em;
+				font-weight:650;
+				line-height:1em;
+			}
+
+			.brand-title{
+				color: $ppov-grey-one;
+				line-height:2.5em;
+
+				b{
+					color:$ppov-orange-one;
+				}
+			}
+
+			a{
+				button{
+					width: 30%;
+					height: 45px;
+					@include CTA-button-style;
+				}
+			}
+		}
+	}	
+}
+
+/*---Gallery stuff-------------------------------------------------------*/
+
+
+			  /*region Arrow Navigator Skin Begin 
+			            Help: https://www.jssor.com/development/slider-with-arrow-navigator.html */
+@mixin jssora051{
+	width:40px;
+	height:40px;
+	top:123px;
+	display:block;
+	position:absolute;
+	cursor:pointer;
+
+	.jssora051dn{
+		opacity:.5;
+	}
+
+	.jssora051ds{
+		opacity:.3;
+		pointer-events:none;
+	}
+
+
+	svg{
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+
+		.a{
+			fill:none;
+			stroke:#fff;
+			stroke-width:360;
+			stroke-miterlimit:10;
+		}
+	}
+}
+
+@mixin jssora051-hover{
+	opacity:.8;
+}
+
+
+/*---Media query stuff--------------------------------------------------------------------------------------------------------------*/
+
+@mixin bottom-header-spacing{
+	h1{
+ 	 	padding:15% 0 0 0;
+ 	 }
+
+ 	 h3{
+ 	 	padding:5% 0 10% 0;
+ 	 }
+}

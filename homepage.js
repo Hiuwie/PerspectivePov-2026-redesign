@@ -5,15 +5,22 @@
   const status = document.getElementById('message');
   const packageSelect = document.getElementById('quote-package');
   const submit = form.querySelector('[type="submit"]');
-  const submitLabel = submit.textContent;
+  const submitText = submit.querySelector('.ppv-button-label');
+  const submitLabel = submitText.textContent;
   let submitting = false;
   let formStarted = false;
 
   if ('IntersectionObserver' in window) {
     const floatingChat = document.querySelector('.ppv-floating-whatsapp');
-    new IntersectionObserver(([entry]) => {
-      floatingChat.hidden = entry.isIntersecting;
-    }).observe(form);
+    const visibleContactAreas = new Set();
+    const observer = new IntersectionObserver(entries => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) visibleContactAreas.add(entry.target);
+        else visibleContactAreas.delete(entry.target);
+      }
+      floatingChat.hidden = visibleContactAreas.size > 0;
+    });
+    for (const area of document.querySelectorAll('.ppv-hero, .ppv-final-cta, .ppv-contact')) observer.observe(area);
   }
 
   // Send only fixed labels to analytics, never enquiry text or contact details.
@@ -76,7 +83,7 @@
     if (submitting || !form.reportValidity()) return;
     submitting = true;
     submit.disabled = true;
-    submit.textContent = 'Sending your enquiry...';
+    submitText.textContent = 'Sending your enquiry...';
     form.setAttribute('aria-busy', 'true');
     status.hidden = true;
     const body = new FormData(form);
@@ -100,7 +107,7 @@
       window.clearTimeout(timeout);
       submitting = false;
       submit.disabled = false;
-      submit.textContent = submitLabel;
+      submitText.textContent = submitLabel;
       form.removeAttribute('aria-busy');
     }
   });
